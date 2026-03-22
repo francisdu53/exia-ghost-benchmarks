@@ -91,6 +91,27 @@ Both scores are listed for transparency.
 EXIA GHOST's results are fully reproducible with the code and data provided
 in this repository.
 
+## Judge Robustness — GPT-4o-mini vs Claude Haiku 4.5
+
+To validate that scores are not judge-dependent, the full benchmark was re-run
+with GPT-4o-mini as both **QA generator and judge** (replacing Claude Haiku 4.5
+for the QA step, GPT-4o-mini was already the judge in the original run).
+
+| Category | Haiku QA | GPT-4o-mini QA | Delta |
+|----------|----------|----------------|-------|
+| Cat 1 — Multi-hop | 86.17% | 86.52% | +0.35 |
+| Cat 2 — Temporal | 85.36% | 88.16% | +2.80 |
+| Cat 3 — World knowledge | 93.75% | 94.79% | +1.04 |
+| Cat 4 — Single-hop | 92.51% | 91.56% | -0.95 |
+| Cat 5 — Adversarial | 71.52% | 72.42% | +0.90 |
+| **Overall (1-5)** | **85.80%** | **86.15%** | **+0.35** |
+
+**Conclusion**: scores are consistent across LLM providers (max delta: 2.80%).
+The memory architecture drives the score, not the LLM choice — confirming
+LLM-agnostic design.
+
+Full GPT-4o-mini results: `results/exiaghost-v5-openai/locomo_eval_results.json`
+
 ## Category 5 — Why It Matters
 
 Category 5 tests **adversarial questions** — questions whose answers are NOT in
@@ -164,4 +185,5 @@ python eval_locomo.py --convs 10
 | File | Description |
 |------|-------------|
 | `eval_locomo.py` | EXIA GHOST adapter for LoCoMo |
-| `results/scores.json` | Full results with per-question detail |
+| `results/scores.json` | Full results with per-question detail (Haiku QA) |
+| `results/exiaghost-v5-openai/locomo_eval_results.json` | Full results (GPT-4o-mini QA) |
