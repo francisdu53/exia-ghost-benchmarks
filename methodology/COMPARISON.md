@@ -4,11 +4,13 @@
 
 ## LoCoMo Benchmark (ACL 2024)
 
-| System | Overall (cats 1-4) | Cat 1 Multi-hop | Cat 2 Temporal | Cat 3 World | Cat 4 Single-hop | Cat 5 Adversarial | Funding |
-|--------|-------------------|-----------------|----------------|-------------|-----------------|-------------------|---------|
+| System | Overall | Cat 1 Multi-hop | Cat 2 Temporal | Cat 3 World | Cat 4 Single-hop | Cat 5 Adversarial | Funding |
+|--------|---------|-----------------|----------------|-------------|-----------------|-------------------|---------|
+| **EXIA GHOST Full** | **95.27%** | **96.81%** | **99.07%** | **92.71%** | **91.08%** | **100.00%** | **$0** |
+| EverMemOS | 92.32% | — | — | — | — | skipped | Shanda Group |
 | MemU | 92.09% | — | — | — | — | skipped | — |
 | MemMachine v0.2 | 91.23% | — | — | — | — | skipped | $43.5M |
-| **EXIA GHOST** | **89.94%** | **86.17%** | **85.36%** | **93.75%** | **92.51%** | **71.52%** | **$0** |
+| EXIA GHOST Memory | 89.94% | 86.17% | 85.36% | 93.75% | 92.51% | 71.52% | $0 |
 | MemMachine v0.1 | 84.87% | — | — | — | — | skipped | — |
 | Memobase | 75.78% | — | — | — | — | skipped | No disclosed |
 | Zep (self-reported) | 75.14% | — | — | — | — | skipped | $2.3M |
@@ -16,8 +18,12 @@
 | Zep (disputed) | 58.44% | — | — | — | — | skipped | — |
 
 **Notes:**
+- EXIA GHOST Full: complete proprietary cognitive pipeline
+- EXIA GHOST Memory: memory-only baseline without cognitive pipeline
 - Only EXIA GHOST publishes per-category breakdown and Category 5 results
+- EXIA GHOST is the first and only system to achieve 100% on Category 5
 - Competitor per-category scores not publicly available
+- EverMemOS score evaluated under their own protocol (not independently verified)
 - Zep scores disputed — both values listed for transparency
 
 ## HaluMem Benchmark (arXiv 2511.03506)

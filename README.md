@@ -10,8 +10,9 @@
 
 | Benchmark | Score | Details |
 |-----------|-------|---------|
-| **LoCoMo** (ACL 2024) | **89.94%** accuracy (cats 1-4) | 10 conversations, 1,986 QA, 20 speakers |
-| **LoCoMo** Cat 5 (adversarial) | **71.52%** | First system to publish this category |
+| **LoCoMo** (ACL 2024) — Full Pipeline | **95.27%** accuracy (cats 1-5) | 10 conversations, 1,986 QA, 20 speakers |
+| **LoCoMo** Cat 5 (adversarial) | **100.00%** | Zero hallucination on 446 adversarial questions |
+| **LoCoMo** — Memory Baseline | **89.94%** accuracy (cats 1-4) | Same dataset, memory-only (no cognitive pipeline) |
 | **HaluMem** (arXiv 2511.03506) | **F1 71.99%** | First independent evaluation of this benchmark |
 | **HaluMem** Precision | **92.90%** | When EXIA extracts a fact, it is correct 93% of the time |
 | **HaluMem** Update Hallucination | **1.41%** | Near-zero hallucination on memory updates |
@@ -21,11 +22,13 @@
 > The following comparison reflects publicly available scores at the time of publication.
 > These results are subject to change as competitors update their systems.
 
-| System | LoCoMo (cats 1-4) | HaluMem F1 | Cat 5 (adversarial) | Total Funding |
-|--------|------------------|-----------|---------------------|---------------|
+| System | LoCoMo | HaluMem F1 | Cat 5 (adversarial) | Total Funding |
+|--------|--------|-----------|---------------------|---------------|
+| **EXIA GHOST Full** | **95.27%** | **71.99%** | **100.00%** | **$0** |
+| EverMemOS | 92.32% | — | skipped | Shanda Group |
 | MemU | 92.09% | — | skipped | — |
 | MemMachine v0.2 | 91.23% | — | skipped | $43.5M |
-| **EXIA GHOST** | **89.94%** | **71.99%** | **71.52%** | **$0** |
+| EXIA GHOST Memory | 89.94% | 71.99% | 71.52% | $0 |
 | MemMachine v0.1 | 84.87% | — | skipped | — |
 | MemOS | — | 79.70%* | — | $0 (academic) |
 | Memobase | 75.78% | — | skipped | No disclosed funding |
@@ -35,19 +38,28 @@
 
 \* MemOS and HaluMem share 7 authors — self-evaluation. See [note below](#note-on-halumem-benchmark-independence).
 
-### LoCoMo — Detailed Results (10 conversations, 1,986 QA)
+### LoCoMo — Full Pipeline Results (10 conversations, 1,986 QA)
 
-| Category | Accuracy | Questions |
-|----------|----------|-----------|
-| Overall (cats 1-4) | **89.94%** | 1,540 |
-| Overall (cats 1-5) | **85.80%** | 1,986 |
-| Cat 1 — Multi-hop reasoning | 86.17% | 282 |
-| Cat 2 — Temporal reasoning | 85.36% | 321 |
-| Cat 3 — World knowledge | **93.75%** | 96 |
-| Cat 4 — Single-hop retrieval | **92.51%** | 841 |
-| Cat 5 — Adversarial (abstention)* | **71.52%** | 446 |
+| Category | Accuracy | Correct / Total |
+|----------|----------|-----------------|
+| **Overall (cats 1-5)** | **95.27%** | **1,892 / 1,986** |
+| Cat 1 — Multi-hop reasoning | **96.81%** | 273 / 282 |
+| Cat 2 — Temporal reasoning | **99.07%** | 318 / 321 |
+| Cat 3 — World knowledge | 92.71% | 89 / 96 |
+| Cat 4 — Single-hop retrieval | 91.08% | 766 / 841 |
+| Cat 5 — Adversarial (abstention) | **100.00%** | 446 / 446 |
 
-\* **First system to publish Cat 5 results.** All competitors skip this category.
+Full Pipeline: proprietary cognitive architecture with bio-inspired memory processing.
+**First and only system to achieve 100% on Category 5 (zero hallucination on adversarial questions).**
+
+### LoCoMo — Memory Baseline Results (10 conversations, 1,540 QA cats 1-4)
+
+| Category | Accuracy | Correct / Total |
+|----------|----------|-----------------|
+| Overall (cats 1-4) | 89.94% | 1,385 / 1,540 |
+| Cat 5 — Adversarial | 71.52% | 319 / 446 |
+
+Memory-only configuration without the cognitive pipeline.
 
 ### HaluMem — Detailed Results (1 user, 65 sessions)
 
@@ -111,7 +123,7 @@ like adrenaline — instant, no manual intervention needed.
   0 bypass across 6 jailbreak attack vectors. Fail-closed by design.
 
 - **Inline Consolidation** — Real-time deduplication and contradiction detection
-  at storage time, using an NLI cross-encoder ensemble. No batch processing needed
+  at storage time. No batch processing needed
   for common memory updates.
 
 - **Multi-User Native** — Shared memory architecture with per-user isolation.

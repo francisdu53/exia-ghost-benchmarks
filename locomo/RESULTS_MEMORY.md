@@ -1,4 +1,4 @@
-# LoCoMo Benchmark — EXIA GHOST V5
+# LoCoMo Benchmark — EXIA GHOST
 
 > Industry-standard benchmark for long-term conversational memory.
 > First system to publish Category 5 (adversarial) results.
@@ -110,7 +110,7 @@ for the QA step, GPT-4o-mini was already the judge in the original run).
 The memory architecture drives the score, not the LLM choice — confirming
 LLM-agnostic design.
 
-Full GPT-4o-mini results: `results/exiaghost-v5-openai/locomo_eval_results.json`
+Full GPT-4o-mini results: `results/exiaghost-memory-openai/locomo_eval_results.json`
 
 ## Category 5 — Why It Matters
 
@@ -186,4 +186,4 @@ python eval_locomo.py --convs 10
 |------|-------------|
 | `eval_locomo.py` | EXIA GHOST adapter for LoCoMo |
 | `results/scores.json` | Full results with per-question detail (Haiku QA) |
-| `results/exiaghost-v5-openai/locomo_eval_results.json` | Full results (GPT-4o-mini QA) |
+| `results/exiaghost-memory-openai/locomo_eval_results.json` | Full results (GPT-4o-mini QA) |
