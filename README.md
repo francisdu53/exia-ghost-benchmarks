@@ -115,7 +115,7 @@ like adrenaline — instant, no manual intervention needed.
 - **Cognitive Pipeline** — Multi-stage processing under 50ms, with deterministic
   fallback paths. Designed for Critical Grade environments (defense, healthcare).
 
-- **Cognitive Pipeline** — A structural protocol that controls LLM output through
+- **Cognitive Contract** — A structural protocol that controls LLM output through
   verified constraints, not prompt engineering. Proven 0% hallucination rate across
   6 LLM backends (Claude, GPT-4o, GPT-4.1, GPT-5.4, Mistral Large, Llama 3.3 70B).
 
