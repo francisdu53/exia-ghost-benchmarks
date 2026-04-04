@@ -10,67 +10,70 @@
 
 | Benchmark | Score | Details |
 |-----------|-------|---------|
-| **LoCoMo** (ACL 2024) — Full Pipeline | **95.27%** accuracy (cats 1-5) | 10 conversations, 1,986 QA, 20 speakers |
-| **LoCoMo** Cat 5 (adversarial) | **100.00%** | Zero hallucination on 446 adversarial questions |
-| **LoCoMo** — Memory Baseline | **89.94%** accuracy (cats 1-4) | Same dataset, memory-only (no cognitive pipeline) |
-| **HaluMem** (arXiv 2511.03506) | **F1 71.99%** | First independent evaluation of this benchmark |
-| **HaluMem** Precision | **92.90%** | When EXIA extracts a fact, it is correct 93% of the time |
-| **HaluMem** Update Hallucination | **1.41%** | Near-zero hallucination on memory updates |
+| **HaluMem** (arXiv 2511.03506) | **F1 82.10%** | **#1 worldwide** — First independent evaluation |
+| **HaluMem** Precision | **90.45%** | When EXIA extracts a fact, it is correct 90% of the time |
+| **HaluMem** Update Hallucination | **0.00%** | Zero hallucination on memory updates |
+| **LoCoMo** (ACL 2024) — Memory Baseline | **89.94%** accuracy (cats 1-4) | 10 conversations, 1,986 QA, 20 speakers |
+| **LoCoMo** — Full Pipeline | Re-run in progress | Previous result retracted — see [correction note](#correction-note-locomo-full-pipeline) |
 
-### Competitive Landscape (as of March 2026)
+### Competitive Landscape (as of April 2026)
 
 > The following comparison reflects publicly available scores at the time of publication.
 > These results are subject to change as competitors update their systems.
 
-| System | LoCoMo | HaluMem F1 | Cat 5 (adversarial) | Total Funding |
-|--------|--------|-----------|---------------------|---------------|
-| **EXIA GHOST Full** | **95.27%** | **71.99%** | **100.00%** | **$0** |
-| EverMemOS | 92.32% | — | skipped | Shanda Group |
-| MemU | 92.09% | — | skipped | — |
-| MemMachine v0.2 | 91.23% | — | skipped | $43.5M |
-| EXIA GHOST Memory | 89.94% | 71.99% | 71.52% | $0 |
-| MemMachine v0.1 | 84.87% | — | skipped | — |
-| MemOS | — | 79.70%* | — | $0 (academic) |
-| Memobase | 75.78% | — | skipped | No disclosed funding |
-| Zep | 58.44–75.14%* | < 50% | skipped | $2.3M |
-| Mem0 | 66.9% | 57.85% | skipped | $24M |
-| Supermemory | — | 56.90% | skipped | Google execs |
+| System | HaluMem F1 | LoCoMo | Total Funding |
+|--------|-----------|--------|---------------|
+| **EXIA GHOST** | **82.10%** | **89.94%** | **$0** |
+| MemOS | 79.70%* | — | $0 (academic) |
+| EverMemOS | — | 93% | Shanda Group |
+| MemMachine v0.2 | — | 91.23% | $43.5M |
+| Memobase | — | 75.78% | No disclosed funding |
+| Mem0 | 57.85% | 66.9% | $24M |
+| Zep | < 50% | 58.44–75.14% | $2.3M |
+| Supermemory | 56.90% | — | Google execs |
 
 \* MemOS and HaluMem share 7 authors — self-evaluation. See [note below](#note-on-halumem-benchmark-independence).
 
-### LoCoMo — Full Pipeline Results (10 conversations, 1,986 QA)
+### HaluMem — Detailed Results (V1.3.2, 1 user, 65 sessions)
 
-| Category | Accuracy | Correct / Total |
-|----------|----------|-----------------|
-| **Overall (cats 1-5)** | **95.27%** | **1,892 / 1,986** |
-| Cat 1 — Multi-hop reasoning | **96.81%** | 273 / 282 |
-| Cat 2 — Temporal reasoning | **99.07%** | 318 / 321 |
-| Cat 3 — World knowledge | 92.71% | 89 / 96 |
-| Cat 4 — Single-hop retrieval | 91.08% | 766 / 841 |
-| Cat 5 — Adversarial (abstention) | **100.00%** | 446 / 446 |
+| Metric | Score |
+|--------|-------|
+| F1 Extraction | **82.10%** |
+| Precision | **90.45%** |
+| Recall | **75.17%** |
+| Memory Update — Correct | **35.21%** |
+| Memory Update — Hallucination | **0.00%** |
+| QA — Correct | 57.32% |
+| QA — Hallucination | 13.41% (estimated real: ~2.4%) |
 
-Full Pipeline: proprietary cognitive architecture with bio-inspired memory processing.
-**First and only system to achieve 100% on Category 5 (zero hallucination on adversarial questions).**
+Judge: GPT-4o. Calibrated against GPT-4o-mini (F1 delta < 2%).
+Full analysis: [HALUMEM_V132_EN_ANALYSIS.md](halumem/HALUMEM_V132_EN_ANALYSIS.md)
 
 ### LoCoMo — Memory Baseline Results (10 conversations, 1,540 QA cats 1-4)
 
 | Category | Accuracy | Correct / Total |
 |----------|----------|-----------------|
-| Overall (cats 1-4) | 89.94% | 1,385 / 1,540 |
+| Overall (cats 1-4) | **89.94%** | 1,385 / 1,540 |
 | Cat 5 — Adversarial | 71.52% | 319 / 446 |
 
 Memory-only configuration without the cognitive pipeline.
+Evaluation code published: [`eval_locomo.py`](locomo/eval_locomo.py)
 
-### HaluMem — Detailed Results (1 user, 65 sessions)
+### Correction Note: LoCoMo Full Pipeline
 
-| Metric | Score |
-|--------|-------|
-| F1 Extraction | **71.99%** |
-| Precision | **92.90%** |
-| Recall | 58.76% |
-| Memory Update — Correct | **77.46%** |
-| Memory Update — Hallucination | **1.41%** |
-| QA — Correct | 58.54% |
+> **April 2026**: The previously published Full Pipeline score (95.27%) has been retracted.
+> Investigation revealed that a software bug (graceful degradation mode triggering on excessive
+> cognitive latency) caused the pipeline to return template responses ("Not mentioned") instead
+> of actual cognitive answers. Combined with LLM judge leniency on template responses, this
+> produced artificially inflated scores. The bug has been identified and fixed in V1.4.1.
+> A corrected Full Pipeline re-run is in progress and results will be published with raw
+> per-question data for full independent verification.
+>
+> The Memory Baseline score (89.94%) is unaffected — it uses published evaluation code
+> and produces real factual answers.
+>
+> We thank [@dial481](https://github.com/dial481/locomo-audit) for the thorough audit
+> that helped identify this issue.
 
 ---
 
@@ -159,13 +162,14 @@ covering every aspect of the cognitive pipeline.
 
 All evaluations follow a transparent, reproducible protocol:
 
-- **QA Generation**: Claude Haiku 4.5 (answers ≤ 5-6 words)
-- **HaluMem Judge**: GPT-4o (official benchmark standard)
+- **HaluMem Judge**: GPT-4o (calibrated against GPT-4o-mini, F1 delta < 2%)
+- **HaluMem Extraction**: SYNAPSE OBLIGATIONS prompt (O1-O9), GPT-4o-mini
 - **LoCoMo Judge**: GPT-4o-mini (standard used by Mem0/MemMachine)
-- **Memory Backend**: ChromaDB with 384-dim MiniLM embeddings
-- **Extraction**: Sentence splitting + inline deduplication + LLM extraction
-  (atomic facts in third person)
-- **Cat 5 Included**: Unlike all competitors, we evaluate adversarial questions
+- **Memory Backend**: ChromaDB with 768-dim mpnet embeddings (V1.4.1)
+- **Extraction**: Sentence splitting + inline NLI deduplication + LLM extraction
+  (atomic facts in third person, structured contract format)
+- **Full Pipeline**: 8-stage cognitive pipeline (SYNAPSE EXIA contract, HEIMDALL guardian, FCM causal reasoning)
+- **Transparency**: Raw per-question results published for independent verification
 
 Full protocol: [methodology/PROTOCOL.md](methodology/PROTOCOL.md)
 Reproduction instructions: [methodology/REPRODUCE.md](methodology/REPRODUCE.md)
