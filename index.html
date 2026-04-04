@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXIA GHOST — Cognitive Memory Architecture for AI Agents</title>
+  <meta name="description" content="The only cognitive architecture proven by public benchmarks to remember, reason causally, and never hallucinate — without cloud dependency.">
+  <link rel="icon" type="image/jpeg" href="assets/favicon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ LOADER ═══ -->
+  <div id="loader">
+    <div class="loader-brand">EXIA GHOST</div>
+    <div class="loader-bar-wrap">
+      <div id="loader-bar"></div>
+    </div>
+    <div id="loader-percent">0%</div>
+  </div>
+
+  <!-- ═══ FIXED HEADER ═══ -->
+  <header class="site-header">
+    <nav>
+      <div class="nav-logo">
+        <span class="nav-brand">NexaSeed AI</span>
+      </div>
+      <div class="nav-links">
+        <a href="https://github.com/francisdu53/exia-ghost-benchmarks" target="_blank">GitHub</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ═══ HERO (standalone 100vh, white bg) ═══ -->
+  <section class="hero-standalone" id="hero">
+    <img src="assets/logo_exia_ghost_nr.jpg" alt="EXIA GHOST" class="hero-logo">
+    <p class="hero-tagline">Cognitive Memory Architecture for Autonomous AI Agents</p>
+    <p class="hero-sub">Remember. Reason. Never hallucinate.</p>
+    <div class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- ═══ CANVAS (fixed, full viewport) ═══ -->
+  <div class="canvas-wrap" id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- ═══ DARK OVERLAY ═══ -->
+  <div id="dark-overlay"></div>
+
+  <!-- ═══ MARQUEE ═══ -->
+  <div class="marquee-wrap" id="marquee-1">
+    <div class="marquee-text">COGNITIVE MEMORY — ZERO HALLUCINATION — PROVEN BY BENCHMARKS —&nbsp;</div>
+  </div>
+
+  <!-- ═══ SCROLL CONTAINER ═══ -->
+  <div id="scroll-container">
+
+    <!-- Section 1: Tagline -->
+    <section class="scroll-section section-content align-left"
+             data-enter="12" data-leave="24" data-animation="fade-up">
+      <div class="section-inner">
+        <span class="section-label">001 / Vision</span>
+        <h2 class="section-heading">The brain<br>of autonomous AI</h2>
+        <p class="section-body">EXIA GHOST is not a memory add-on. It is a complete cognitive architecture — 8-stage pipeline, causal reasoning, anti-hallucination contract, ethical guardian. Built for agents that must remember, decide, and never fabricate.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: Stats -->
+    <section class="scroll-section section-stats"
+             data-enter="26" data-leave="42" data-animation="stagger-up">
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number">82.10</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">HaluMem F1 — #1 worldwide</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">95.27</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">LoCoMo accuracy — #1 worldwide</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">0</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">Update hallucination rate</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">0</span>
+          <span class="stat-suffix">$</span>
+          <span class="stat-label">External funding</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: HaluMem -->
+    <section class="scroll-section section-content align-right"
+             data-enter="44" data-leave="56" data-animation="slide-right">
+      <div class="section-inner">
+        <span class="section-label">002 / HaluMem Benchmark</span>
+        <h2 class="section-heading">First independent<br>evaluation</h2>
+        <p class="section-body">F1 82.10% — surpassing MemOS (79.70%, self-evaluated). First and only independent evaluation of the HaluMem benchmark. Precision 90.45%, recall 75.17%, zero hallucination on memory updates.</p>
+        <p class="section-note">Judge: GPT-4o | 1 user, 65 sessions, 1068 memories extracted</p>
+      </div>
+    </section>
+
+    <!-- Section 4: LoCoMo -->
+    <section class="scroll-section section-content align-left"
+             data-enter="58" data-leave="70" data-animation="slide-left">
+      <div class="section-inner">
+        <span class="section-label">003 / LoCoMo Benchmark</span>
+        <h2 class="section-heading">100% on adversarial<br>questions</h2>
+        <p class="section-body">95.27% overall accuracy across 1,986 questions and 20 speakers. Category 5 (adversarial abstention): 446/446 — perfect score. The only system to achieve zero hallucination on adversarial questions.</p>
+        <p class="section-note">10 conversations | Multi-hop, temporal, world knowledge, adversarial</p>
+      </div>
+    </section>
+
+    <!-- Section 5: Competitive Landscape -->
+    <section class="scroll-section section-content align-right"
+             data-enter="72" data-leave="84" data-animation="scale-up">
+      <div class="section-inner">
+        <span class="section-label">004 / Landscape</span>
+        <h2 class="section-heading">Above all funded<br>competitors</h2>
+        <div class="competitive-table">
+          <div class="comp-row comp-header">
+            <span class="comp-name">System</span>
+            <span class="comp-score">HaluMem</span>
+            <span class="comp-score">LoCoMo</span>
+            <span class="comp-fund">Funding</span>
+          </div>
+          <div class="comp-row comp-highlight">
+            <span class="comp-name">EXIA GHOST</span>
+            <span class="comp-score">82.10%</span>
+            <span class="comp-score">95.27%</span>
+            <span class="comp-fund">$0</span>
+          </div>
+          <div class="comp-row">
+            <span class="comp-name">MemOS</span>
+            <span class="comp-score">79.70%</span>
+            <span class="comp-score">—</span>
+            <span class="comp-fund">academic</span>
+          </div>
+          <div class="comp-row">
+            <span class="comp-name">Mem0</span>
+            <span class="comp-score">57.85%</span>
+            <span class="comp-score">66.9%</span>
+            <span class="comp-fund">$24M</span>
+          </div>
+          <div class="comp-row">
+            <span class="comp-name">MemMachine</span>
+            <span class="comp-score">—</span>
+            <span class="comp-score">84.87%</span>
+            <span class="comp-fund">$43.5M</span>
+          </div>
+          <div class="comp-row">
+            <span class="comp-name">Zep</span>
+            <span class="comp-score">&lt;50%</span>
+            <span class="comp-score">58-75%</span>
+            <span class="comp-fund">$2.3M</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Architecture -->
+    <section class="scroll-section section-content align-left"
+             data-enter="86" data-leave="94" data-animation="clip-reveal">
+      <div class="section-inner">
+        <span class="section-label">005 / Architecture</span>
+        <h2 class="section-heading">Critical Grade<br>cognitive pipeline</h2>
+        <p class="section-body">8-stage pipeline under 50ms. SYNAPSE cognitive contract. HEIMDALL ethical guardian. 5 memory types with NLI dedup. FCM causal reasoning. Bio-inspired consolidation. No cloud dependency — runs fully local.</p>
+        <p class="section-note">Pipeline: Perception → Consciousness → Anticipation → Deliberation → Initiative → Contract → Verbalization → Memorization</p>
+      </div>
+    </section>
+
+    <!-- Section 7: CTA -->
+    <section class="scroll-section section-cta"
+             data-enter="95" data-leave="100" data-animation="fade-up" data-persist="true" id="contact">
+      <div class="cta-inner">
+        <span class="section-label">NexaSeed AI — France</span>
+        <p class="cta-statement">EXIA GHOST is available for licensing, integration, and strategic partnership.</p>
+        <div class="cta-buttons">
+          <a href="https://github.com/francisdu53/exia-ghost-benchmarks" target="_blank" class="cta-button cta-primary">View on GitHub</a>
+          <a href="mailto:webinfluence83@gmail.com" class="cta-button cta-secondary">Get in touch</a>
+        </div>
+        <div class="cta-footer">
+          <p class="cta-copy">EXIA GHOST — Cognitive Memory Architecture<br>Patent pending (INPI France) | CC BY-NC 4.0</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ═══ SCRIPTS ═══ -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
