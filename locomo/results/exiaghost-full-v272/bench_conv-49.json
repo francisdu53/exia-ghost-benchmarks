@@ -1,0 +1,1776 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 124,
+  "cat5_excluded": true,
+  "score": 0.7948717948717948,
+  "ingest_ms": 0,
+  "total": 156,
+  "conversation_id": "conv-49",
+  "results": [
+    {
+      "response": "Prius",
+      "gold": "Prius",
+      "latency_ms": 2664.0,
+      "question": "What kind of car does Evan drive?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Knee injury, lost keys.",
+      "gold": "His old Prius and his new Prius.",
+      "latency_ms": 2236.2,
+      "question": "What kinds of things did Evan have broken?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Rocky Mountains, Jasper, Banff, Canada",
+      "gold": "Rockies, Jasper",
+      "latency_ms": 2091.9,
+      "question": "Where has Evan been on roadtrips with his family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two Prius cars owned by Evan.",
+      "gold": "two",
+      "latency_ms": 2000.8,
+      "question": "How many Prius has Evan owned?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Painting",
+      "gold": "painting",
+      "latency_ms": 1959.4,
+      "question": "Which hobby did Sam take up in May 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Canada",
+      "gold": "Canada",
+      "latency_ms": 913.7,
+      "question": "Which country was Evan visiting in May 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Two road trips in May 2023.",
+      "gold": "two",
+      "latency_ms": 1069.0,
+      "question": "How many roadtrips did Evan take in May 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Painting, hiking, indoor activities",
+      "gold": "Painting, kayaking, hiking, cooking, running",
+      "latency_ms": 945.7,
+      "question": "What new hobbies did Sam consider trying?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Watercolor painting",
+      "gold": "Watercolor painting",
+      "latency_ms": 1073.7,
+      "question": "What hobby did Evan start practicing a few years ago that he enjoys?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last weekend before 24 May 2023",
+      "gold": "weekend before May 24, 2023",
+      "latency_ms": 954.5,
+      "question": "When did Evan go to Jasper with his family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Camping trip in the outdoors",
+      "gold": "camping trip in the outdoors",
+      "latency_ms": 1429.6,
+      "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Gastritis health scare prompted change",
+      "gold": "Weight problem",
+      "latency_ms": 1090.1,
+      "question": "What health issue did Sam face that motivated him to change his lifestyle?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "A few days before 24 May 2023",
+      "gold": "A few days before May 24, 2023.",
+      "latency_ms": 1166.3,
+      "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Late May 2023",
+      "gold": "first week of June 2023",
+      "latency_ms": 1416.5,
+      "question": "When did Evan have his sudden heart palpitation incident that really shocked him up?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Energy balls and ginger snaps",
+      "gold": "Ginger snaps",
+      "latency_ms": 1103.6,
+      "question": "What is Evan's favorite food?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Soda and candy",
+      "gold": "soda, candy",
+      "latency_ms": 1061.0,
+      "question": "What kind of unhealthy snacks does Sam enjoy eating?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Self-checkout machines regularly cause frustration.",
+      "gold": "Malfunctioning self-checkout machines.",
+      "latency_ms": 1285.6,
+      "question": "What recurring issue frustrates Sam at the grocery store?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Friday before 27 July 2023",
+      "gold": "Friday before 27 July 2023",
+      "latency_ms": 1205.3,
+      "question": "When did Sam's friends mock him for being overweight?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Flavored seltzer, energy balls, dark chocolate",
+      "gold": "flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, veggies, healthy sandwich snacks, energy balls, grilled chicken salad with avocado",
+      "latency_ms": 1519.7,
+      "question": "What kind of healthy food suggestions has Evan given to Sam?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Consistency, support, patience, small steps.",
+      "gold": "Evan and Sam would likely advise embracing small, consistent changes​​, finding stress-relieving activities like hiking​​, painting, and road trips​​, and the importance of friendship and support in navigating challenges​​.",
+      "latency_ms": 1413.7,
+      "question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Healthy snacks and fitness class passes",
+      "gold": "a cookbook with healthy recipes or a subscription to a healthy meal delivery service.",
+      "latency_ms": 1663.9,
+      "question": "In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Awesome Canadian woman; feels alive.",
+      "gold": "He says she's cool, incredible, like something out of a movie, and that he feels alive around her. Every moment with her is fun and energetic, also Evan feels really lucky to have someone who gets him.",
+      "latency_ms": 1367.0,
+      "question": "How does Evan describe the woman and his feelings for her that he met in Canada?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared exact meeting date.",
+      "gold": "week before August 7, 2023.",
+      "latency_ms": 1367.9,
+      "question": "When Evan did meet his future wife?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "28 July 2023",
+      "gold": "July 28, 2023",
+      "latency_ms": 1339.4,
+      "question": "When did Sam start working out at the gym?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Sam faced health challenges late summer 2023.",
+      "gold": "He fell in love with a Canadian woman",
+      "latency_ms": 1469.0,
+      "question": "What significant event happened in Sam's life towards the end of summer 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "2021",
+      "gold": "2021",
+      "latency_ms": 1348.2,
+      "question": "Which year did Evan start taking care of his health seriously?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Family, adventure, fitness tracker, resilience.",
+      "gold": "family, fitness tracker, thirst for adventure on interesting hikes",
+      "latency_ms": 1360.0,
+      "question": "What motivates Evan to take care of his health?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Fitness tracker device",
+      "gold": "fitness tracker",
+      "latency_ms": 1661.6,
+      "question": "What electronic device could Evan gift Sam to help him keep up with his fitness goals?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Journaling and creative writing",
+      "gold": "journalling, creative writing",
+      "latency_ms": 1615.8,
+      "question": "What kind of writing does Sam do to relax and cope with his health issues?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Canadian woman; new significant other.",
+      "gold": "Evan met the woman he fell in love with and returned with her.",
+      "latency_ms": 1510.4,
+      "question": "Who did Evan meet on his trip to Canada, and who did he come back from Canada with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "13 August 2023",
+      "gold": "August 13, 2023",
+      "latency_ms": 1723.9,
+      "question": "When Evan get back from a vacation with his SO?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Consistency, support, small changes, perseverance.",
+      "gold": "Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.",
+      "latency_ms": 1663.3,
+      "question": "How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Frequently losing his keys weekly.",
+      "gold": "Evan consistently misplaces his keys every week.",
+      "latency_ms": 1562.4,
+      "question": "What recurring frustration does Evan experience?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Flying over skyscrapers",
+      "gold": "he's flying over a cityscape.",
+      "latency_ms": 1404.4,
+      "question": "What is the recurring dream that Sam keeps having?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Bike accident; soccer ankle injury.",
+      "gold": "injured at a soccer game, fell off his bike",
+      "latency_ms": 1654.7,
+      "question": "What accidents has Evan's son faced lately?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Saturday before 15 August 2023",
+      "gold": "Saturday before August 15, 2023.",
+      "latency_ms": 2036.6,
+      "question": "When was Evan's son injured at soccer?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Roasted vegetables, grilled chicken veggie stir-fry",
+      "gold": "grilled vegetables, grilled chicken and veggie stir-fry, poutine",
+      "latency_ms": 1617.8,
+      "question": "What kind of foods or recipes has Sam recommended to Evan?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Grilled chicken and veggie stir-fry",
+      "gold": "salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, Beef Merlot, fruit bowl, smoothie bowl",
+      "latency_ms": 1688.3,
+      "question": "What kind of healthy meals did Sam start eating after getting a health scare?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Calming, rejuvenating, bonding, motivating, healing.",
+      "gold": "Nature and outdoor activities seem to be significant stress relievers and sources of joy for both Evan and Sam. These activities likely contribute positively to their mental well-being.",
+      "latency_ms": 1729.2,
+      "question": "What role does nature and the outdoors play in Evan and Sam's mental well-being?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Six months.",
+      "gold": "three months",
+      "latency_ms": 1662.5,
+      "question": "How many months lapsed between Sam's first and second doctor's appointment?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "August 2023",
+      "gold": "Few days before 19 August, 2023.",
+      "latency_ms": 2246.9,
+      "question": "When did Evan start taking painting classes?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Painting classes, learning watercolors",
+      "gold": "painting classes",
+      "latency_ms": 1784.2,
+      "question": "Which classes did Evan join in mid-August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Friend introduced him to watercolor painting.",
+      "gold": "His friend got him into it by gifting him a painting and giving him some advice. The painting inspired Evan.",
+      "latency_ms": 1860.2,
+      "question": "How did Evan get into painting?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "A few times in 2023",
+      "gold": "every three months",
+      "latency_ms": 1620.7,
+      "question": "How often does Sam get health checkups?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Landscapes with bright colors",
+      "gold": "nature landscapes, portraits, abstract minimalism",
+      "latency_ms": 1661.4,
+      "question": "What kind of subjects does Evan enjoy painting?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "No places in Canada mentioned for July 2023.",
+      "gold": "Banff, Rocky Mountains",
+      "latency_ms": 1837.6,
+      "question": "Which places in Canada was Evan visiting in July 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Painting and writing for self-expression",
+      "gold": "Evan and Sam use creative activities, like painting and writing, as therapeutic tools to express themselves and cope with stress.",
+      "latency_ms": 2023.4,
+      "question": "How do Evan and Sam use creative outlets to cope with life's challenges?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "July 2023, during recent road trip",
+      "gold": "July 2023",
+      "latency_ms": 1953.9,
+      "question": "When did Evan go skiing in Banff?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Healthier diet and regular exercise",
+      "gold": "Healthy eating, exercise routine, running, hiking",
+      "latency_ms": 1908.9,
+      "question": "What new diet and lifestyle change did Sam adopt over time?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Evan's son injured (ankle, bike).",
+      "gold": "Evan's son and Evan himself",
+      "latency_ms": 2130.8,
+      "question": "Who was injured in Evan's family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Skiing, snowboarding, painting, hiking, cooking.",
+      "gold": "painting, hiking, reading books, biking, skiing, snowboarding, ice skating, swimming, camping, kayaking",
+      "latency_ms": 2124.6,
+      "question": "What kind of hobbies does Evan pursue?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Health struggles, discomfort; diet, exercise changes.",
+      "gold": "Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.",
+      "latency_ms": 1881.1,
+      "question": "What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Painting session next Saturday",
+      "gold": "painting",
+      "latency_ms": 1842.3,
+      "question": "Which activity do Evan and Sam plan on doing together during September 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "11 September 2023",
+      "gold": "Saturday after 11 September, 2023.",
+      "latency_ms": 2115.8,
+      "question": "When did Evan and Sam decide to paint together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Heart palpitations, knee injury, health scare",
+      "gold": "heart palpitations, twisted ankle, twisted ankle",
+      "latency_ms": 1962.3,
+      "question": "What personal health incidents does Evan face in 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Helping lost tourists repeatedly",
+      "gold": "Helping lost tourists and experiencing unexpected adventures in the city.",
+      "latency_ms": 926.4,
+      "question": "What recurring adventure does Evan have with strangers?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Navigation app keeps malfunctioning.",
+      "gold": "His new phone malfunctioning, particularly with the navigation app.",
+      "latency_ms": 985.2,
+      "question": "What is Sam's persistent problem with his phone?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "California (Lake Tahoe)",
+      "gold": "California",
+      "latency_ms": 2627.9,
+      "question": "Which US state was Sam travelling in during October 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "One year before 8 October 2023",
+      "gold": "October 2022",
+      "latency_ms": 1036.9,
+      "question": "When did Evan start lifting weights?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "14 October 2023 at 4:07 pm",
+      "gold": "October 14, 2023",
+      "latency_ms": 1064.4,
+      "question": "When did Sam and his friend decide to try kayaking?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Trying kayaking as new outdoor activity",
+      "gold": "kayaking",
+      "latency_ms": 989.2,
+      "question": "Which new activity does Sam take up in October 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Work stress and health-related pressure",
+      "gold": "work-related stress",
+      "latency_ms": 1019.0,
+      "question": "What kind of stress was Sam dealing with in October 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Evan: heart palpitations; Sam: gastritis ER visit.",
+      "gold": "Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.",
+      "latency_ms": 1089.0,
+      "question": "What health scares did Sam and Evan experience?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Weekend before 17 October 2023",
+      "gold": "weekend before 17 October, 2023.",
+      "latency_ms": 1078.6,
+      "question": "When was Sam in the ER?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Gastritis",
+      "gold": "gastritis",
+      "latency_ms": 1120.0,
+      "question": "Which ailment does Sam have to face due to his weight?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Mountains and a little island nearby",
+      "gold": "beach",
+      "latency_ms": 1103.1,
+      "question": "Does Evan live close to a beach or mountains?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "October 2023, last month before November.",
+      "gold": "end of October 2023",
+      "latency_ms": 1196.5,
+      "question": "When did Evan lose his job?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "9 November 2023",
+      "gold": "December, 2023",
+      "latency_ms": 1380.3,
+      "question": "When did Evan and Sam planned a trip to the beach together?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Not shared in memories.",
+      "gold": "Attending a Weight Watchers meeting",
+      "latency_ms": 1195.1,
+      "question": "What was Sam doing on December 4, 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Marriage and partner's pregnancy in December.",
+      "gold": "his partner gets pregnant and they get married",
+      "latency_ms": 1387.0,
+      "question": "Which two significant life events occur in Evan's life in December 2023 with his partner?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared duration of dating.",
+      "gold": "four months",
+      "latency_ms": 1422.3,
+      "question": "How long did Evan and his partner date before getting married?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Christmas holiday season",
+      "gold": "Christmas",
+      "latency_ms": 1672.6,
+      "question": "Which major holiday season conincides with Evan's wedding?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Hiking",
+      "gold": "hiking",
+      "latency_ms": 1218.1,
+      "question": "Which activity did Sam resume in December 2023 after a long time?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Next summer",
+      "gold": "Summer 2024",
+      "latency_ms": 1451.4,
+      "question": "When is Evan planning a big family reunion?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last Tuesday before 17 December 2023",
+      "gold": "Thursday before December 17, 2023.",
+      "latency_ms": 1387.0,
+      "question": "When did Evan's son fall off his bike?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "5 January 2024",
+      "gold": "January 5, 2024",
+      "latency_ms": 1379.4,
+      "question": "When did Evan announce his marriage to his extended family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "17 December 2023",
+      "gold": "few days before 17 December, 2023.",
+      "latency_ms": 1446.0,
+      "question": "When did Evan finish the painting that's hanging in the exhibit?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Exploring outdoors, cooking, sharing family moments.",
+      "gold": "family get-together, honeymoon in Canada to see snowy landscapes, ski, taste local cuisine and do some snowshoeing",
+      "latency_ms": 1415.5,
+      "question": "How does Evan spend his time with his bride after the wedding?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Extended family and work friends.",
+      "gold": "To Sam, to his friends from work, and to his and his wife's families.",
+      "latency_ms": 1499.3,
+      "question": "Who did Evan tell about his marriage?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "February 2024",
+      "gold": "February 2024",
+      "latency_ms": 1364.1,
+      "question": "When will Evan and his partner have their honeymoon in Canada?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "10 January 2024",
+      "gold": "January 9, 2023",
+      "latency_ms": 1462.8,
+      "question": "When did Evan have a drunken night with his friends?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Painting and going for a drive",
+      "gold": "Drawing, traveling, places with a beautiful view, yoga, sunsets or something comfortable for Evan",
+      "latency_ms": 1859.6,
+      "question": "What is a stress reliever for Evan?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Relaxing car rides in countryside",
+      "gold": "Unhealthy snacks, sweets, yoga, places with beautiful views",
+      "latency_ms": 1668.1,
+      "question": "What is a stress reliever for Sam?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "New Prius",
+      "gold": "new Prius",
+      "latency_ms": 1479.2,
+      "question": "What type of car did Evan get after his old Prius broke down?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Friend introduced and gave advice.",
+      "gold": "friend's advice",
+      "latency_ms": 2344.5,
+      "question": "How did Evan get into watercolor painting?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Painting for peace and stress relief",
+      "gold": "watercolor painting",
+      "latency_ms": 1524.9,
+      "question": "What did Evan start doing a few years back as a stress-buster?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Explore hobbies until passion sparks.",
+      "gold": "keep trying new things until something sparks excitement",
+      "latency_ms": 1595.9,
+      "question": "What advice did Evan give Sam about finding a passion?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Jasper via Icefields Parkway",
+      "gold": "Jasper",
+      "latency_ms": 1783.6,
+      "question": "Where did Evan take his family for a road trip on 24 May, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fresh air, peacefulness, cozy mountain cabin",
+      "gold": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests",
+      "latency_ms": 1772.6,
+      "question": "What did Evan find relaxing about his road trip to Jasper?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Reduce soda and candy intake",
+      "gold": "consuming soda and candy",
+      "latency_ms": 1802.7,
+      "question": "What habit is Sam trying to change in terms of diet?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Flavored seltzer water and dark chocolate",
+      "gold": "try flavored seltzer water and dark chocolate with high cocoa content",
+      "latency_ms": 1639.7,
+      "question": "What new suggestion did Evan give to Sam regarding his soda and candy consumption?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Flavored seltzer water and dark chocolate",
+      "gold": "flavored seltzer water and dark chocolate with high cocoa content",
+      "latency_ms": 1563.2,
+      "question": "What did Sam agree to try instead of soda and candy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "All self-checkout machines were broken.",
+      "gold": "broken self-checkout machines",
+      "latency_ms": 1721.4,
+      "question": "What frustrating issue did Sam face at the supermarket?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Great Gatsby",
+      "gold": "The Great Gatsby",
+      "latency_ms": 1864.8,
+      "question": "What novel is Evan reading that he finds gripping?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Flavored seltzer water",
+      "gold": "Flavored seltzer water",
+      "latency_ms": 1684.9,
+      "question": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Tracks health progress and motivation",
+      "gold": "tracks progress and serves as a constant reminder to keep going",
+      "latency_ms": 1836.2,
+      "question": "What does the smartwatch help Evan with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Strength and resilience",
+      "gold": "strength and resilience",
+      "latency_ms": 1783.2,
+      "question": "What does the bonsai tree symbolize for Evan?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Symbolizes strength and resilience for Evan",
+      "gold": "motivates him to keep going through tough times",
+      "latency_ms": 1666.4,
+      "question": "Why did Evan decide to get the bonsai tree?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Progress is more important than perfection",
+      "gold": "progress",
+      "latency_ms": 2145.5,
+      "question": "According to Sam, what is more important than perfection?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dream interpretation book",
+      "gold": "dream interpretation book",
+      "latency_ms": 1727.4,
+      "question": "What did Evan suggest Sam to check out for insights into his dream?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "His keys",
+      "gold": "his keys",
+      "latency_ms": 1723.8,
+      "question": "What did Evan mention he had been searching for fruitlessly for half an hour?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cooking class",
+      "gold": "cooking class",
+      "latency_ms": 1825.9,
+      "question": "What class is Sam taking to learn how to make healthier meals?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Healthy grilled chicken and veggie stir-fry",
+      "gold": "grilled dish with salmon and vegetables",
+      "latency_ms": 2230.0,
+      "question": "What dish did Sam make on 18 August, 2023 that turned out flavorful?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Healthy grilled chicken and veggie stir-fry",
+      "gold": "recipes with more vegetables",
+      "latency_ms": 2413.2,
+      "question": "What kind of recipe did Evan request from Sam on 19 August, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Healthy grilled chicken and veggie stir-fry",
+      "gold": "bowl of spinach, avocado, and strawberries",
+      "latency_ms": 1990.3,
+      "question": "What food did Sam share a photo of on 19 August, 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Watercolor painting classes",
+      "gold": "watercolor painting classes",
+      "latency_ms": 1023.5,
+      "question": "What type of painting classes did Evan start taking in 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Watercolor painting of landscapes",
+      "gold": "forest scene",
+      "latency_ms": 1000.2,
+      "question": "What did Evan start painting years ago due to being inspired by a friend's gift?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Observing nature and painting what seen",
+      "gold": "observing nature and painting what is seen",
+      "latency_ms": 975.4,
+      "question": "What nature concept do watercolor painting classes emphasize according to Evan?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Landscapes with bright colors and nature",
+      "gold": "sunsets over the ocean",
+      "latency_ms": 1251.5,
+      "question": "What type of landscapes does Evan love painting the most?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Working on improving health together",
+      "gold": "skiing",
+      "latency_ms": 1057.5,
+      "question": "What fun activity did Evan mention doing in July 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Twisted knee",
+      "gold": "Twisted knee",
+      "latency_ms": 1281.9,
+      "question": "What injury did Evan suffer from in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Swimming",
+      "gold": "Swimming",
+      "latency_ms": 1017.4,
+      "question": "What sports activity has Evan been doing to stay active while dealing with the knee injury?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Low-impact exercises or physical therapy",
+      "gold": "Consider low-impact exercises or physical therapy",
+      "latency_ms": 1149.9,
+      "question": "What suggestion did Sam give to Evan to help with his knee issue?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Painting, hiking, kayaking, swimming, yoga.",
+      "gold": "Painting",
+      "latency_ms": 1600.2,
+      "question": "What did Evan suggest Sam try as a calming hobby?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Acrylic paints, brushes, canvas, palette",
+      "gold": "Acrylic paints, brushes, canvas/paper, palette",
+      "latency_ms": 1175.2,
+      "question": "What did Evan recommend Sam acquire to get started with painting?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Swimming and watercolor painting",
+      "gold": "Watercolor painting",
+      "latency_ms": 1358.5,
+      "question": "What activity does Evan do to keep himself busy while healing his knee?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A painting of a sunset",
+      "gold": "a cactus in the desert",
+      "latency_ms": 1180.2,
+      "question": "What painting did Evan share with Sam in October?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Journaling and creative writing",
+      "gold": "creative writing",
+      "latency_ms": 1222.0,
+      "question": "What kind of writing does Sam enjoy as a form of expression?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Phone navigation app keeps malfunctioning.",
+      "gold": "malfunctioning navigation app on the new phone",
+      "latency_ms": 1310.6,
+      "question": "What electronics issue has been frustrating Sam lately?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Lifting weights one year ago.",
+      "gold": "lifting weights",
+      "latency_ms": 1280.9,
+      "question": "What activity did Evan start one year ago?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Start with proper form and consistency.",
+      "gold": "Find a trainer",
+      "latency_ms": 1399.0,
+      "question": "What advice did Evan give to Sam to avoid injuries while starting weightlifting?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "On the lake, Lake Tahoe",
+      "gold": "Lake Tahoe",
+      "latency_ms": 1228.5,
+      "question": "Where did Sam and his mate plan to try kayaking?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gastritis",
+      "gold": "Gastritis",
+      "latency_ms": 1255.6,
+      "question": "What digestive issue did Sam experience lately?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Hiking, biking, outdoor adventures",
+      "gold": "helping lost tourists",
+      "latency_ms": 1428.7,
+      "question": "What adventurous theme is emerging in Evan's life as mentioned by Sam?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Doing easy exercises due to injury.",
+      "gold": "gaining strength",
+      "latency_ms": 1367.8,
+      "question": "What does Evan mention about his progress at the gym to Sam?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Changed diet and started walking regularly",
+      "gold": "Changed his diet and started walking regularly",
+      "latency_ms": 1420.6,
+      "question": "How did Evan start his transformation journey two years ago?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "1968 Kustom K-200A vintage guitar",
+      "gold": "1968 Kustom K-200A vintage guitar",
+      "latency_ms": 1385.3,
+      "question": "What gift did Evan receive from a close friend?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Health issues and job loss.",
+      "gold": "Lost their job due to downsizing",
+      "latency_ms": 1405.7,
+      "question": "Why had Evan been going through a tough time lately?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Soul-calming, serene, heavenly, little paradise",
+      "gold": "A happy place",
+      "latency_ms": 1496.5,
+      "question": "How does Evan describe the island he grew up on?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Expected reliability for active lifestyle",
+      "gold": "He relied on it for his active lifestyle and road trips",
+      "latency_ms": 1486.2,
+      "question": "What was the main reason for Evan's frustration with his new Prius breaking down?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chance to explore other ways",
+      "gold": "As a chance to explore other ways of staying active and traveling",
+      "latency_ms": 1533.5,
+      "question": "How did Sam suggest Evan view the setback with his broken Prius?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Yoga",
+      "gold": "Yoga",
+      "latency_ms": 1477.4,
+      "question": "What did Sam suggest Evan try for stress relief and flexibility?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Yoga tips and assistance if needed",
+      "gold": "Support and tips",
+      "latency_ms": 1582.4,
+      "question": "What did Sam offer Evan regarding yoga?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Partner is pregnant, excited parents.",
+      "gold": "partner is pregnant",
+      "latency_ms": 2011.7,
+      "question": "What news did Evan share with Sam on 9th December 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Big family reunion next summer",
+      "gold": "big family reunion",
+      "latency_ms": 1425.2,
+      "question": "What family event is Evan planning for next summer?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bring it on Home",
+      "gold": "'Bring it on Home'",
+      "latency_ms": 1577.1,
+      "question": "What is the motto of Evan's family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Believe in yourself, not weight.",
+      "gold": "Your worth is not defined by your weight",
+      "latency_ms": 1574.8,
+      "question": "According to Evan, what is important for Sam to believe in concerning his weight?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A close friend helped Evan.",
+      "gold": "a close friend",
+      "latency_ms": 1783.9,
+      "question": "Who helped Evan get the painting published in the exhibition?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Relaxing car rides in the countryside",
+      "gold": "running in the mornings",
+      "latency_ms": 1530.7,
+      "question": "What did Sam recently start enjoying to clear his head?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Put a GPS sensor on them.",
+      "gold": "put a GPS sensor on them",
+      "latency_ms": 1608.0,
+      "question": "What did Sam suggest Evan should do with his keys?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Massive rush of joy and freedom",
+      "gold": "a sense of joy and freedom",
+      "latency_ms": 1572.8,
+      "question": "How did Evan feel when he painted the piece with the bird flying over it?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Keep trying new hobbies continuously.",
+      "gold": "Keep trying new things",
+      "latency_ms": 1649.9,
+      "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "With joy, freedom, spontaneous bold strokes.",
+      "gold": "embracing the creative process without restraint",
+      "latency_ms": 1805.3,
+      "question": "How did Evan describe the process of creating the painting with the bird flying over it?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "News of his marriage",
+      "gold": "getting married",
+      "latency_ms": 1897.1,
+      "question": "What did Evan want to share with his work friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Positive fitness experiences and helping tourists.",
+      "gold": "a photo of a man standing on a rock looking out over a valley",
+      "latency_ms": 1955.6,
+      "question": "What did Evan share with Sam after their hiking trip?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "His own past health struggles",
+      "gold": "the recipes for cookies",
+      "latency_ms": 1602.9,
+      "question": "What did Evan offer to share with Sam after talking about healthy snacks?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Their marriage news.",
+      "gold": "their marriage",
+      "latency_ms": 1738.5,
+      "question": "What did Evan and his partner share with their extended family on January 5, 2024?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Less processed food and sugary snacks",
+      "gold": "just two ginger snaps a day",
+      "latency_ms": 2064.1,
+      "question": "What was Evan limiting himself to on his new diet?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Snowshoeing",
+      "gold": "Snowshoeing",
+      "latency_ms": 1976.5,
+      "question": "What sports activity did Evan and his partner try in a recent weekend?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Advice on diet and exercise",
+      "gold": "diet plan and low-impact exercises",
+      "latency_ms": 1658.7,
+      "question": "What advice did Evan suggest Sam seek from a doctor?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Swimming, yoga, walking, beach walks",
+      "gold": "swimming, yoga, walking",
+      "latency_ms": 1871.1,
+      "question": "What suggestions did Evan give for low-impact exercises?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Godfather",
+      "gold": "The Godfather",
+      "latency_ms": 1939.9,
+      "question": "What movie did Sam watch that motivated him to keep up with his routine?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Yoga",
+      "gold": "Yoga",
+      "latency_ms": 2107.0,
+      "question": "What activity helped Evan with stress and flexibility?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Calm lake at sunset during camping",
+      "gold": "a kayak",
+      "latency_ms": 2045.7,
+      "question": "What did Evan share a photo of that was taken on a camping trip?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Drunken night involving rose bushes.",
+      "gold": "for a drunken night",
+      "latency_ms": 2670.2,
+      "question": "Why did Evan apologize to his partner?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Truly unforgettable, peaceful, and calming.",
+      "gold": "peaceful",
+      "latency_ms": 1154.4,
+      "question": "How does Evan describe being out on the water while kayaking and watching the sunset?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 902.9,
+      "question": "What type of car did Sam get after his old Prius broke down?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Inspired by painting at exhibit visit.",
+      "gold": "Not mentioned",
+      "latency_ms": 901.9,
+      "question": "How did Sam get into watercolor painting?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Started regular gym exercise a few years ago.",
+      "gold": "Not mentioned",
+      "latency_ms": 1042.6,
+      "question": "What did Sam start doing a few years back as a stress-buster?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared where Sam's trip was.",
+      "gold": "Not mentioned",
+      "latency_ms": 1142.2,
+      "question": "Where did Sam take his family for a road trip on 24 May, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Fresh air, peacefulness, scenic glaciers",
+      "gold": "Not mentioned",
+      "latency_ms": 1088.9,
+      "question": "What did Sam find relaxing about his road trip to Jasper?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Eating less processed food and sugar",
+      "gold": "Not mentioned",
+      "latency_ms": 985.7,
+      "question": "What habit is Evan trying to change in terms of diet?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Self-checkout issues at the store",
+      "gold": "Not mentioned",
+      "latency_ms": 1113.2,
+      "question": "What frustrating issue did Evan face at the supermarket?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1064.8,
+      "question": "What novel is Sam reading that he finds gripping?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Tracking health and fitness progress",
+      "gold": "Not mentioned",
+      "latency_ms": 1172.4,
+      "question": "What does the smartwatch help Sam with?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Symbolizing strength and resilience.",
+      "gold": "Not mentioned",
+      "latency_ms": 1153.7,
+      "question": "Why did Sam decide to get the bonsai tree?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1339.4,
+      "question": "What did Sam mention he had been searching for fruitlessly for half an hour?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1340.5,
+      "question": "What class is Evan taking to learn how to make healthier meals?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1168.0,
+      "question": "What dish did Sam make on 18 August, 2023 that turned out bland?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No photo shared by Evan on 19 August.",
+      "gold": "Not mentioned",
+      "latency_ms": 1245.8,
+      "question": "What food did Evan share a photo of on 19 August, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared sculpting inspiration or activity.",
+      "gold": "Not mentioned",
+      "latency_ms": 1370.0,
+      "question": "What did Evan start sculpting years ago due to being inspired by a friend's gift?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Observing nature and painting what seen",
+      "gold": "Not mentioned",
+      "latency_ms": 1243.5,
+      "question": "What nature concept do watercolor painting classes emphasize according to Sam?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Countryside fields with fences and roads",
+      "gold": "Not mentioned",
+      "latency_ms": 1240.3,
+      "question": "What type of landscapes does Sam love painting the most?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Swimming",
+      "gold": "Not mentioned",
+      "latency_ms": 1347.0,
+      "question": "What sports activity has Sam been doing to stay active while dealing with the knee injury?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Cooking class to learn healthier recipes",
+      "gold": "Not mentioned",
+      "latency_ms": 1426.4,
+      "question": "What activity does Sam do to keep himself busy while healing his knee?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared writing as expression.",
+      "gold": "Not mentioned",
+      "latency_ms": 1561.0,
+      "question": "What kind of writing does Evan enjoy as a form of expression?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared electronics issue frustration.",
+      "gold": "Not mentioned",
+      "latency_ms": 1531.0,
+      "question": "What electronics issue has been frustrating Evan lately?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Basketball due to knee injury.",
+      "gold": "Not mentioned",
+      "latency_ms": 1564.0,
+      "question": "What activity did Evan quit one year ago?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared location for skydiving.",
+      "gold": "Not mentioned",
+      "latency_ms": 1510.6,
+      "question": "Where did Sam and his mate plan to try skydiving?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared digestive issue.",
+      "gold": "Not mentioned",
+      "latency_ms": 1497.4,
+      "question": "What digestive issue did Evan experience lately?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Changing diet, walking, releasing expectations",
+      "gold": "Not mentioned",
+      "latency_ms": 1509.7,
+      "question": "How did Sam start his transformation journey two years ago?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "1968 Kustom K-200A vintage guitar",
+      "gold": "Not mentioned",
+      "latency_ms": 1608.1,
+      "question": "What gift did Sam receive from a close friend?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1425.3,
+      "question": "How does Sam describe the island he grew up on?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1375.2,
+      "question": "What was the main reason for Evan's frustration with his new Prius getting stolen?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Big family reunion next summer",
+      "gold": "Not mentioned",
+      "latency_ms": 1419.3,
+      "question": "What family event is Sam planning for next summer?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Bring it on Home",
+      "gold": "Not mentioned",
+      "latency_ms": 1524.5,
+      "question": "What is the motto of Sam's family?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared who helped Sam.",
+      "gold": "Not mentioned",
+      "latency_ms": 1669.4,
+      "question": "Who helped Sam get the painting published in the exhibition?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Massive rush of joy.",
+      "gold": "Not mentioned",
+      "latency_ms": 1684.6,
+      "question": "How did Sam feel when he painted the piece with the bird flying over it?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Joyful, free, spontaneous strokes, bold colors",
+      "gold": "Not mentioned",
+      "latency_ms": 1773.2,
+      "question": "How did Sam describe the process of creating the painting with the bird flying over it?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Marriage news",
+      "gold": "Not mentioned",
+      "latency_ms": 1459.0,
+      "question": "What did Evan and his partner keep from their extended family on January 5, 2024?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Soda and candy intake reduction",
+      "gold": "Not mentioned",
+      "latency_ms": 1706.4,
+      "question": "What was Sam limiting himself to on his new diet?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No dance activity mentioned.",
+      "gold": "Not mentioned",
+      "latency_ms": 1678.0,
+      "question": "What dance activity did Evan and his partner try in a recent weekend?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared high-impact exercise suggestions.",
+      "gold": "Not mentioned",
+      "latency_ms": 1592.0,
+      "question": "What suggestions did Evan give for high-impact exercises?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared movie motivating Evan.",
+      "gold": "Not mentioned",
+      "latency_ms": 1745.8,
+      "question": "What movie did Evan watch that motivated him to keep up with his routine?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Twisting his knee hindered fitness.",
+      "gold": "Not mentioned",
+      "latency_ms": 1709.9,
+      "question": "What activity hindered Evan's stress and flexibility?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "A tent pitched in grassy field",
+      "gold": "Not mentioned",
+      "latency_ms": 1742.8,
+      "question": "What did Sam share a photo of that was taken on a camping trip?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}

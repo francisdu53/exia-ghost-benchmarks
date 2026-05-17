@@ -1,0 +1,1434 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 104,
+  "cat5_excluded": true,
+  "score": 0.8455284552845529,
+  "ingest_ms": 0,
+  "total": 123,
+  "conversation_id": "conv-44",
+  "results": [
+    {
+      "response": "2020",
+      "gold": "2020",
+      "latency_ms": 2450.9,
+      "question": "Which year did Audrey adopt the first three of her dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Mid March 2023",
+      "gold": "The week before March 27, 2023",
+      "latency_ms": 2183.8,
+      "question": "When did Andrew start his new job as a financial analyst?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Board game night, cozy cafe visits",
+      "gold": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+      "latency_ms": 1658.9,
+      "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "New cafes, eateries, farms, parks, picnic spots",
+      "gold": "cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+      "latency_ms": 1981.9,
+      "question": "What kind of places have Andrew and his girlfriend checked out around the city?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last week before 16 April 2023",
+      "gold": "The week of April 3rd to 9th",
+      "latency_ms": 2015.8,
+      "question": "When did Audrey make muffins for herself?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Week before 3 May 2023",
+      "gold": "first week of May 2023",
+      "latency_ms": 1918.3,
+      "question": "When did Audrey see a hummingbird?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "2 April 2023",
+      "gold": "around April 2, 2023",
+      "latency_ms": 1843.4,
+      "question": "When did Audrey adopt Pixie?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Less than one year passed.",
+      "gold": "three years",
+      "latency_ms": 1871.1,
+      "question": "How many years passed between Audrey adopting Pixie and her other three dogs?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "No, no pets right now.",
+      "gold": "No",
+      "latency_ms": 1922.3,
+      "question": "Did Andrew have a pet dog during March 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Workshop on bonding, grooming course, dog owners group, agility classes",
+      "gold": "positive reinforcement training workshop to bond with pets, dog training course, agility training course, grooming course, dog-owners group",
+      "latency_ms": 2347.2,
+      "question": "What kind of classes or groups has Audrey joined to take better care of her dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Between May and October 2023",
+      "gold": "June, 2023",
+      "latency_ms": 1655.4,
+      "question": "When did Audrey's positive reinforcement training course for dogs take place?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Sunday before 13 June 2023",
+      "gold": "June 11, 2023",
+      "latency_ms": 1097.8,
+      "question": "When did Andrew go rock climbing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Photography, rock climbing, walks with dogs",
+      "gold": "rock climbing, fishing, camping",
+      "latency_ms": 1073.4,
+      "question": "What outdoor activities has Andrew done other than hiking in nature?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "26 June 2023",
+      "gold": "June 2023",
+      "latency_ms": 927.8,
+      "question": "When did Audrey move to a new place?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Nature and outdoor connection",
+      "gold": "being in nature",
+      "latency_ms": 1260.1,
+      "question": "What is something that Andrew really misses while working in the city?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Difficulty finding dog-friendly places",
+      "gold": "Not being able to find pet friendly spots.",
+      "latency_ms": 1296.3,
+      "question": "What is a shared frustration regarding dog ownership for Audrey and Andrew?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Next month after 8 July 2023",
+      "gold": "August",
+      "latency_ms": 1340.8,
+      "question": "When is Andrew going to go hiking with Audrey?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Two times",
+      "gold": "three times",
+      "latency_ms": 1004.8,
+      "question": "How many times did Audrey and Andew plan to hike together?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "They adopted Pixie.",
+      "gold": "breeder",
+      "latency_ms": 1030.9,
+      "question": "Where did Audrey get Pixie from?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Board game night with active dog",
+      "gold": "cook dog treats",
+      "latency_ms": 1187.8,
+      "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Chicken Pot Pie (chicken)",
+      "gold": "chicken",
+      "latency_ms": 1277.2,
+      "question": "Which meat does Audrey prefer eating more than others?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Dog grooming, agility, positive reinforcement training",
+      "gold": "Positive reinforcement training class for bonding, dog training course, agility class",
+      "latency_ms": 1283.3,
+      "question": "What are the classes that Audrey took for her dogs to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Camping with girlfriend Toby",
+      "gold": "camping with girlfriend",
+      "latency_ms": 1200.1,
+      "question": "Where did Andrew go during the first weekend of August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Finding dog-friendly place, work stress.",
+      "gold": "Finding the right dog and pet-friendly apartments close to open spaces",
+      "latency_ms": 1318.9,
+      "question": "What are some problems that Andrew faces before he adopted Toby?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared growing up with dogs.",
+      "gold": "Yes",
+      "latency_ms": 1368.2,
+      "question": "Did Audrey and Andrew grow up with a pet dog?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last weekend before 24 August 2023",
+      "gold": "weekend before August 24, 2023",
+      "latency_ms": 1432.1,
+      "question": "When did Andrew and his girlfriend go fishing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Work piling up and work stress",
+      "gold": "work",
+      "latency_ms": 1608.6,
+      "question": "What is the biggest stressor in Andrew's life besides not being able to hike frequently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Tough, stressful, challenging work-life balance",
+      "gold": "Stressful",
+      "latency_ms": 1568.9,
+      "question": "How does Andrew feel about his current work?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Personalized tags",
+      "gold": "Hats",
+      "latency_ms": 1428.3,
+      "question": "What is something that Audrey often dresses up her dogs with?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Pepper, Pixie, Precious, Panda",
+      "gold": "Pepper, Precious, Panda, and Pixie",
+      "latency_ms": 1422.4,
+      "question": "What are the names of Audrey's dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Next month after 1 October 2023",
+      "gold": "November 2023",
+      "latency_ms": 1642.3,
+      "question": "When is Andrew planning to go to the beach with his girlfriend?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Went biking and hiking with dogs",
+      "gold": "Taking walks and hiking",
+      "latency_ms": 1592.5,
+      "question": "What has Andrew done with his dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Tattoos of her four dogs.",
+      "gold": "Tattoos of her four dogs.",
+      "latency_ms": 1423.6,
+      "question": "What kind of tattoo does Audrey have on her arm?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Add self-care, walks, dog-friendly parks.",
+      "gold": "Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+      "latency_ms": 1392.3,
+      "question": "What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Three months",
+      "gold": "three months",
+      "latency_ms": 1502.7,
+      "question": "How many months passed between Andrew adopting Toby and Buddy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Scout, Toby, Buddy",
+      "gold": "Toby, Scout, Buddy",
+      "latency_ms": 1478.1,
+      "question": "What are the names of Andrew's dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Sushi, Chicken Pot Pie, Roasted Chicken",
+      "gold": "chicken pot pie, chicken roast, blueberry muffins, sushi",
+      "latency_ms": 1618.8,
+      "question": "What are some foods that Audrey likes eating?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last week before 24 October 2023",
+      "gold": "between October 19 and 24, 2023",
+      "latency_ms": 1663.9,
+      "question": "When did Audrey get into an accident in the park?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Weekend before 24 October 2023",
+      "gold": "the weekend before October 24, 2023",
+      "latency_ms": 1887.7,
+      "question": "When did Andrew and his girlfriend go on a wine tasting trip?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Busy, responsibility, happiness, love, attention",
+      "gold": "Companionship",
+      "latency_ms": 1760.9,
+      "question": "What did Audrey get wtih having so many dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Dog park",
+      "gold": "The dog park",
+      "latency_ms": 1699.2,
+      "question": "What is a good place for dogs to run around freely and meet new friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two Jack Russell mixes, two Chihuahua mixes",
+      "gold": "Mongrel mixed with Lab for Pepper and Panda. Mongrel mixed with Chihuahua for Precious and Pixie.",
+      "latency_ms": 1669.5,
+      "question": "What are the breeds of Audrey's dogs?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Positive reinforcement techniques",
+      "gold": "Positive reinforcement",
+      "latency_ms": 1470.8,
+      "question": "What technique is Audrey using to discipline her dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared US state location.",
+      "gold": "Minnesota",
+      "latency_ms": 1638.3,
+      "question": "Which US state do Audrey and Andrew potentially live in?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "National park peak at sunset",
+      "gold": "Voyageurs National Park",
+      "latency_ms": 1722.3,
+      "question": "Which national park could Audrey and Andrew be referring to in their conversations?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Three dogs: Scout, Toby, Buddy",
+      "gold": "three",
+      "latency_ms": 1847.8,
+      "question": "How many pets will Andrew have, as of December 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Two dogs: Toby and Buddy",
+      "gold": "one",
+      "latency_ms": 1740.3,
+      "question": "How many pets did Andrew have, as of September 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "One month passed between adoptions.",
+      "gold": "one month",
+      "latency_ms": 1792.6,
+      "question": "How many months passed between Andrew adopting Buddy and Scout",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Friends, confidantes, and family members",
+      "gold": "Family",
+      "latency_ms": 1715.6,
+      "question": "What does Andrew view his pets as?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Family and best friends.",
+      "gold": "Family",
+      "latency_ms": 1895.3,
+      "question": "What does Audrey view her pets as?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Dog grooming techniques",
+      "gold": "Grooming",
+      "latency_ms": 1961.9,
+      "question": "What is a skill that Audrey learned to take care of her dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Toys, new beds, baked goodies.",
+      "gold": "dog tags, toys, dog beds, collars",
+      "latency_ms": 1680.5,
+      "question": "What items has Audrey bought or made for her dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Bring binoculars and notebook cityside.",
+      "gold": "Install a bird feeder outside where he can see the birds without going outdoors.",
+      "latency_ms": 1891.5,
+      "question": "What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Wildlife conservationist or animal caretaker",
+      "gold": "Park ranger or a similar position working for the National Park Services.",
+      "latency_ms": 2044.4,
+      "question": "What is a career that Andrew could potentially pursue with his love for animals and nature?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Playing Fetch and Frisbee",
+      "gold": "Play fetch with ball and frisbee, run around and meet other dogs",
+      "latency_ms": 1973.0,
+      "question": "What activity do Audrey's dogs like to do in the dog park?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared.",
+      "gold": "few days before November 22, 2023",
+      "latency_ms": 2008.9,
+      "question": "When did Andrew make his dogs a fun indoor area?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "No, Andrew has not moved yet.",
+      "gold": "No",
+      "latency_ms": 2300.2,
+      "question": "Has Andrew moved into a new apartment for his dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "22 November 2023",
+      "gold": "few days before November 2023",
+      "latency_ms": 1928.5,
+      "question": "When did Andrew adopt Scout?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Sushi",
+      "gold": "sushi",
+      "latency_ms": 1936.6,
+      "question": "What did Audrey eat for dinner on October 24, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Four months since first pet adoption.",
+      "gold": "4 months",
+      "latency_ms": 2023.5,
+      "question": "How long has it been since Andrew adopted his first pet, as of November 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Three dogs: Scout, Toby, Buddy",
+      "gold": "3",
+      "latency_ms": 2057.0,
+      "question": "How many dogs does Andrew have?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Eagles",
+      "gold": "Eagles",
+      "latency_ms": 925.2,
+      "question": "Which specific type of bird mesmerizes Andrew?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Connection, bonding, memories, peace, companionship",
+      "gold": "The peaceful moments",
+      "latency_ms": 1011.8,
+      "question": "What did Andrew express missing about exploring nature trails with his family's dog?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Croissants, muffins, and tarts",
+      "gold": "croissants, muffins, and tarts",
+      "latency_ms": 1357.7,
+      "question": "What kind of pastries did Andrew and his girlfriend have at the cafe?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sunflowers",
+      "gold": "sunflowers",
+      "latency_ms": 861.1,
+      "question": "What kind of flowers does Audrey have a tattoo of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Organizes playdates, plays fetch, watches.",
+      "gold": "chat with people while dogs make new friends",
+      "latency_ms": 1114.5,
+      "question": "What does Audrey do during dog playdates in the park?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Smaller dog suitable for apartment living",
+      "gold": "smaller dog",
+      "latency_ms": 1137.9,
+      "question": "What type of dog was Andrew looking to adopt based on his living space?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Near a park or woods",
+      "gold": "near a park or woods",
+      "latency_ms": 1169.3,
+      "question": "Where does Andrew want to live to give their dog a large, open space to run around?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To strengthen bond with her dogs",
+      "gold": "Strengthen the bond with her pets",
+      "latency_ms": 1000.4,
+      "question": "Why did Audrey sign up for a workshop about bonding with pets?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "From a flyer at pet store",
+      "gold": "Saw a workshop flyer at the local pet store",
+      "latency_ms": 1049.0,
+      "question": "How did Audrey hear about the workshop on bonding with pets?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Positive reinforcement training workshop",
+      "gold": "Positive reinforcement training",
+      "latency_ms": 1293.3,
+      "question": "What type of training was the workshop Audrey signed up for in May 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Friendly and playful",
+      "latency_ms": 1174.6,
+      "question": "How did Audrey describe she dog he met at the pet store?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Pets learn better without punishment.",
+      "gold": "To have pets learn how to behave in a positive way",
+      "latency_ms": 1178.6,
+      "question": "Why did Audrey think positive reinforcement training is important for pets?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Finding dog-friendly housing in city",
+      "gold": "Finding a pet-friendly spot in the city",
+      "latency_ms": 1198.6,
+      "question": "What challenge is Andrew facing in their search for a pet?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Finds it challenging but hopeful.",
+      "gold": "Discouraged but determined",
+      "latency_ms": 1196.8,
+      "question": "How does Andrew feel about their search for a pet-friendly place?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Kayaking and possibly bungee jumping",
+      "gold": "kayaking and bungee jumping",
+      "latency_ms": 1320.3,
+      "question": "What outdoor activities does Andrew plan on trying after the rock climbing class?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "About an hour",
+      "gold": "about an hour",
+      "latency_ms": 1409.4,
+      "question": "How long does Audrey typically walk her dogs for?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Doggy play area with agility equipment",
+      "gold": "a doggy play area with agility stuff and toys",
+      "latency_ms": 1221.7,
+      "question": "What did Audrey set up in the backyard for their dogs on June 26, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stunning lake in the mountains",
+      "gold": "a stunning lake in the mountains",
+      "latency_ms": 1594.2,
+      "question": "What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chicken Pot Pie",
+      "gold": "Chicken Pot Pie",
+      "latency_ms": 1365.1,
+      "question": "What is Audrey's favorite recipe that she shares with Andrew on 3 July, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Roasted Chicken inspired by Mediterranean flavors",
+      "gold": "Roasted Chicken",
+      "latency_ms": 1526.8,
+      "question": "What dish is one of Audrey's favorite dishes that includes garlic and is shared with Andrew on 3 July, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Volunteered at a pet shelter.",
+      "gold": "volunteered at a pet shelter",
+      "latency_ms": 1644.3,
+      "question": "What did Andrew and his GF do on the Monday before July 24, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Max",
+      "gold": "Max",
+      "latency_ms": 1354.5,
+      "question": "What is the name of Audrey's childhood dog?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Long walks, shared worries, close bond",
+      "gold": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
+      "latency_ms": 1359.9,
+      "question": "What special memories does Audrey have with her childhood dog, Max?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Relaxed sage, playful, naughty cuddler, adventurous.",
+      "gold": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+      "latency_ms": 1686.3,
+      "question": "What are some of the personalities of Audrey's four fur babies?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Agility classes at a dog park",
+      "gold": "Agility classes",
+      "latency_ms": 1499.6,
+      "question": "What type of classes did Audrey start with her pups recently on 4 August, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Twice a week",
+      "gold": "Twice a week",
+      "latency_ms": 1667.1,
+      "question": "How often does Audrey take her pups to the park for practice?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Two hours",
+      "gold": "Two hours",
+      "latency_ms": 1628.1,
+      "question": "How long did the trail hike that Audrey went on with her pups take?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Form bond slowly; don't rush grooming.",
+      "gold": "Grooming slowly and gently, paying attention to sensitive areas like ears and paws. And remember to stay patient and positive throughout the grooming process.",
+      "latency_ms": 1590.0,
+      "question": "What advice did Audrey give to Andrew regarding grooming Toby?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Regular grooming, daily brushing, baths, love",
+      "gold": "Daily brushing, regular baths, nail trims, and lots of love",
+      "latency_ms": 1724.2,
+      "question": "What is essential to keep the dogs looking good according to Audrey?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dog playdate with neighbors' dogs",
+      "gold": "a doggy playdate",
+      "latency_ms": 1528.7,
+      "question": "What did Audrey organize with the neighbors' dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Got new beds for dogs",
+      "gold": "Got new beds for them",
+      "latency_ms": 1498.5,
+      "question": "What did Audrey do to give her dogs extra comfort as the weather cooled down?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Super cozy and comfy, like clouds.",
+      "gold": "Super cozy and comfy",
+      "latency_ms": 1736.1,
+      "question": "How does Audrey describe the new beds for her dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Petting, hugging, calm voice, slow walk",
+      "gold": "Petted, hugged, spoke calmly and slowly walked the dog",
+      "latency_ms": 1691.0,
+      "question": "How did Audrey calm down her dog after the leash incident?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Multiple times a day",
+      "gold": "Multiple times a day",
+      "latency_ms": 1585.6,
+      "question": "How often does Audrey take her dogs for walks?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Peruvian Lilies and cactus flowers",
+      "gold": "Peruvian Lilies",
+      "latency_ms": 1586.6,
+      "question": "What kind of flowers does Audrey take care of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Animals, plants, and ecosystem interconnections",
+      "gold": "about animals, plants, and ecosystems and how they work together",
+      "latency_ms": 1986.2,
+      "question": "What did Andrew learn from reading books about ecological systems?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Biking or using public transport",
+      "gold": "biking or using public transport",
+      "latency_ms": 1656.9,
+      "question": "What did Andrew suggest as a way to reduce carbon footprint?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Biking reduces carbon footprint and trains.",
+      "gold": "by biking",
+      "latency_ms": 1581.8,
+      "question": "How does Andrew suggest helping the planet while also training the body?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Explored parks with her four dogs",
+      "gold": "Took them to the beach",
+      "latency_ms": 1783.2,
+      "question": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Knee injury prevented walking dogs.",
+      "gold": "Knee injury",
+      "latency_ms": 1757.3,
+      "question": "What was the reason Audrey couldn't walk her dogs for a period of time?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Jewelry from recycled objects materials",
+      "gold": "Jewelry made from recycled objects",
+      "latency_ms": 1827.5,
+      "question": "What type of jewelry does Audrey make?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Creativity, sustainability, and animal shelter donations",
+      "gold": "To show love for creativity and sustainability",
+      "latency_ms": 1969.4,
+      "question": "Why does Audrey make jewelry out of recycled objects?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Animal shelter",
+      "gold": "Animal shelter",
+      "latency_ms": 1641.9,
+      "question": "What organization does Audrey donate a portion of his profits to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Donates jewelry sale profits to shelter.",
+      "gold": "By donating a portion of his profits frmo selling jwelery",
+      "latency_ms": 2039.2,
+      "question": "How does Audrey help out the animal shelter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fetch and Frisbee games",
+      "gold": "Fetch and Frisbee",
+      "latency_ms": 1920.8,
+      "question": "What type of games do Audrey's dogs like to play at the park?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Goodies",
+      "gold": "Goodies",
+      "latency_ms": 1794.3,
+      "question": "What did Audrey make to thank her neighbors?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dislike snow, prefer sunny grass.",
+      "gold": "Confused",
+      "latency_ms": 2026.1,
+      "question": "How do Audrey's dogs react to snow?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dislike snow, prefer sunny grass.",
+      "gold": "They definitely prefer nice, sunny days in the grass.",
+      "latency_ms": 2130.3,
+      "question": "How does Audrey describe her dogs' response to snow?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Hiking, exploring nature, outdoor adventures",
+      "gold": "Exploring the great outdoors",
+      "latency_ms": 1966.1,
+      "question": "What kind of experiences are Audrey's dogs the best companions for?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Walks and hiking trails together",
+      "gold": "Walking",
+      "latency_ms": 1752.8,
+      "question": "What activity do Andrew and Buddy enjoy doing together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Exploring hiking trails and nature.",
+      "gold": "Checking out new hiking trails",
+      "latency_ms": 960.4,
+      "question": "What do Andrew and Buddy like doing on walks?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sushi",
+      "gold": "sushi",
+      "latency_ms": 1196.2,
+      "question": "What cuisine did Andrew recently try at a new spot in town?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "California roll or salmon roll",
+      "gold": "California or salmon roll",
+      "latency_ms": 936.2,
+      "question": "Which type of sushi did Audrey suggest trying first to someone new to sushi?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Picnic date with his girlfriend",
+      "gold": "picnic date",
+      "latency_ms": 979.5,
+      "question": "What type of date is Andrew going on Sunday?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Go hiking with dogs Saturday.",
+      "gold": "Go hiking",
+      "latency_ms": 1089.3,
+      "question": "What did Andrew and Audrey plan to do on the Saturday after October 28, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Autumn colors are so beautiful",
+      "gold": "The autumn colors",
+      "latency_ms": 1806.6,
+      "question": "What aspect of autumn does Andrew find beautiful?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Took dogs to pet salon November 2023",
+      "gold": "Joined a dog owners group",
+      "latency_ms": 1200.1,
+      "question": "What did Audrey do in November 2023 to better take care of her dogs?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Once a week",
+      "gold": "Once a week",
+      "latency_ms": 1107.5,
+      "question": "How often does Audrey meet up with other dog owners for tips and playdates?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Daily socialization, exercise, mental stimulation",
+      "gold": "photography of a basket full of stuffed animals",
+      "latency_ms": 1063.9,
+      "question": "What did Audrey share to show ways to keep dogs active in the city?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Puzzles, training, hide-and-seek games",
+      "gold": "puzzles, training, hide-and-seek",
+      "latency_ms": 1257.7,
+      "question": "What type of activities does Audrey suggest for mental stimulation of the dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Take them to nearby park outing.",
+      "gold": "Take them to a nearby park",
+      "latency_ms": 1203.3,
+      "question": "What is Andrew planning to do with Scout, Toby, and Buddy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bed, toys, puppy pads",
+      "gold": "essentials like a bed, toys, and puppy pads",
+      "latency_ms": 1530.6,
+      "question": "What did Andrew get for Scout to create a safe and fun space for them?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Hummingbird",
+      "gold": "Not mentioned",
+      "latency_ms": 1852.6,
+      "question": "Which specific type of bird mesmerizes Audrey?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Sunflowers",
+      "gold": "Not mentioned",
+      "latency_ms": 1163.2,
+      "question": "What kind of flowers does Andrew have a tattoo of?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Smaller dog suitable for apartment living",
+      "gold": "Not mentioned",
+      "latency_ms": 1852.6,
+      "question": "What type of dog was Audrey looking to adopt based on her living space?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1225.1,
+      "question": "Why did Audrey sign up for a workshop about car maintenance?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Audrey mentioned signing up for workshop.",
+      "gold": "Not mentioned",
+      "latency_ms": 1464.4,
+      "question": "How did Andrew hear about the workshop on bonding with pets?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Positive reinforcement dog training workshop",
+      "gold": "Not mentioned",
+      "latency_ms": 1266.4,
+      "question": "What type of training was the workshop Andrew signed up for in May 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Many adorable pups, fun and annoying.",
+      "gold": "Not mentioned",
+      "latency_ms": 1287.5,
+      "question": "How did Andrew describe the dog he met at the pet store?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1219.3,
+      "question": "What challenge is Audrey facing in their search for a pet?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Cooking and trying new recipes",
+      "gold": "Not mentioned",
+      "latency_ms": 1357.3,
+      "question": "What indoor activities does Andrew plan on trying after the rock climbing class?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared by Andrew.",
+      "gold": "Not mentioned",
+      "latency_ms": 1340.8,
+      "question": "What did Andrew set up in the backyard for their dogs on June 26, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1386.9,
+      "question": "What did Audrey and her GF do on the Monday before July 24, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Max",
+      "gold": "Not mentioned",
+      "latency_ms": 1330.6,
+      "question": "What is the name of Andrew's childhood dog?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Playing fetch with energetic Max.",
+      "gold": "Not mentioned",
+      "latency_ms": 1330.0,
+      "question": "What special memories does Andrew have with his childhood dog, Max?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Adventurous, active, loves sweaters, German Shepherd",
+      "gold": "Not mentioned",
+      "latency_ms": 1584.6,
+      "question": "What are some of the personalities of Andrew's four fur babies?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1428.6,
+      "question": "What type of classes did Andrew start with his pups recently on 4 August, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Taking care to keep dogs healthy.",
+      "gold": "Not mentioned",
+      "latency_ms": 1542.7,
+      "question": "What is essential to keep the dogs looking good according to Andrew?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1432.6,
+      "question": "What did Audrey organize with the neighbors' cats?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1548.2,
+      "question": "What did Andrew do to give his dogs extra comfort as the weather cooled down?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1529.2,
+      "question": "How does Andrew describe the new beds for his dogs?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1499.4,
+      "question": "How did Andrew calm down his dog after the leash incident?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Once a weekend",
+      "gold": "Not mentioned",
+      "latency_ms": 1594.0,
+      "question": "How often does Andrew take his dogs for walks?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Vegetable patch (specific vegetables not shared)",
+      "gold": "Not mentioned",
+      "latency_ms": 1567.2,
+      "question": "What kind of vegetables does Audrey take care of?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1644.5,
+      "question": "What did Andrew learn from reading books about economic systems?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "City living made walking dogs difficult.",
+      "gold": "Not mentioned",
+      "latency_ms": 2344.1,
+      "question": "What was the reason Andrew couldn't walk his dogs for a period of time?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1670.5,
+      "question": "What type of jewelry does Andrew make?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Andrew makes jewelry.",
+      "gold": "Not mentioned",
+      "latency_ms": 1876.6,
+      "question": "Why does Andrew make jewelry out of recycled objects?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Fetch and Frisbee games",
+      "gold": "Not mentioned",
+      "latency_ms": 1599.5,
+      "question": "What type of games do Andrew's dogs like to play at the park?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1593.4,
+      "question": "What did Andrew make to thank his neighbors?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Dislike snow.",
+      "gold": "Not mentioned",
+      "latency_ms": 1788.2,
+      "question": "How do Andrew's dogs react to snow?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Dislike snow.",
+      "gold": "Not mentioned",
+      "latency_ms": 1729.8,
+      "question": "How does Andrew describe his dogs' response to snow?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared about Audrey's cats.",
+      "gold": "Not mentioned",
+      "latency_ms": 1846.9,
+      "question": "What kind of experiences are Audrey's cats the best companions for?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Walks together in the park",
+      "gold": "Not mentioned",
+      "latency_ms": 1670.2,
+      "question": "What activity do Audrey and Buddy enjoy doing together?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Wine at a tasting event.",
+      "gold": "Not mentioned",
+      "latency_ms": 1838.0,
+      "question": "What type of drink did Andrew recently try at a new spot in town?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1810.8,
+      "question": "Which type of pizza did Audrey suggest trying first to someone new to Italian cuisine?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared frequency of meetups.",
+      "gold": "Not mentioned",
+      "latency_ms": 2251.9,
+      "question": "How often does Andrew meet up with other dog owners for tips and playdates?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}

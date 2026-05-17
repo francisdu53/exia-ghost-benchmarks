@@ -1,0 +1,1848 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 134,
+  "cat5_excluded": true,
+  "score": 0.8481012658227848,
+  "ingest_ms": 0,
+  "total": 158,
+  "conversation_id": "conv-50",
+  "results": [
+    {
+      "response": "April 2023, music festival in Tokyo",
+      "gold": "between 26 March and 20 April 2023",
+      "latency_ms": 2440.3,
+      "question": "When did Calvin first travel to Tokyo?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "New mansion, luxury car (Ferrari 488 GTB)",
+      "gold": "mansion in Japan, luxury car Ferrari 488 GTB",
+      "latency_ms": 2294.6,
+      "question": "What items did Calvin buy in March 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "The weekend before 26 March 2023",
+      "gold": "on the weekend before March 26, 2023",
+      "latency_ms": 1685.9,
+      "question": "When did Dave see Aerosmith perform live?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Aerosmith",
+      "gold": "Aerosmith, The Fireworks",
+      "latency_ms": 1835.7,
+      "question": "Which bands has Dave enjoyed listening to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "United States (Boston)",
+      "gold": "United States",
+      "latency_ms": 1988.0,
+      "question": "Which country do Calvin and Dave want to meet in?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Work on classic cars, build custom.",
+      "gold": "open a car maintenance shop, work on classic cars, build a custom car from scratch",
+      "latency_ms": 1715.9,
+      "question": "What are Dave's dreams?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Classic cars and car mods",
+      "gold": "classic vintage cars",
+      "latency_ms": 2497.1,
+      "question": "Which types of cars does Dave like the most?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Not specified in shared memories.",
+      "gold": "Yes",
+      "latency_ms": 2012.4,
+      "question": "Does Dave's shop employ a lot of people?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "1 May 2023",
+      "gold": "May 1, 2023",
+      "latency_ms": 1841.4,
+      "question": "When did Dave start his car maintenance shop?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last week before 16 May 2023",
+      "gold": "On a week before 16 May, 2023",
+      "latency_ms": 1851.4,
+      "question": "When did a mishap occur with Calvin's musical gear and favorite mic?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Early May 2023, previous week.",
+      "gold": "On a week before 16 May, 2023",
+      "latency_ms": 2154.1,
+      "question": "When did Calvin's place get flooded in Tokyo?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Car accident, flood, creative block.",
+      "gold": "flooding of his mansion, car accident",
+      "latency_ms": 2036.7,
+      "question": "What mishaps has Calvin run into?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "August 2023 and October 2023",
+      "gold": "last week of May 2023",
+      "latency_ms": 1964.9,
+      "question": "When was Calvin's concert in Tokyo?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Yes, Calvin loves performing on big stages.",
+      "gold": "Yes; because he enjoys the rush of performing onstage to large crowds",
+      "latency_ms": 1780.2,
+      "question": "Would Calvin enjoy performing at the Hollywood Bowl?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "8 June 2023",
+      "gold": "8 June, 2023",
+      "latency_ms": 982.4,
+      "question": "When did Calvin meet with the creative team for his new album?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "To relax and recharge in nature.",
+      "gold": "because it relaxes and calms him",
+      "latency_ms": 876.6,
+      "question": "Why does Dave regularly visit parks?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "July 2023",
+      "gold": "July 2023",
+      "latency_ms": 1000.3,
+      "question": "When did Dave take a trip to mountainous regions?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last Friday before 21 June 2023",
+      "gold": "on the Friday before 21 June, 2023",
+      "latency_ms": 1245.6,
+      "question": "When did Calvin have a car incident?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Two times",
+      "gold": "two times",
+      "latency_ms": 937.4,
+      "question": "How many times has Calvin had to deal with insurance paperwork?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Music festival, concert, Shibuya Crossing, Shinjuku",
+      "gold": "music festival, car museum, Shibuya crossing, Shinjuku",
+      "latency_ms": 1074.8,
+      "question": "Which places or events has Calvin visited in Tokyo?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Dave's dad at car show",
+      "gold": "His Dad",
+      "latency_ms": 1070.6,
+      "question": "Who inspired Dave's passion for car engineering?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Yes, Calvin wants to grow fanbase.",
+      "gold": "Yes; he want's to grow his fanbase",
+      "latency_ms": 1204.5,
+      "question": "Does Calvin wish to become more popular?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Yes, Calvin wants to expand brand.",
+      "gold": "yes",
+      "latency_ms": 1070.1,
+      "question": "Does Calvin want to expand his brand?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Working on classic cars",
+      "gold": "auto engineering",
+      "latency_ms": 1051.0,
+      "question": "What is Dave's main passion?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Yes, Dave works on car engines.",
+      "gold": "yes",
+      "latency_ms": 1200.2,
+      "question": "Can Dave work with engines?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Friday before 22 August 2023",
+      "gold": "on the Friday before 22 August, 2023",
+      "latency_ms": 1170.5,
+      "question": "When did Dave host a card-playing night with his friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "22 August 2023",
+      "gold": "21 August, 2023",
+      "latency_ms": 1074.8,
+      "question": "When did Calvin record a podcast with his friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Japan",
+      "gold": "Miami",
+      "latency_ms": 1268.6,
+      "question": "Which city was Calvin visiting in August 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Works on cars, long drives, hiking.",
+      "gold": "take long drives in his car, embrace nature, fixing cars",
+      "latency_ms": 1346.1,
+      "question": "What does Calvin do to relax?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Connecting with neighbors, restoring classic cars.",
+      "gold": "take a walk, go hiking, listen to favorite albums, live concerts, photography",
+      "latency_ms": 1367.6,
+      "question": "What are Dave's hobbies other than fixing cars?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Classic rock music",
+      "gold": "classic rock, Japanese music",
+      "latency_ms": 1380.1,
+      "question": "What kind of music does Dave listen to?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "San Francisco, car restoration workshop",
+      "gold": "San Francisco",
+      "latency_ms": 1621.4,
+      "question": "Where was Dave in the last two weeks of August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "San Francisco car restoration workshop",
+      "gold": "San Francisco",
+      "latency_ms": 1522.2,
+      "question": "Where did Dave return from with new knowledge of different techniques of car restoration?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Car restoration workshop and modification insights",
+      "gold": "attending a car modification workshop",
+      "latency_ms": 1442.1,
+      "question": "What was Dave doing in San Francisco?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "2 September 2023",
+      "gold": "September 1, 2023",
+      "latency_ms": 1680.2,
+      "question": "When did Dave return from San Francisco?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Week before 2 September 2023",
+      "gold": "last week of August 2023",
+      "latency_ms": 1429.4,
+      "question": "When did Calvin book flight tickets to Boston?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "11th September 2023",
+      "gold": "September 11, 2023",
+      "latency_ms": 1346.2,
+      "question": "When was Calvin's album released?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Yes, Calvin loves music tours.",
+      "gold": "yes",
+      "latency_ms": 1684.9,
+      "question": "Does Calvin love music tours?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Night before 15 September 2023",
+      "gold": "September 14, 2023",
+      "latency_ms": 1431.0,
+      "question": "When did Dave have a great jam session with his band?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Classic cars like Dodge Charger.",
+      "gold": "Dodge Charger",
+      "latency_ms": 1665.9,
+      "question": "Would Dave prefer working on a Dodge Charger or a Subaru Forester?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Tupac and Dr. Dre",
+      "gold": "Tupac and Dr. Dre",
+      "latency_ms": 1604.7,
+      "question": "What was the artists Calvin used to listen to when he was a kid?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Dave's dad",
+      "gold": "Dad",
+      "latency_ms": 1455.0,
+      "question": "Which of their family member do Calvin and Dave have nostalgic memories about?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Yes, they met in Boston.",
+      "gold": "No",
+      "latency_ms": 1810.9,
+      "question": "Based on the conversation, did Calvin and Dave have a meeting in Boston between August and November 2023? Answer in yes or no.",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Boston",
+      "gold": "Boston",
+      "latency_ms": 1624.9,
+      "question": "Which city was Calvin at on October 3, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "3 October 2023",
+      "gold": "October 3, 2023",
+      "latency_ms": 1656.6,
+      "question": "When did Calvin met with local artists in Boston?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Exploring parks, music, car restoration.",
+      "gold": "Working on cars",
+      "latency_ms": 2036.5,
+      "question": "What shared activities do Dave and Calvin have?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Restoring and working on cars",
+      "gold": "Restoring cars",
+      "latency_ms": 1767.3,
+      "question": "What is Dave's favorite activity?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Three car shows attended by Dave.",
+      "gold": "two",
+      "latency_ms": 1755.2,
+      "question": "How many car shows has Dave attended?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Went to car show last Friday",
+      "gold": "attending a car show",
+      "latency_ms": 1841.9,
+      "question": "What was Dave doing in the first weekend of October 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Tinkered with engines together.",
+      "gold": "tinkering with car engines, restoration and refurbishing cars",
+      "latency_ms": 1867.9,
+      "question": "When Dave was a child, what did he and his father do in the garage?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "15 October 2023",
+      "gold": "first week of October 2023",
+      "latency_ms": 1780.5,
+      "question": "When did Calvin buy his second Ferrari?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "August 2022, after festival meeting",
+      "gold": "August 2022",
+      "latency_ms": 1826.7,
+      "question": "When did Calvin and Frank Ocean start collaborating?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Next month after October 19, 2023",
+      "gold": "November 2023",
+      "latency_ms": 1770.2,
+      "question": "When did Calvin plan on travelling to Tokyo the second time?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Dave and Calvin's friends and team",
+      "gold": "friends and team",
+      "latency_ms": 2003.6,
+      "question": "Who supports Calvin in tough times?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Collaborating, positive energy, passion, support",
+      "gold": "Calvin stays connected to the creative process by always staying up-to-date on world events and watching documentaries about artists.",
+      "latency_ms": 1695.1,
+      "question": "What does help Calvin stay connected to the creative process?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "25 October 2023",
+      "gold": "October 24, 2023",
+      "latency_ms": 1938.5,
+      "question": "When did Calvin visit some of the sights in Boston with a former high school friend?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "San Francisco, Detroit, mountainous region, Tokyo",
+      "gold": "San Francsico, Detroit",
+      "latency_ms": 2041.8,
+      "question": "Which cities did Dave travel to in 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Photography",
+      "gold": "photography",
+      "latency_ms": 1876.3,
+      "question": "Which hobby did Dave pick up in October 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Car show with dad at 10",
+      "gold": "attending a car show with Dad, working on an old car in a neighbor's garage when he was young, spent a summer restoring an old car with Dad",
+      "latency_ms": 1732.2,
+      "question": "Which events in Dave's life inspired him to take up auto engineering?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two Ferraris",
+      "gold": "two",
+      "latency_ms": 2159.1,
+      "question": "How many Ferraris does Calvin own?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Gold necklace with diamond pendant",
+      "gold": "gold chain, custom-made guitar with an octopus on it",
+      "latency_ms": 1968.4,
+      "question": "What gifts has Calvin received from his artist friends?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "About two months, finishing next month",
+      "gold": "nearly two months",
+      "latency_ms": 2039.6,
+      "question": "How long did Dave's work on the Ford Mustang take?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Duration not shared in memories.",
+      "gold": "two weeks",
+      "latency_ms": 2344.5,
+      "question": "How long was the car modification workshop in San Francisco?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Custom-made with octopus design, purple",
+      "gold": "custom-made yellow guitar with an octopus on it, shiny purple guitar",
+      "latency_ms": 2098.8,
+      "question": "What style of guitars does Calvin own?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Hanging out, walks, jam sessions, concerts.",
+      "gold": "weekly visits to local parks, countryside roadtrip, celebration of the opening of his car maintenance shop, card-playing nights",
+      "latency_ms": 1248.8,
+      "question": "What activities has Dave participated in with his friends?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "September or October 2023 (last month)",
+      "gold": "September 2023",
+      "latency_ms": 1440.1,
+      "question": "When did Dave take a photo of a Boston clock tower?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "No, some projects are challenging.",
+      "gold": "No",
+      "latency_ms": 1225.9,
+      "question": "Do all of Dave's car restoration projects go smoothly?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "On tour with Frank Ocean",
+      "gold": "Tokyo",
+      "latency_ms": 1050.3,
+      "question": "Where was Calvin located in the last week of October 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "31 May 2023",
+      "gold": "last week of October 2023",
+      "latency_ms": 1183.6,
+      "question": "When did Dave find the car he repaired and started sharing in his blog?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "17 November 2023",
+      "gold": "November 2023",
+      "latency_ms": 1064.1,
+      "question": "When did Dave buy a vintage camera?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "November 2023",
+      "gold": "November 16, 2023",
+      "latency_ms": 1150.0,
+      "question": "When did Calvin attend a gala in Boston?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "A few months",
+      "gold": "A few months",
+      "latency_ms": 1689.8,
+      "question": "How long did Calvin plan to stay in Japan?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Aerosmith",
+      "gold": "Aerosmith",
+      "latency_ms": 1094.8,
+      "question": "Which band was Dave's favorite at the music festival in April 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Tokyo",
+      "gold": "Tokyo",
+      "latency_ms": 1082.0,
+      "question": "Where did Calvin attend a music festival in April 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stay true and sound unique.",
+      "gold": "to stay true to himself and sound unique",
+      "latency_ms": 1187.0,
+      "question": "What advice did Calvin receive from the producer at the music festival?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Car maintenance shop opened by Dave",
+      "gold": "Car maintenance shop",
+      "latency_ms": 1216.3,
+      "question": "What is Dave's new business venture as of 1 May, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "All kinds, including classic restorations",
+      "gold": "all kinds of cars, from regular maintenance to full restorations of classic cars",
+      "latency_ms": 1426.6,
+      "question": "What type of cars does Dave work on at his shop?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gold necklace with diamond pendant",
+      "gold": "a gold necklace with a diamond pendant",
+      "latency_ms": 1302.1,
+      "question": "What did Calvin receive as a gift from another artist?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Why he keeps hustling as musician",
+      "gold": "why he keeps hustling as a musician",
+      "latency_ms": 1509.9,
+      "question": "What was the necklace Calvin received meant to remind him of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Immerses in favorite activities, like concerts.",
+      "gold": "immerse himself in something he loves",
+      "latency_ms": 1401.4,
+      "question": "What does Dave do when he feels his creativity is frozen?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Immersing in favorite activities, long drives.",
+      "gold": "explore other things and have some fun",
+      "latency_ms": 1339.4,
+      "question": "How does Calvin plan to jumpstart his inspiration?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Music gear and favorite microphone",
+      "gold": "music gear and favorite microphone",
+      "latency_ms": 1437.0,
+      "question": "What did Calvin manage to save during the flood incident?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Car maintenance shop",
+      "gold": "a car shop",
+      "latency_ms": 1235.5,
+      "question": "What did Dave open in May 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Restoring cars and helping others.",
+      "gold": "Fixing up things",
+      "latency_ms": 1390.7,
+      "question": "What gives Dave a sense of achievement and purpose?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Performing live music fuels soul.",
+      "gold": "Performing live",
+      "latency_ms": 1398.1,
+      "question": "What fuels Calvin's soul?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Exploring parks and working on cars.",
+      "gold": "exploring parks",
+      "latency_ms": 1583.3,
+      "question": "What is Dave doing to relax on weekends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Skiing on snowy peaks in Japan",
+      "gold": "Skiing",
+      "latency_ms": 1441.9,
+      "question": "What sports activity is Calvin planning to try after the tour with Frank Ocean?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Get back on the road cruising",
+      "gold": "get back on the road",
+      "latency_ms": 1525.9,
+      "question": "What was Calvin excited to do after getting his car fixed on 7 July, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Jamming music session together.",
+      "gold": "regular walks together",
+      "latency_ms": 1640.8,
+      "question": "What did Calvin and his friends arrange for in the park?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Electronic-infused experimental music genres",
+      "gold": "experimenting with different genres",
+      "latency_ms": 1703.1,
+      "question": "What kind of music has Calvin been creating lately?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Exciting process of self-discovery and growth",
+      "gold": "gives them a fresh vibe",
+      "latency_ms": 1553.8,
+      "question": "How does Calvin describe his process of adding electronic elements to his songs?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Ferrari",
+      "gold": "Ferrari",
+      "latency_ms": 1675.1,
+      "question": "What car brand does Calvin own that he is proud of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Expand music brand worldwide, grow fanbase",
+      "gold": "expand his brand worldwide and grow his fanbase",
+      "latency_ms": 1554.3,
+      "question": "What is Calvin's biggest current goal?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Keep exploring and evolving as artist.",
+      "gold": "to never forget his dreams",
+      "latency_ms": 1686.5,
+      "question": "What is Dave's advice to Calvin regarding his dreams?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Car mod workshop",
+      "gold": "Car mod workshop",
+      "latency_ms": 1758.7,
+      "question": "What workshop did Dave get picked for on 11 August, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Engine swaps, suspension, body modifications",
+      "gold": "engine swaps, suspension modifications, and body modifications",
+      "latency_ms": 1788.6,
+      "question": "What kind of modifications has Dave been working on in the car mod workshop?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Classic muscle car",
+      "gold": "classic muscle car",
+      "latency_ms": 2036.9,
+      "question": "What type of car did Dave work on during the workshop?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Attention to detail and personalization",
+      "gold": "attention to small details",
+      "latency_ms": 1635.7,
+      "question": "What does Dave say is important for making his custom cars unique?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Very engaged, singing along, magical moment.",
+      "gold": "Everyone was so into it and sang along",
+      "latency_ms": 1708.3,
+      "question": "How did the audience in Tokyo react when Calvin sang one of his songs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "At a music festival in Tokyo",
+      "gold": "At a music festival in Tokyo",
+      "latency_ms": 2000.6,
+      "question": "How did Calvin meet Frank Ocean?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Studio at Calvin’s mansion, Tokyo",
+      "gold": "In the studio at Calvin's mansion",
+      "latency_ms": 1816.7,
+      "question": "Where did Calvin and Frank Ocean record a song together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Podcast discussing rapidly evolving rap industry",
+      "gold": "a podcast discussing the rap industry",
+      "latency_ms": 1697.1,
+      "question": "What did Calvin and his friends record in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Miami at an awesome beach",
+      "gold": "Miami",
+      "latency_ms": 1752.1,
+      "question": "Where did Calvin start shooting a video for his new album?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Octopus design by Japanese artist.",
+      "gold": "octopus",
+      "latency_ms": 1835.6,
+      "question": "What design is featured on Calvin's guitar?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Unique look matching his style",
+      "gold": "unique look",
+      "latency_ms": 1729.7,
+      "question": "Why did Calvin get his guitar customized with a shiny finish?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Purple glow",
+      "gold": "purple",
+      "latency_ms": 1960.1,
+      "question": "What color glow did Calvin customize his guitar with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "San Francisco",
+      "gold": "San Francisco",
+      "latency_ms": 1816.9,
+      "question": "Where did Dave come back from with insights on car modification on 1st September 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Making a difference, relief, satisfaction",
+      "gold": "Proud",
+      "latency_ms": 1952.6,
+      "question": "What emotion does Dave mention feeling when he sees the relief of someone whose car he fixed?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Flight ticket to Boston.",
+      "gold": "Boston",
+      "latency_ms": 1997.2,
+      "question": "What did Calvin book a flight ticket for on 1st September 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Growing his brand after tour",
+      "gold": "exploring and growing his brand",
+      "latency_ms": 1874.1,
+      "question": "What is Calvin excited about after the tour?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Explore food, music, and car garage.",
+      "gold": "Check out Dave's garage and maybe get some ideas for future projects",
+      "latency_ms": 1922.6,
+      "question": "What plans do Calvin and Dave have for when Calvin visits Boston?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Ratatouille",
+      "gold": "Ratatouille",
+      "latency_ms": 1894.7,
+      "question": "Which Disney movie did Dave mention as one of his favorites?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Very satisfying to see positive reactions.",
+      "gold": "satisfying and worth the hard work",
+      "latency_ms": 1960.3,
+      "question": "How does Dave feel about the reactions of people when they see the finished restoration project?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Feeling wind and freedom on drives",
+      "gold": "feeling the wind blowing through his hair",
+      "latency_ms": 1976.3,
+      "question": "What activity did Calvin enjoy during his summer drives?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "California Love by Tupac and Dr. Dre",
+      "gold": "\"California Love\"",
+      "latency_ms": 1002.0,
+      "question": "Which song from the childhood of Calvin brings back memories of a road trip with his dad?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Vintage car restoration project",
+      "gold": "A shiny orange car",
+      "latency_ms": 1048.4,
+      "question": "What project did Calvin work on to chill out?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Old Ford Mustang",
+      "gold": "Ford Mustang",
+      "latency_ms": 1076.4,
+      "question": "What car did Dave work on in the junkyard?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Seeing hard work pay off",
+      "gold": "Transforming something old and beat-up into something beautiful",
+      "latency_ms": 1396.2,
+      "question": "What does Dave find satisfying about restoring old cars?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Hard work, dedication, support, determination.",
+      "gold": "Hard work and determination",
+      "latency_ms": 1722.2,
+      "question": "What do Calvin and Dave use to reach their goals?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Therapeutic passion and calming outlet.",
+      "gold": "Therapy and a way to get away from everyday stress",
+      "latency_ms": 1125.5,
+      "question": "What does working on cars represent for Dave?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Work on classic cars and restorations.",
+      "gold": "Take something broken and make it into something awesome",
+      "latency_ms": 1062.8,
+      "question": "What does Dave aim to do with his passion for cars?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "New Ferrari",
+      "gold": "Ferrari",
+      "latency_ms": 1085.1,
+      "question": "What did Calvin recently get that is a \"masterpiece on wheels\"?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Fireworks",
+      "gold": "The Fireworks",
+      "latency_ms": 991.0,
+      "question": "Who headlined the music festival that Dave attended in October?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Passion, support system, breaks, positive mindset.",
+      "gold": "Reminds himself of his passion for goals, gets help from others, and takes a break to recharge",
+      "latency_ms": 1289.8,
+      "question": "How does Calvin stay motivated when faced with setbacks?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Restoring vintage cars and automotive engineering",
+      "gold": "fixing things",
+      "latency_ms": 1192.2,
+      "question": "What activity does Dave find fulfilling, similar to Calvin's passion for music festivals?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Music festival in Tokyo",
+      "gold": "at a festival",
+      "latency_ms": 1207.6,
+      "question": "Where did Calvin and Dave meet Frank Ocean to start collaborating?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Shibuya Crossing",
+      "gold": "Shibuya Crossing",
+      "latency_ms": 1263.5,
+      "question": "Which part of Tokyo is described as Tokyo's Times Square by Calvin?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Shibuya Crossing and Shinjuku",
+      "gold": "Shinjuku",
+      "latency_ms": 1212.2,
+      "question": "What specific location in Tokyo does Calvin mention being excited to explore?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Ramen",
+      "gold": "ramen",
+      "latency_ms": 1216.5,
+      "question": "What dish does Dave recommend Calvin to try in Tokyo?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Energy from the crowd on stage",
+      "gold": "Performing and connecting with the crowd",
+      "latency_ms": 1336.0,
+      "question": "What does Calvin find energizing during the tour?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Strong support system, one day at time.",
+      "gold": "Takes it one day at a time",
+      "latency_ms": 1287.9,
+      "question": "How does Calvin balance his job and personal life?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Struggles people go through feelings",
+      "gold": "Struggles that people go through",
+      "latency_ms": 1294.4,
+      "question": "What inspired Calvin's recent music?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Digging deeper to capture feelings authentically",
+      "gold": "Express himself and work through his emotions",
+      "latency_ms": 1516.3,
+      "question": "How does Calvin describe his music in relation to capturing feelings?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Found old car, sparked love engineering.",
+      "gold": "Fascinated with how machines work",
+      "latency_ms": 1317.1,
+      "question": "Why did Dave start working on cars?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Paying extra attention to detail.",
+      "gold": "Paying extra attention to detail",
+      "latency_ms": 1474.6,
+      "question": "What is the toughest part of car restoration according to Dave?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Paying attention to small details",
+      "gold": "Paying attention to small details",
+      "latency_ms": 1476.2,
+      "question": "What does Calvin believe makes an artist create something extraordinary?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "23 October 2023",
+      "gold": "Last year",
+      "latency_ms": 1445.2,
+      "question": "When did Dave sell the car he restored last year?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared explicitly.",
+      "gold": "at an early age",
+      "latency_ms": 1868.7,
+      "question": "When did Calvin first get interested in cars?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Unreal, dream come true, energized.",
+      "gold": "Unreal, like a dream come true",
+      "latency_ms": 1480.0,
+      "question": "How did Calvin feel about performing with someone he admires?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Importance of supportive relationships in music",
+      "gold": "how much music means to him, it's like his passion and purpose",
+      "latency_ms": 1602.4,
+      "question": "What realization did the nightclub experience bring to Calvin?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Focus, hard work, growth, mutual support",
+      "gold": "It's fulfilling and motivating",
+      "latency_ms": 1751.4,
+      "question": "What do Dave and Calvin agree on regarding their pursuits?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Boston",
+      "gold": "Boston",
+      "latency_ms": 1907.7,
+      "question": "Which city is featured in the photograph Dave showed Calvin?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Threw party for new album.",
+      "gold": "Threw a small party for his new album",
+      "latency_ms": 1840.5,
+      "question": "What did Calvin do recently at his Japanese house?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Car modifications and car mods.",
+      "gold": "Car mods",
+      "latency_ms": 1641.5,
+      "question": "What did Dave recently start a blog about?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sharing knowledge about cars and restoration",
+      "gold": "Through a blog on car mods",
+      "latency_ms": 1625.1,
+      "question": "What is Dave's way to share his passion with others?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Music videos, concerts, artist documentaries",
+      "gold": "Music videos, concerts, documentaries about artists and their creative process",
+      "latency_ms": 1642.1,
+      "question": "What type of videos does Calvin usually watch on his television?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Classic rock",
+      "gold": "Classic rock",
+      "latency_ms": 1508.2,
+      "question": "What type of music has Dave been getting into lately?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Collaboration, positive energy, creative haven.",
+      "gold": "Writing lyrics and notes",
+      "latency_ms": 1685.9,
+      "question": "What tools does Calvin use to boost his motivation for music?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Car modification stories and DIY projects",
+      "gold": "How he made his car look like a beast",
+      "latency_ms": 1769.1,
+      "question": "What type of content does Dave post on his blog that inspired others to start their own DIY projects?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inspires others to start DIY projects.",
+      "gold": "It inspires others to start their DIY projects",
+      "latency_ms": 1939.1,
+      "question": "What kind of impact does Dave's blog on car mods have on people?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "His old high school buddy",
+      "gold": "his old high school buddy",
+      "latency_ms": 1783.5,
+      "question": "Who did Calvin invite to see him perform in Boston on 13 November, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Shooting music video for new album",
+      "gold": "Photography",
+      "latency_ms": 1726.4,
+      "question": "What hobby did Calvin take up recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Vintage camera",
+      "gold": "A vintage camera",
+      "latency_ms": 2414.7,
+      "question": "What new item did Dave buy recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Nature scenes like sunsets and waves",
+      "gold": "Nature - sunsets, beaches, waves",
+      "latency_ms": 2180.7,
+      "question": "What type of photos does Dave like to capture with his new camera?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fancy gala in Boston",
+      "gold": "Fancy gala",
+      "latency_ms": 1944.2,
+      "question": "What event did Calvin attend in Boston?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Music and art connection discussion",
+      "gold": "Music and art",
+      "latency_ms": 1948.2,
+      "question": "What did Calvin discuss with the cool artist he met at the gala?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Nearby park with rocks and waterfall",
+      "gold": "Nearby park",
+      "latency_ms": 1829.2,
+      "question": "Where did Dave take a stunning photo of a waterfall?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Nature really does the trick",
+      "gold": "Nature helps us appreciate life",
+      "latency_ms": 2208.7,
+      "question": "What positive impact does Calvin mention nature has on tough times?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1859.1,
+      "question": "Which DJ was Dave's favorite at the music festival in April 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Advice from chef not shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1853.0,
+      "question": "What advice did Calvin receive from the chef at the music festival?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Not shared; only Dave's car shop.",
+      "gold": "Not mentioned",
+      "latency_ms": 1933.4,
+      "question": "What is Calvin's new business venture as of 1 May, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "All kinds, including classic restorations",
+      "gold": "Not mentioned",
+      "latency_ms": 1882.5,
+      "question": "What type of cars does Calvin work on at his shop?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Diamond pendant necklace",
+      "gold": "Not mentioned",
+      "latency_ms": 1923.7,
+      "question": "What did Dave receive as a gift from another artist?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Passion for music",
+      "gold": "Not mentioned",
+      "latency_ms": 1659.7,
+      "question": "What was the necklace Dave received meant to remind him of?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Calvin did not open anything.",
+      "gold": "Not mentioned",
+      "latency_ms": 1123.9,
+      "question": "What did Calvin open in May 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Music, performing, creating joy, car work",
+      "gold": "Not mentioned",
+      "latency_ms": 1299.9,
+      "question": "What gives Calvin a sense of achievement and purpose?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Mountain hiking",
+      "gold": "Not mentioned",
+      "latency_ms": 1195.9,
+      "question": "What sports activity is Dave planning to try after the tour with Frank Ocean?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1025.6,
+      "question": "How does Calvin describe his process of adding acoustic elements to his songs?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared clothing brand name.",
+      "gold": "Not mentioned",
+      "latency_ms": 1298.1,
+      "question": "What clothing brand does Calvin own that he is proud of?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 941.0,
+      "question": "What workshop did Calvin get picked for on 11 August, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Engine swaps, suspension, body modifications",
+      "gold": "Not mentioned",
+      "latency_ms": 1223.8,
+      "question": "What kind of modifications has Calvin been working on in the car mod workshop?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Classic muscle car",
+      "gold": "Not mentioned",
+      "latency_ms": 995.8,
+      "question": "What type of car did Calvin work on during the workshop?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Music with band during jam session",
+      "gold": "Not mentioned",
+      "latency_ms": 1519.0,
+      "question": "What did Dave and his friends record in August 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared where Dave shot video.",
+      "gold": "Not mentioned",
+      "latency_ms": 1134.1,
+      "question": "Where did Dave start shooting a video for his new album?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Octopus design",
+      "gold": "Not mentioned",
+      "latency_ms": 1028.3,
+      "question": "What design is featured on Dave's guitar?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared why Dave customized guitar.",
+      "gold": "Not mentioned",
+      "latency_ms": 1174.2,
+      "question": "Why did Dave get his guitar customized with a shiny finish?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared about Dave's guitar glow.",
+      "gold": "Not mentioned",
+      "latency_ms": 1283.0,
+      "question": "What color glow did Dave customize his guitar with?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "San Francisco",
+      "gold": "Not mentioned",
+      "latency_ms": 1218.5,
+      "question": "Where did Calvin come back from with insights on car modification on 1st September 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Joy and sense of achievement",
+      "gold": "Not mentioned",
+      "latency_ms": 1367.7,
+      "question": "What emotion does Calvin mention feeling when he sees the relief of someone whose car he fixed?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1310.6,
+      "question": "What did Dave book a flight ticket for on 1st September 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared horror movie favorites.",
+      "gold": "Not mentioned",
+      "latency_ms": 1224.8,
+      "question": "Which horror movie did Dave mention as one of his favorites?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "California Love by Tupac and Dr. Dre",
+      "gold": "Not mentioned",
+      "latency_ms": 1408.9,
+      "question": "Which song from the childhood of Dave brings back memories of a road trip with his dad?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Ford Mustang",
+      "gold": "Not mentioned",
+      "latency_ms": 1372.6,
+      "question": "What car did Calvin work on in the junkyard?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1335.4,
+      "question": "What does Dave find satisfying about destroying old cars?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared about working on boats.",
+      "gold": "Not mentioned",
+      "latency_ms": 1286.2,
+      "question": "What does working on boats represent for Dave?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1630.5,
+      "question": "What does Dave aim to do with his passion for cooking?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1551.5,
+      "question": "What did Calvin recently get that is a \"masterpiece on canvas\"?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "The Fireworks",
+      "gold": "Not mentioned",
+      "latency_ms": 1414.6,
+      "question": "Who headlined the music festival that Calvin attended in October?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Shibuya Crossing",
+      "gold": "Not mentioned",
+      "latency_ms": 1801.0,
+      "question": "Which part of Tokyo is described as Tokyo's Times Square by Dave?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared specific Tokyo location to avoid.",
+      "gold": "Not mentioned",
+      "latency_ms": 1774.2,
+      "question": "What specific location in Tokyo does Calvin mention being excited to avoid?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "23 October 2023",
+      "gold": "Not mentioned",
+      "latency_ms": 1758.0,
+      "question": "When did Calvin sell the car he restored last year?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1546.5,
+      "question": "When did Calvin first get interested in motorcycles?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1465.4,
+      "question": "What realization did the nightclub experience bring to Dave?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Dave's activity at Japanese house.",
+      "gold": "Not mentioned",
+      "latency_ms": 1893.3,
+      "question": "What did Dave do recently at his Japanese house?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Calvin's blog topic.",
+      "gold": "Not mentioned",
+      "latency_ms": 1598.2,
+      "question": "What did Calvin recently start a blog about?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Music videos, concerts, artist documentaries",
+      "gold": "Not mentioned",
+      "latency_ms": 2001.0,
+      "question": "What type of videos does Dave usually watch on his television?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Photography, especially nature scenes.",
+      "gold": "Not mentioned",
+      "latency_ms": 1568.1,
+      "question": "What type of art has Dave been getting into lately?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared cooking content on blog.",
+      "gold": "Not mentioned",
+      "latency_ms": 1679.4,
+      "question": "What type of content does Dave post on his blog that inspired others to start their own cooking projects?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared about vegan recipe blog.",
+      "gold": "Not mentioned",
+      "latency_ms": 2122.0,
+      "question": "What kind of impact does Dave's blog on vegan recipes have on people?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared who Dave invited.",
+      "gold": "Not mentioned",
+      "latency_ms": 1716.1,
+      "question": "Who did Dave invite to see him perform in Boston on 13 November, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "New Ferrari 488 GTB car",
+      "gold": "Not mentioned",
+      "latency_ms": 1656.4,
+      "question": "What new item did Calvin buy recently?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Special moments, nature scenes, Japanese garden",
+      "gold": "Not mentioned",
+      "latency_ms": 1723.8,
+      "question": "What type of photos does Calvin like to capture with his new camera?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Music and art connection discussion.",
+      "gold": "Not mentioned",
+      "latency_ms": 1696.2,
+      "question": "What did Dave discuss with the cool artist he met at the gala?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Japanese garden with pond waterfall",
+      "gold": "Not mentioned",
+      "latency_ms": 1691.0,
+      "question": "Where did Calvin take a stunning photo of a waterfall?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}

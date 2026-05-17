@@ -1,0 +1,266 @@
+{
+  "version": "V2.7.2",
+  "date": "2026-05-10",
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "cat5_excluded": true,
+  "totals": {
+    "correct": 1296,
+    "total": 1540,
+    "score": 0.8416
+  },
+  "per_conversation": {
+    "conv-26": {
+      "correct": 128,
+      "total": 152,
+      "score": 0.8421052631578947,
+      "per_category": {
+        "1": {
+          "correct": 24,
+          "total": 32
+        },
+        "2": {
+          "correct": 31,
+          "total": 37
+        },
+        "3": {
+          "correct": 8,
+          "total": 13
+        },
+        "4": {
+          "correct": 65,
+          "total": 70
+        }
+      }
+    },
+    "conv-30": {
+      "correct": 70,
+      "total": 81,
+      "score": 0.8641975308641975,
+      "per_category": {
+        "1": {
+          "correct": 9,
+          "total": 11
+        },
+        "2": {
+          "correct": 25,
+          "total": 26
+        },
+        "3": {
+          "correct": 0,
+          "total": 0
+        },
+        "4": {
+          "correct": 36,
+          "total": 44
+        }
+      }
+    },
+    "conv-41": {
+      "correct": 132,
+      "total": 152,
+      "score": 0.868421052631579,
+      "per_category": {
+        "1": {
+          "correct": 25,
+          "total": 31
+        },
+        "2": {
+          "correct": 21,
+          "total": 27
+        },
+        "3": {
+          "correct": 6,
+          "total": 8
+        },
+        "4": {
+          "correct": 80,
+          "total": 86
+        }
+      }
+    },
+    "conv-42": {
+      "correct": 158,
+      "total": 199,
+      "score": 0.7939698492462312,
+      "per_category": {
+        "1": {
+          "correct": 20,
+          "total": 37
+        },
+        "2": {
+          "correct": 38,
+          "total": 40
+        },
+        "3": {
+          "correct": 4,
+          "total": 11
+        },
+        "4": {
+          "correct": 96,
+          "total": 111
+        }
+      }
+    },
+    "conv-43": {
+      "correct": 150,
+      "total": 178,
+      "score": 0.8426966292134831,
+      "per_category": {
+        "1": {
+          "correct": 26,
+          "total": 31
+        },
+        "2": {
+          "correct": 22,
+          "total": 26
+        },
+        "3": {
+          "correct": 5,
+          "total": 14
+        },
+        "4": {
+          "correct": 97,
+          "total": 107
+        }
+      }
+    },
+    "conv-44": {
+      "correct": 104,
+      "total": 123,
+      "score": 0.8455284552845529,
+      "per_category": {
+        "1": {
+          "correct": 23,
+          "total": 30
+        },
+        "2": {
+          "correct": 21,
+          "total": 24
+        },
+        "3": {
+          "correct": 2,
+          "total": 7
+        },
+        "4": {
+          "correct": 58,
+          "total": 62
+        }
+      }
+    },
+    "conv-47": {
+      "correct": 127,
+      "total": 150,
+      "score": 0.8466666666666667,
+      "per_category": {
+        "1": {
+          "correct": 14,
+          "total": 20
+        },
+        "2": {
+          "correct": 29,
+          "total": 34
+        },
+        "3": {
+          "correct": 6,
+          "total": 13
+        },
+        "4": {
+          "correct": 78,
+          "total": 83
+        }
+      }
+    },
+    "conv-48": {
+      "correct": 169,
+      "total": 191,
+      "score": 0.8848167539267016,
+      "per_category": {
+        "1": {
+          "correct": 18,
+          "total": 21
+        },
+        "2": {
+          "correct": 36,
+          "total": 42
+        },
+        "3": {
+          "correct": 6,
+          "total": 10
+        },
+        "4": {
+          "correct": 109,
+          "total": 118
+        }
+      }
+    },
+    "conv-49": {
+      "correct": 124,
+      "total": 156,
+      "score": 0.7948717948717948,
+      "per_category": {
+        "1": {
+          "correct": 32,
+          "total": 37
+        },
+        "2": {
+          "correct": 24,
+          "total": 33
+        },
+        "3": {
+          "correct": 9,
+          "total": 13
+        },
+        "4": {
+          "correct": 59,
+          "total": 73
+        }
+      }
+    },
+    "conv-50": {
+      "correct": 134,
+      "total": 158,
+      "score": 0.8481012658227848,
+      "per_category": {
+        "1": {
+          "correct": 26,
+          "total": 32
+        },
+        "2": {
+          "correct": 25,
+          "total": 32
+        },
+        "3": {
+          "correct": 5,
+          "total": 7
+        },
+        "4": {
+          "correct": 78,
+          "total": 87
+        }
+      }
+    }
+  },
+  "per_category": {
+    "1": {
+      "correct": 217,
+      "total": 282,
+      "score": 0.7695
+    },
+    "2": {
+      "correct": 272,
+      "total": 321,
+      "score": 0.8474
+    },
+    "3": {
+      "correct": 51,
+      "total": 96,
+      "score": 0.5312
+    },
+    "4": {
+      "correct": 756,
+      "total": 841,
+      "score": 0.8989
+    }
+  }
+}

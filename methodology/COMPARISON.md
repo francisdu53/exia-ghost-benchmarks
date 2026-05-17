@@ -1,30 +1,52 @@
 # Detailed Comparison — EXIA GHOST vs Competitors
 
-> All data as of March 2026. Subject to change as systems evolve.
+> All data as of May 2026. Self-reported scores have not been independently audited unless
+> explicitly noted. Subject to change as systems evolve.
 
 ## LoCoMo Benchmark (ACL 2024)
 
-| System | Overall | Cat 1 Multi-hop | Cat 2 Temporal | Cat 3 World | Cat 4 Single-hop | Cat 5 Adversarial | Funding |
-|--------|---------|-----------------|----------------|-------------|-----------------|-------------------|---------|
-| **EXIA GHOST Full** | **95.27%** | **96.81%** | **99.07%** | **92.71%** | **91.08%** | **100.00%** | **$0** |
-| EverMemOS | 92.32% | — | — | — | — | skipped | Shanda Group |
-| MemU | 92.09% | — | — | — | — | skipped | — |
-| MemMachine v0.2 | 91.23% | — | — | — | — | skipped | $43.5M |
-| EXIA GHOST Memory | 89.94% | 86.17% | 85.36% | 93.75% | 92.51% | 71.52% | $0 |
-| MemMachine v0.1 | 84.87% | — | — | — | — | skipped | — |
-| Memobase | 75.78% | — | — | — | — | skipped | No disclosed |
-| Zep (self-reported) | 75.14% | — | — | — | — | skipped | $2.3M |
-| Mem0 | 66.9% | — | — | — | — | skipped | $24M |
-| Zep (disputed) | 58.44% | — | — | — | — | skipped | — |
+| System | Overall (Cat 1-4) | Evaluation | Source / Note |
+|--------|-------------------|------------|---------------|
+| MemMachine v0.2 (gpt-4.1-mini) | 91.69% | Self-reported | [memmachine.ai](https://memmachine.ai/blog/2025/12/memmachine-v0.2-delivers-top-scores-and-efficiency-on-locomo-benchmark/) |
+| EverMemOS | 92.32% | Self-reported | [EverMemOS evaluation](https://github.com/EverMind-AI/EverMemOS/blob/main/evaluation/README.md) |
+| MemU | 92.09% | Self-reported | [memu.pro](https://memu.pro/benchmark) |
+| ByteRover 2.0 | 92.2% | Self-reported | [byterover.dev](https://www.byterover.dev/blog/benchmark-ai-agent-memory) |
+| Mem0 (latest, 2025) | 91.6 – 92.5% | Self-reported | [mem0.ai/research](https://mem0.ai/research) |
+| **EXIA GHOST Memory Baseline** | **89.94%** | Self-reported, raw data published | [this repo](../locomo/) |
+| **EXIA GHOST Full Pipeline V2.7.2** | **84.16%** | Self-reported, raw data published | [`locomo/RESULTS_FULL_PIPELINE_V272.md`](../locomo/RESULTS_FULL_PIPELINE_V272.md) |
+| MemMachine v0.1 | 84.87% | Self-reported | their first paper |
+| Memori Labs | 81.95% | Self-reported | [memorilabs.ai](https://memorilabs.ai/blog/memori-locomo-paper-results/) |
+| LangMem | 78.05% | Cross-evaluation by Memori | [memorilabs.ai](https://memorilabs.ai/blog/memori-locomo-paper-results/) |
+| Memobase | 75.78% overall / 85.1% temporal | Self-reported | [memobase.io](https://www.memobase.io/blog/ai-memory-benchmark) |
+| Zep | 75.14% (counter-claim) / 58.44% (audit by Mem0) / 84% (original retracted) | **Disputed** | [Issue #5 on zep-papers](https://github.com/getzep/zep-papers/issues/5) |
+| Pam | 74.35% | Self-reported | [Pam blog](https://manager.harmix.ai/blog/pam-locomo-benchmark-results) |
+| Letta | 74.0% | Self-reported | [letta.com](https://www.letta.com/blog/benchmarking-ai-agent-memory) |
+| Mem0 (ECAI 2025 paper) | 66.9% | Independent paper | [arXiv 2504.19413](https://arxiv.org/abs/2504.19413) |
+| OpenAI Memory | 52.9% | Cross-evaluation by Mem0 | Mem0 paper |
 
-**Notes:**
-- EXIA GHOST Full: complete proprietary cognitive pipeline
-- EXIA GHOST Memory: memory-only baseline without cognitive pipeline
-- Only EXIA GHOST publishes per-category breakdown and Category 5 results
-- EXIA GHOST is the first and only system to achieve 100% on Category 5
-- Competitor per-category scores not publicly available
-- EverMemOS score evaluated under their own protocol (not independently verified)
-- Zep scores disputed — both values listed for transparency
+**Notes on the LoCoMo competitive landscape :**
+
+- **Almost every score above is self-reported** by the system vendor on their own
+  infrastructure. Independent cross-evaluation is rare.
+- The benchmark itself has been audited :
+  [Penfield Labs found that 6.4 % of LoCoMo gold answers are wrong](https://dev.to/penfieldlabs/we-audited-locomo-64-of-the-answer-key-is-wrong-and-the-judge-accepts-up-to-63-of-intentionally-33lg)
+  and that the judge LLM accepts up to 63 % of intentionally wrong answers. **A single
+  absolute LoCoMo score is therefore not a reliable ranking signal.** What matters more is
+  methodology, raw data availability, and reproducibility.
+- EXIA GHOST publishes (a) raw per-question JSON for every conversation, (b) a clean-room
+  reproducibility protocol, and (c) cross-version reproducibility evidence (V2.7.0 → V2.7.2,
+  one month apart, identical 158 / 199 strict on `conv-42`).
+- EXIA GHOST publishes **two** numbers because the configurations measure different things :
+  - **Memory Baseline (89.94 %)** = memory-only configuration, comparable to what most
+    competitors report.
+  - **Full Pipeline V2.7.2 (84.16 %)** = the integrated cognitive system under strict
+    constraints (cognitive contract enforced, Cat 5 abstention, no silent fallback). Lower
+    number, real number.
+- Cat 5 (adversarial) is excluded from the headline per EverMemOS / Mem0 community
+  convention. EXIA GHOST tracks Cat 5 separately as a hallucination-resistance metric.
+- The retracted EXIA GHOST Full result (95.27 %, April 2026) has been removed from this
+  table. The story is documented in the README "Correction Note" section and at
+  [`locomo/RESULTS_FULL_PIPELINE_V272.md`](../locomo/RESULTS_FULL_PIPELINE_V272.md).
 
 ## HaluMem Benchmark (arXiv 2511.03506)
 

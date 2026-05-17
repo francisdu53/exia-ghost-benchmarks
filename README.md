@@ -14,25 +14,25 @@
 | **HaluMem** Precision | **90.45%** | When EXIA extracts a fact, it is correct 90% of the time |
 | **HaluMem** Update Hallucination | **0.00%** | Zero hallucination on memory updates |
 | **LoCoMo** (ACL 2024) — Memory Baseline | **89.94%** accuracy (cats 1-4) | 10 conversations, 1,986 QA, 20 speakers |
-| **LoCoMo** — Full Pipeline | Re-run in progress | Previous result retracted — see [correction note](#correction-note-locomo-full-pipeline) |
+| **LoCoMo** — Full Pipeline (V2.7.2) | **84.16%** (1,296 / 1,540, cats 1-4) | 10 conversations, EverMemOS strict — see [results](locomo/RESULTS_FULL_PIPELINE_V272.md) |
 
-### Competitive Landscape (as of April 2026)
+### Cross-system landscape
 
-> The following comparison reflects publicly available scores at the time of publication.
-> These results are subject to change as competitors update their systems.
+For a sourced, evaluation-type-annotated comparison across the major memory systems
+(Mem0, EverMemOS, Zep, MemMachine, MemU, ByteRover, Memobase, Letta, and others), see
+[`methodology/COMPARISON.md`](methodology/COMPARISON.md).
 
-| System | HaluMem F1 | LoCoMo | Total Funding |
-|--------|-----------|--------|---------------|
-| **EXIA GHOST** | **82.10%** | **89.94%** | **$0** |
-| MemOS | 79.70%* | — | $0 (academic) |
-| EverMemOS | — | 93% | Shanda Group |
-| MemMachine v0.2 | — | 91.23% | $43.5M |
-| Memobase | — | 75.78% | No disclosed funding |
-| Mem0 | 57.85% | 66.9% | $24M |
-| Zep | < 50% | 58.44–75.14% | $2.3M |
-| Supermemory | 56.90% | — | Google execs |
+**A note on the landscape** : almost every score reported in the public memory-benchmark
+space is **self-reported** by the system vendor on their own infrastructure. Independent
+cross-evaluation remains rare, and LoCoMo itself was
+[audited in 2026 by Penfield Labs](https://dev.to/penfieldlabs/we-audited-locomo-64-of-the-answer-key-is-wrong-and-the-judge-accepts-up-to-63-of-intentionally-33lg)
+who found 6.4 % of the gold answers wrong and that the judge LLM accepts up to 63 % of
+intentionally wrong answers. A single absolute score across systems is therefore a weaker
+signal than methodology, reproducibility, and raw-data publication.
 
-\* MemOS and HaluMem share 7 authors — self-evaluation. See [note below](#note-on-halumem-benchmark-independence).
+EXIA GHOST publishes raw per-question results, a clean-room reproducibility protocol, and
+cross-version reproducibility evidence (V2.7.0 → V2.7.2 strict 158 / 199 on `conv-42`, one
+month apart). We invite reviewers to re-score independently.
 
 ### HaluMem — Detailed Results (V1.3.2, 1 user, 65 sessions)
 
@@ -61,19 +61,31 @@ Evaluation code published: [`eval_locomo.py`](locomo/eval_locomo.py)
 
 ### Correction Note: LoCoMo Full Pipeline
 
-> **April 2026**: The previously published Full Pipeline score (95.27%) has been retracted.
-> Investigation revealed that a software bug (graceful degradation mode triggering on excessive
-> cognitive latency) caused the pipeline to return template responses ("Not mentioned") instead
-> of actual cognitive answers. Combined with LLM judge leniency on template responses, this
-> produced artificially inflated scores. The bug has been identified and fixed in V1.4.1.
-> A corrected Full Pipeline re-run is in progress and results will be published with raw
-> per-question data for full independent verification.
+> **April 2026**: The previously published Full Pipeline score (95.27%) was retracted.
+> An internal audit revealed that a software bug (graceful degradation mode triggering on
+> excessive cognitive latency) caused the pipeline to return template responses
+> ("Not mentioned") instead of actual cognitive answers. Combined with LLM judge leniency on
+> template responses, this produced artificially inflated scores. The bug was fixed in V1.4.1
+> and the full pipeline was rebuilt over the following weeks.
 >
-> The Memory Baseline score (89.94%) is unaffected — it uses published evaluation code
-> and produces real factual answers.
+> **May 2026 — Re-run delivered**: The corrected Full Pipeline scores **84.16% (1,296 / 1,540,
+> cats 1-4)** on LoCoMo under the strict EverMemOS / Mem0 protocol (gpt-4o-mini judge, 3 runs
+> majority vote). The number is lower than the retracted 95.27% because the corrected pipeline
+> no longer uses any silent fallback — every answer is produced by the full cognitive sequence
+> or explicitly abstains. We chose to publish the honest number.
+>
+> Reproducibility was independently verified : `conv-42` scored 158 / 199 strict in both V2.7.0
+> (April 2026) and V2.7.2 (May 2026) re-runs on identical configurations.
+>
+> Full results, per-question raw data, and the cleaned benchmark script are available at
+> [`locomo/RESULTS_FULL_PIPELINE_V272.md`](locomo/RESULTS_FULL_PIPELINE_V272.md).
+>
+> The Memory Baseline score (89.94%) is unaffected — it uses a different configuration
+> (memory store accuracy in isolation, external LLM verbalization) and produces real factual
+> answers. Both numbers are useful and we keep both published.
 >
 > We thank [@dial481](https://github.com/dial481/locomo-audit) for the thorough audit
-> that helped identify this issue.
+> that helped identify the original issue.
 
 ---
 

@@ -1,0 +1,2190 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 150,
+  "cat5_excluded": true,
+  "score": 0.8426966292134831,
+  "ingest_ms": 0,
+  "total": 178,
+  "conversation_id": "conv-43",
+  "results": [
+    {
+      "response": "Win championship, improve shooting, inspire.",
+      "gold": "improve shooting percentage, win a championship",
+      "latency_ms": 2659.8,
+      "question": "what are John's goals with regards to his basketball career?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Charity work, inspiring others, building brand.",
+      "gold": "get endorsements, build his brand, do charity work",
+      "latency_ms": 2246.1,
+      "question": "What are John's goals for his career that are not related to his basketball skills?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Books, DVDs, sneakers, basketball jerseys",
+      "gold": "sneakers, fantasy movie DVDs, jerseys",
+      "latency_ms": 2040.1,
+      "question": "What items does John collect?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared Tim's opinion on them.",
+      "gold": "C. S.Lewis",
+      "latency_ms": 1875.8,
+      "question": "Would Tim enjoy reading books by C. S. Lewis or John Greene?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Harry Potter, Game of Thrones, Rothfuss",
+      "gold": "Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.",
+      "latency_ms": 1797.8,
+      "question": "What books has Tim read?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "MinaLima Harry Potter shop",
+      "gold": "House of MinaLima",
+      "latency_ms": 1742.9,
+      "question": "Based on Tim's collections, what is a shop that he would enjoy visiting in New York city?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "June 2023",
+      "gold": "June 2023",
+      "latency_ms": 1824.1,
+      "question": "In which month's game did John achieve a career-high score in points?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "No specific locations Tim visited shared.",
+      "gold": "California, London, the Smoky Mountains",
+      "latency_ms": 1766.9,
+      "question": "Which geographical locations has Tim been to?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared the outdoor gear company name.",
+      "gold": "Under Armour",
+      "latency_ms": 1822.5,
+      "question": "Which outdoor gear company likely signed up John for an endorsement deal?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Nike, Gatorade, renowned outdoor gear company",
+      "gold": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+      "latency_ms": 2103.4,
+      "question": "Which endorsement deals has John been offered?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "August 2023 or September 2023.",
+      "gold": "early August, 2023",
+      "latency_ms": 2098.3,
+      "question": "When was John in Seattle for a game?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Surfing",
+      "gold": "surfing",
+      "latency_ms": 2077.6,
+      "question": "What sports does John like besides basketball?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "2018",
+      "gold": "2018",
+      "latency_ms": 1964.4,
+      "question": "What year did John start surfing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Reads fantasy books and travels.",
+      "gold": "Read fantasy books.",
+      "latency_ms": 1869.9,
+      "question": "What does Tim do to escape reality?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Fantasy articles and fantasy novel writing",
+      "gold": "comments on favorite books in a fantasy literature forum, articles on fantasy novels, studying characters, themes, and making book recommendations, writing a fantasy novel",
+      "latency_ms": 1112.2,
+      "question": "What kind of writing does Tim do?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Charity event companion in trivia contest",
+      "gold": "likely John's friend, colleague or family",
+      "latency_ms": 926.3,
+      "question": "Who is Anthony?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Three weeks",
+      "gold": "three weeks",
+      "latency_ms": 1014.9,
+      "question": "After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Three games won mentioned by John.",
+      "gold": "6",
+      "latency_ms": 1420.4,
+      "question": "How many games has John mentioned winning?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Patrick Rothfuss, George R. R. Martin, J.K. Rowling",
+      "gold": "J.K. Rowling, R.R. Martin, Patrick Rothfuss, Paulo Coelho, and J. R. R. Tolkien.",
+      "latency_ms": 1143.0,
+      "question": "What authors has Tim read books from?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Local organization helping disadvantaged kids",
+      "gold": "Good Sports, because they work with Nike, Gatorade, and Under Armour and they aim toprovide youth sports opportunities for kids ages 3-18 in high-need communities.",
+      "latency_ms": 1213.4,
+      "question": "What is a prominent charity organization that John might want to work with and why?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "New York City",
+      "gold": "Seattle",
+      "latency_ms": 1571.1,
+      "question": "Which city was John in before traveling to Chicago?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "New York City, Chicago",
+      "gold": "Seattle, Chicago, New York",
+      "latency_ms": 1179.8,
+      "question": "Which US cities does John mention visiting to Tim?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "15 August 2023",
+      "gold": "August 15, 2023",
+      "latency_ms": 1667.0,
+      "question": "When did John meet with his teammates after returning from Chicago?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "September 2023 (next month from August)",
+      "gold": "September 2023",
+      "latency_ms": 1201.7,
+      "question": "When is Tim attending a book conference?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Trip before August 15, 2023",
+      "gold": "Chicago",
+      "latency_ms": 1374.4,
+      "question": "Where was John between August 11 and August 15 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Signed basketballs",
+      "gold": "signed basketball",
+      "latency_ms": 1167.7,
+      "question": "What similar sports collectible do Tim and John own?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "The Wheel of Time, That",
+      "gold": "That, Wheel of Time",
+      "latency_ms": 1273.0,
+      "question": "Which TV series does Tim mention watching?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Pomodoro technique: 25 minutes study, 5 break",
+      "gold": "Pomodoro technique",
+      "latency_ms": 1430.5,
+      "question": "Which popular time management technique does Tim use to prepare for exams?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "John Williams",
+      "gold": "John Williams",
+      "latency_ms": 1224.6,
+      "question": "Which popular music composer's tunes does Tim enjoy playing on the piano?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Not specified; four years in high school.",
+      "gold": "Middle school, high school, and college and he was with his high school team for 4 years.",
+      "latency_ms": 1296.4,
+      "question": "What schools did John play basketball in and how many years was he with his team during high school?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "New York City, Chicago, Italy, Seattle",
+      "gold": "Seattle, Chicago, New York, and Paris.",
+      "latency_ms": 1279.1,
+      "question": "Which cities has John been to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "September 2023",
+      "gold": "September, 2023",
+      "latency_ms": 1327.7,
+      "question": "What month did Tim plan on going to Universal Studios?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Florida or California",
+      "gold": "California or Florida",
+      "latency_ms": 1543.2,
+      "question": "Which US states might Tim be in during September 2023 based on his plans of visiting Universal Studios?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Next month from 21 September 2023",
+      "gold": "October, 2023",
+      "latency_ms": 1701.2,
+      "question": "When does John plan on traveling with his team on a team trip?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Start a foundation and charity work.",
+      "gold": "become a basketball coach since he likes giving back and leadership",
+      "latency_ms": 1642.4,
+      "question": "What could John do after his basketball career?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Basketball, surfing, hiking, camping.",
+      "gold": "Hiking, surfing",
+      "latency_ms": 1886.6,
+      "question": "What outdoor activities does John enjoy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "LeBron James",
+      "gold": "LeBron James",
+      "latency_ms": 1948.4,
+      "question": "Who is Tim and John's favorite basketball player?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Week before 13 October 2023",
+      "gold": "The week before October 13th, 2023.",
+      "latency_ms": 1437.4,
+      "question": "Which week did Tim visit the UK for the Harry Potter Conference?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Never shared which country visited most.",
+      "gold": "UK",
+      "latency_ms": 1557.5,
+      "question": "which country has Tim visited most frequently in his travels?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "2022",
+      "gold": "2022",
+      "latency_ms": 1525.0,
+      "question": "What year did Tim go to the Smoky Mountains?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Never shared Tim visiting those states.",
+      "gold": "Yes",
+      "latency_ms": 1514.2,
+      "question": "Has Tim been to North Carolina and/or Tennesee states in the US?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Fantasy novels and articles",
+      "gold": "Fantasy stories with plot twists",
+      "latency_ms": 1448.6,
+      "question": "What kind of fiction stories does Tim write?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Tasty soup with sage; honey garlic chicken",
+      "gold": "Soup, a slow cooker meal, and honey garlic chicken with roasted veg.",
+      "latency_ms": 1506.5,
+      "question": "What has John cooked?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Skills, leadership, work ethic, dedication.",
+      "gold": "His heart, determination, skills, and leadership.",
+      "latency_ms": 1656.4,
+      "question": "What does John like about Lebron James?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "6 November 2023",
+      "gold": "November, 2023.",
+      "latency_ms": 1800.2,
+      "question": "When did John and his wife go on a European vacation?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "United Kingdom",
+      "gold": "UK",
+      "latency_ms": 1565.4,
+      "question": "Which country was Tim visiting in the second week of November?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "In the UK, visiting a castle.",
+      "gold": "UK",
+      "latency_ms": 1714.7,
+      "question": "Where was Tim in the week before 16 November 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Week before 2 October 2023",
+      "gold": "last week of September 2023",
+      "latency_ms": 1767.3,
+      "question": "When did John get married at a greenhouse?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last basketball season, before November 2023",
+      "gold": "around November 16, 2023",
+      "latency_ms": 1999.9,
+      "question": "When did John get an ankle injury in 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two times",
+      "gold": "two times",
+      "latency_ms": 1824.9,
+      "question": "How many times has John injured his ankle?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "The Alchemist",
+      "gold": "The Alchemist",
+      "latency_ms": 1939.7,
+      "question": "Which book was John reading during his recovery from an ankle injury?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Warrior II pose yoga",
+      "gold": "Hatha Yoga",
+      "latency_ms": 1933.5,
+      "question": "What kind of yoga for building core strength might John benefit from?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Strength training at a new gym",
+      "gold": "Yoga, strength training",
+      "latency_ms": 1870.8,
+      "question": "What does John do to supplement his basketball training?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Yoga, strength training, physical therapy",
+      "gold": "Sprinting, long-distance running, and boxing.",
+      "latency_ms": 1936.8,
+      "question": "What other exercises can help John with his basketball performance?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Last year before December 2023",
+      "gold": "2022",
+      "latency_ms": 1780.1,
+      "question": "When did John take a trip to the Rocky Mountains?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Late December 2022 or early 2023",
+      "gold": "May, 2023",
+      "latency_ms": 1819.6,
+      "question": "When did John start playing professionally?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "December 2023",
+      "gold": "August 2023",
+      "latency_ms": 1861.4,
+      "question": "When did Tim start playing the violin?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Piano and violin",
+      "gold": "piano, violin",
+      "latency_ms": 1775.6,
+      "question": "What instruments does Tim play?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "2 August 2023",
+      "gold": "August 2023.",
+      "latency_ms": 2639.7,
+      "question": "When did John attend the Harry Potter trivia?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "40 points scored; career-high assists",
+      "gold": "highest point score, highest assist",
+      "latency_ms": 1994.9,
+      "question": "Which career-high performances did John achieve in 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Friday before 11 December 2023",
+      "gold": "December 11, 2023",
+      "latency_ms": 1987.7,
+      "question": "When did John achieve a career-high assist performance?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "The Alchemist, fantasy books, personal development",
+      "gold": "inpsiring book on dreaming big, The Alchemist, fantasy series, non-fiction books on personal development, Dune",
+      "latency_ms": 2098.7,
+      "question": "What books has John read?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Conducts seminars on sports and marketing",
+      "gold": "gives seminars, mentors younger players.",
+      "latency_ms": 2042.4,
+      "question": "What does John do to share his knowledge?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last summer (2023)",
+      "gold": "summer 2023",
+      "latency_ms": 1998.5,
+      "question": "When did John organize a basketball camp for kids?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "December 2023",
+      "gold": "December, 2023",
+      "latency_ms": 1311.6,
+      "question": "Which month was John in Italy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Star Wars, Harry Potter, Game of Thrones",
+      "gold": "Lord of the Rings, Harry Potter, and Star Wars.",
+      "latency_ms": 1079.6,
+      "question": "What fantasy movies does Tim like?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared a specific Star Wars book.",
+      "gold": "Star Wars: Jedi Apprentice by Judy Blundell and David Farland. It is a highly rated and immersive series about his favorite movies.",
+      "latency_ms": 1050.7,
+      "question": "What is a Star Wars book that Tim might enjoy?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Learning violin, travel club activities",
+      "gold": "Writing a travel blog.",
+      "latency_ms": 1234.1,
+      "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Friday before 7 January 2024",
+      "gold": "Januarty 5, 2024",
+      "latency_ms": 1129.4,
+      "question": "What day did Tim get into his study abroad program?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Next month after 7 January 2024",
+      "gold": "February, 2024",
+      "latency_ms": 1074.0,
+      "question": "When will Tim leave for Ireland?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Never shared Star Wars locations in Ireland.",
+      "gold": "Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+      "latency_ms": 1230.0,
+      "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Minnesota Wolves",
+      "gold": "The Minnesota Wolves",
+      "latency_ms": 1084.5,
+      "question": "Which team did John sign with on 21 May, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Shooting guard for Minnesota Wolves",
+      "gold": "shooting guard",
+      "latency_ms": 1018.7,
+      "question": "What is John's position on the team he signed with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Adapting to new team's play style",
+      "gold": "fitting into the new team's style of play",
+      "latency_ms": 1092.4,
+      "question": "What challenge did John encounter during pre-season training?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Characters, spells, magical creatures",
+      "gold": "characters, spells, magical creatures",
+      "latency_ms": 1108.6,
+      "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy literature forum",
+      "gold": "fantasy literature forum",
+      "latency_ms": 1175.0,
+      "question": "What forum did Tim join recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Photo of Harry Potter books on desk",
+      "gold": "MinaLima's creation from the Harry Potter films",
+      "latency_ms": 1316.7,
+      "question": "What kind of picture did Tim share as part of their Harry Potter book collection?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "40 points",
+      "gold": "40 points",
+      "latency_ms": 1306.1,
+      "question": "What was the highest number of points John scored in a game recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Winning a tough basketball game",
+      "gold": "a tough win",
+      "latency_ms": 1408.8,
+      "question": "What did John celebrate at a restaurant with teammates?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Basketball shoes and gear; sponsorship talks",
+      "gold": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+      "latency_ms": 1329.9,
+      "question": "What kind of deals did John sign with Nike and Gatorade?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Seattle",
+      "gold": "Seattle",
+      "latency_ms": 1467.6,
+      "question": "Which city is John excited to have a game at?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Five years",
+      "gold": "five years",
+      "latency_ms": 1330.2,
+      "question": "How long has John been surfing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Exciting and free-feeling",
+      "gold": "super exciting and free-feeling",
+      "latency_ms": 1297.0,
+      "question": "How does John feel while surfing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy novels, characters, themes, recommendations",
+      "gold": "different fantasy novels, characters, themes, and book recommendations",
+      "latency_ms": 1510.1,
+      "question": "What kind of articles has Tim been writing about for the online magazine?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Harry Potter and Game of Thrones",
+      "gold": "Harry Potter and Game of Thrones",
+      "latency_ms": 1291.7,
+      "question": "Which two fantasy novels does Tim particularly enjoy writing about?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Harry Potter trivia contest",
+      "gold": "an intense Harry Potter trivia contest",
+      "latency_ms": 1333.9,
+      "question": "What did Anthony and John end up playing during the charity event?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Photo of soccer game player",
+      "gold": "Characters from Harry Potter",
+      "latency_ms": 1377.8,
+      "question": "What did John share with the person he skyped about?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Awesome, like family away from home.",
+      "gold": "Awesome",
+      "latency_ms": 1418.1,
+      "question": "How did John describe the team bond?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Watching NBA games with his dad",
+      "gold": "Dad signed him up for a local league",
+      "latency_ms": 1406.8,
+      "question": "How did John get introduced to basketball?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Win a championship in basketball.",
+      "gold": "Winning a championship",
+      "latency_ms": 1433.2,
+      "question": "What is John's number one goal in his basketball career?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Local organization helping disadvantaged kids",
+      "gold": "A local organization helping disadvantaged kids with sports and school",
+      "latency_ms": 1550.2,
+      "question": "What organization is John teaming up with for his charity work?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "15 August 2023",
+      "gold": "Aug 15th",
+      "latency_ms": 1592.0,
+      "question": "When did John meet back up with his teammates after his trip in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A basketball signed by teammates",
+      "gold": "a basketball with autographs on it",
+      "latency_ms": 1585.4,
+      "question": "What did John's teammates give him when they met on Aug 15th?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sign of friendship and appreciation",
+      "gold": "to show their friendship and appreciation",
+      "latency_ms": 1646.4,
+      "question": "Why did John's teammates sign the basketball they gave him?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Learn more about literature and bonding",
+      "gold": "to learn more about literature and create a stronger bond to it",
+      "latency_ms": 1625.1,
+      "question": "What is the main intention behind Tim wanting to attend the book conference?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Learning to play the piano",
+      "gold": "play the piano",
+      "latency_ms": 1525.2,
+      "question": "What new activity has Tim started learning in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Harry Potter and the Philosopher's Stone",
+      "gold": "\"Harry Potter and the Philosopher's Stone\"",
+      "latency_ms": 1623.9,
+      "question": "Which movie's theme is Tim's favorite to play on the piano?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Watching first movie with family",
+      "gold": "Watching it with his family",
+      "latency_ms": 1714.8,
+      "question": "What special memory does \"Harry Potter and the Philosopher's Stone\" bring to Tim?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Home Alone, Elf, The Santa Clause",
+      "gold": "\"Home Alone\"",
+      "latency_ms": 1689.9,
+      "question": "Which movie does Tim mention they enjoy watching during Thanksgiving?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Watching movies like Home Alone together",
+      "gold": "Prepping the feast and talking about what they're thankful for",
+      "latency_ms": 1748.4,
+      "question": "What tradition does Tim mention they love during Thanksgiving?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Four years in high school",
+      "gold": "Four years",
+      "latency_ms": 1986.8,
+      "question": "How long did John and his high school basketball teammates play together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Great time, amazing, must-visit city.",
+      "gold": "Amazing",
+      "latency_ms": 1827.6,
+      "question": "How was John's experience in New York City?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "An adventure you will never forget.",
+      "gold": "It's got so much to check out - the culture, food - you won't regret it.",
+      "latency_ms": 1802.7,
+      "question": "What did John say about NYC, enticing Tim to visit?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chicken soup with sage flavor",
+      "gold": "tasty soup with sage",
+      "latency_ms": 1693.6,
+      "question": "What kind of soup did John make recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sage",
+      "gold": "sage",
+      "latency_ms": 2077.0,
+      "question": "What spice did John add to the soup for flavor?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Harry Potter attractions",
+      "gold": "The Harry Potter stuff",
+      "latency_ms": 1695.1,
+      "question": "What is Tim excited to see at Universal Studios?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Undecided city, considering Edinburgh, Scotland",
+      "gold": "a new city",
+      "latency_ms": 1737.9,
+      "question": "Where are John and his teammates planning to explore on a team trip?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Edinburgh, Scotland",
+      "gold": "Edinburgh, Scotland",
+      "latency_ms": 1810.5,
+      "question": "What city did Tim suggest to John for the team trip next month?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Start foundation and do charity work",
+      "gold": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+      "latency_ms": 1940.4,
+      "question": "What does John want to do after his basketball career?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Pick endorsements aligning with your values.",
+      "gold": "Ensure they align with values and brand, look for companies that share the desire to make a change and help others, make sure the endorsement feels authentic",
+      "latency_ms": 1947.2,
+      "question": "What advice did Tim give John about picking endorsements?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy book by Patrick Rothfuss",
+      "gold": "A fantasy novel by Patrick Rothfuss",
+      "latency_ms": 2779.4,
+      "question": "What book recommendation did Tim give to John for the trip?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Lovely greenhouse venue",
+      "gold": "Greenhouse",
+      "latency_ms": 1913.3,
+      "question": "What type of venue did John and his girlfriend choose for their wedding ceremony?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cozy restaurant with music and candlelight",
+      "gold": "Cozy restaurant",
+      "latency_ms": 1976.1,
+      "question": "What was the setting for John and his wife's first dance?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Wolves",
+      "gold": "The Wolves",
+      "latency_ms": 2028.4,
+      "question": "Which basketball team does Tim support?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy passion connects Tim globally.",
+      "gold": "passion for fantasy stuff",
+      "latency_ms": 982.5,
+      "question": "What passion does Tim mention connects him with people from all over the world?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Intense season with tough losses, wins",
+      "gold": "intense with tough losses and great wins",
+      "latency_ms": 1016.3,
+      "question": "How does John describe the game season for his team?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Motivated to improve, support each other.",
+      "gold": "by backing each other up and not quitting",
+      "latency_ms": 1043.6,
+      "question": "How does John say his team handles tough opponents?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bond and support among teammates",
+      "gold": "facing tough opponents",
+      "latency_ms": 1174.1,
+      "question": "What motivates John's team to get better, according to John?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A trophy",
+      "gold": "a trophy",
+      "latency_ms": 940.3,
+      "question": "What did John's team win at the end of the season?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Smoky Mountains, last summer trip",
+      "gold": "Smoky Mountains",
+      "latency_ms": 1599.7,
+      "question": "Where did Tim capture the photography of the sunset over the mountain range?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Rewarding and fulfilling experience.",
+      "gold": "It feels great",
+      "latency_ms": 1141.9,
+      "question": "How does John feel about being seen as a mentor by some of the younger players?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Watching players develop and reach goals",
+      "gold": "Seeing their growth, improvement, and confidence",
+      "latency_ms": 1122.3,
+      "question": "What does John find rewarding about mentoring the younger players?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Develop and reach their goals",
+      "gold": "reach their goals",
+      "latency_ms": 1047.2,
+      "question": "What has John been able to help the younger players achieve?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy genre",
+      "gold": "Fantasy",
+      "latency_ms": 924.1,
+      "question": "What genre is the novel that Tim is writing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "J.K. Rowling",
+      "gold": "J.K. Rowling",
+      "latency_ms": 1099.1,
+      "question": "Who is one of Tim's sources of inspiration for writing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "\"Turn on the light - happiness hides\"",
+      "gold": "\"Turn on the light - happiness hides in the darkest of times.\"",
+      "latency_ms": 1067.2,
+      "question": "What J.K. Rowling quote does Tim resonate with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Motivational quotes and strategies",
+      "gold": "motivational quotes and strategies",
+      "latency_ms": 1138.7,
+      "question": "What does John write on the whiteboard to help him stay motivated?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cooking",
+      "gold": "Cooking",
+      "latency_ms": 1254.9,
+      "question": "What hobby is a therapy for John when away from the court?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Honey garlic chicken with vegetables",
+      "gold": "honey garlic chicken with roasted veg",
+      "latency_ms": 1251.2,
+      "question": "What type of meal does John often cook using a slow cooker?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Write it down and mail it.",
+      "gold": "write it down and mail it",
+      "latency_ms": 1303.9,
+      "question": "How will John share the honey garlic chicken recipe with the other person?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stuck on plot twist, frustrating.",
+      "gold": "He got stuck on a plot twist",
+      "latency_ms": 1228.1,
+      "question": "What was Tim's huge writing issue last week,as mentioned on November 6, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Basketball signed by favorite player",
+      "gold": "a basketball signed by his favorite player",
+      "latency_ms": 1321.1,
+      "question": "What does Tim have that serves as a reminder of hard work and is his prized possession?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Work ethic, dedication, determination, iconic moments",
+      "gold": "LeBron's determination and the epic block in Game 7 of the '16 Finals",
+      "latency_ms": 1429.3,
+      "question": "Why do Tim and John find LeBron inspiring?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Spectacular, epic, powerful, beautiful views.",
+      "gold": "Spectacular",
+      "latency_ms": 1273.7,
+      "question": "How did John describe the views during their road trip out on the European coastline?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "That",
+      "gold": "\"That\"",
+      "latency_ms": 1362.8,
+      "question": "What is one of Tim's favorite fantasy TV shows, as mentioned on November 11, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Remembering love for writing and reading",
+      "gold": "Visualizing goals and success",
+      "latency_ms": 1543.9,
+      "question": "How does Tim stay motivated during difficult study sessions?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Ouch, bummer about the injury",
+      "gold": "The doctor said it's not too serious",
+      "latency_ms": 1491.5,
+      "question": "What did Tim say about his injury on 16 November, 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Writing story based on UK experiences failed",
+      "gold": "Story based on experiences in the UK didn't go as planned",
+      "latency_ms": 1435.7,
+      "question": "What was the setback Tim faced in his writing project on 21 November, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Physical therapy, patience, perseverance, daily exercises.",
+      "gold": "stayed focused on recovery and worked hard to strengthen his body",
+      "latency_ms": 1418.2,
+      "question": "How did John overcome his ankle injury from last season?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Love for writing and reading",
+      "gold": "Love for writing and reading",
+      "latency_ms": 1436.9,
+      "question": "What motivated Tim to keep pushing himself to get better in writing and reading?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Worked hard, learned resilience, owned mistakes.",
+      "gold": "Worked hard to get better and focused on growth",
+      "latency_ms": 1521.5,
+      "question": "How did John overcome a mistake he made during a big game in basketball?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Alchemist",
+      "gold": "The Alchemist",
+      "latency_ms": 1661.8,
+      "question": "What book did John recently finish rereading that left him feeling inspired and hopeful about following dreams?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inspired and motivated to follow dreams",
+      "gold": "made him think again about following dreams and searching for personal legends",
+      "latency_ms": 1521.4,
+      "question": "How did \"The Alchemist\" impact John's perspective on following dreams?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Yoga",
+      "gold": "yoga",
+      "latency_ms": 1774.5,
+      "question": "What is John trying out to improve his strength and flexibility after recovery from ankle injury?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "30 to 60 seconds",
+      "gold": "30-60 seconds",
+      "latency_ms": 1592.1,
+      "question": "How long does John usually hold the yoga pose he shared with Tim?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Near John's hometown forest",
+      "gold": "near his hometown",
+      "latency_ms": 1702.5,
+      "question": "Where was the forest picture shared by John on December 1,2023 taken?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Violin playing",
+      "gold": "an instrument",
+      "latency_ms": 1638.8,
+      "question": "What did Tim recently start learning in addition to being part of a travel club and working on studies?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Violin and piano",
+      "gold": "violin",
+      "latency_ms": 1673.8,
+      "question": "What instrument is Tim learning to play in December 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "About four months.",
+      "gold": "about four months",
+      "latency_ms": 1597.2,
+      "question": "How long has Tim been playing the piano for, as of December 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A Dance with Dragons",
+      "gold": "\"A Dance with Dragons\"",
+      "latency_ms": 1590.2,
+      "question": "What book did Tim just finish reading on 8th December, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "No book recommended on 8 December.",
+      "gold": "\"A Dance with Dragons\"",
+      "latency_ms": 1908.8,
+      "question": "Which book did Tim recommend to John as a good story on 8th December, 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Personal experiences and basketball highlights",
+      "gold": "Academic achievements and sports successes",
+      "latency_ms": 1872.9,
+      "question": "What is the topic of discussion between John and Tim on 11 December, 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Basketball game against rival team",
+      "gold": "basketball",
+      "latency_ms": 1639.1,
+      "question": "What kind of game did John have a career-high in assists in?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Practicing basketball outside for hours",
+      "gold": "practicing basketball outside for hours",
+      "latency_ms": 1793.1,
+      "question": "What was John's way of dealing with doubts and stress when he was younger?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Electric and intense, memorable night.",
+      "gold": "electric and intense",
+      "latency_ms": 1990.7,
+      "question": "How did John feel about the atmosphere during the big game against the rival team?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "It was great! Huge success.",
+      "gold": "It was a huge success.",
+      "latency_ms": 1972.7,
+      "question": "How did John feel after being able to jog without pain?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Amazing deal with outdoor gear company",
+      "gold": "Deal with a renowned outdoor gear company",
+      "latency_ms": 1730.9,
+      "question": "What kind of deal did John get in December?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "In a gorgeous forest.",
+      "gold": "In a gorgeous forest",
+      "latency_ms": 1789.9,
+      "question": "Where was the photoshoot done for John's gear deal?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Communication and bonding",
+      "gold": "Communication and bonding",
+      "latency_ms": 1891.3,
+      "question": "In which area has John's team seen the most growth during training?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sports and marketing seminars",
+      "gold": "Sports and marketing seminars",
+      "latency_ms": 1691.1,
+      "question": "What type of seminars is John conducting?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Visited travel agency for trip inquiry",
+      "gold": "visited a travel agency",
+      "latency_ms": 1949.3,
+      "question": "What activity did Tim do after reading the stories about the Himalayan trek?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Supporting youth sports and underserved communities",
+      "gold": "youth sports and fair chances in sports",
+      "latency_ms": 2161.7,
+      "question": "What is one cause that John supports with his influence and resources?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Wheel of Time",
+      "gold": "\"The Wheel of Time\"",
+      "latency_ms": 2052.0,
+      "question": "What new fantasy TV series is Tim excited about?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "German",
+      "gold": "German",
+      "latency_ms": 1961.1,
+      "question": "Which language is Tim learning?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "French and Spanish",
+      "gold": "Spanish",
+      "latency_ms": 2137.7,
+      "question": "What language does Tim know besides German?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "a cooking book",
+      "latency_ms": 925.5,
+      "question": "What book did Tim get in Italy that inspired him to cook?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Harry Potter and Game of Thrones",
+      "gold": "Harry Potter",
+      "latency_ms": 1023.0,
+      "question": "What is John's favorite book series?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Aragorn",
+      "gold": "Aragorn",
+      "latency_ms": 957.7,
+      "question": "According to John, who is his favorite character from Lord of the Rings?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Brave, selfless leader who inspires justice.",
+      "gold": "brave, selfless, down-to-earth attitude",
+      "latency_ms": 1111.5,
+      "question": "Why does John like Aragorn from Lord of the Rings?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Painting of Aragorn, leader reminder",
+      "gold": "a painting of Aragorn",
+      "latency_ms": 1018.1,
+      "question": "What kind of painting does John have in his room as a reminder?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stay true and be a leader",
+      "gold": "be a leader",
+      "latency_ms": 1174.5,
+      "question": "What is the painting of Aragorn a reminder for John to be in everything he does?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Map of Middle-earth from Lord of Rings",
+      "gold": "a map of Middle-earth from LOTR",
+      "latency_ms": 1163.5,
+      "question": "What map does Tim show to his friend John?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Galway, Ireland",
+      "gold": "Ireland",
+      "latency_ms": 1147.6,
+      "question": "Where will Tim be going for a semester abroad?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Galway",
+      "gold": "Galway",
+      "latency_ms": 1017.2,
+      "question": "Which city in Ireland will Tim be staying in during his semester abroad?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Benefit basketball game, early January 2024",
+      "gold": "benefit basketball game",
+      "latency_ms": 1246.0,
+      "question": "What charity event did John organize recently in 2024?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Endorsement with popular beverage company",
+      "gold": "endorsement with a popular beverage company",
+      "latency_ms": 1134.7,
+      "question": "What achievement did John share with Tim in January 2024?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dream come true, felt crazy, rewarded.",
+      "gold": "crazy feeling, sense of accomplishment",
+      "latency_ms": 1613.8,
+      "question": "What was Johns's reaction to sealing the deal with the beverage company?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Barcelona",
+      "gold": "Barcelona",
+      "latency_ms": 1157.3,
+      "question": "Which city did John recommend to Tim in January 2024?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1136.7,
+      "question": "Which team did Tim sign with on 21 May, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Tim never signed with any team.",
+      "gold": "Not mentioned",
+      "latency_ms": 1194.7,
+      "question": "What is Tim's position on the team he signed with?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1218.7,
+      "question": "What challenge did Tim encounter during pre-season training?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No cult; joined globetrotters group.",
+      "gold": "Not mentioned",
+      "latency_ms": 1342.1,
+      "question": "What cult did Tim join recently?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1340.8,
+      "question": "What was the highest number of points Tim scored in a game recently?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Tim never shared celebrating at restaurant.",
+      "gold": "Not mentioned",
+      "latency_ms": 1274.6,
+      "question": "What did Tim celebrate at a restaurant with teammates?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No deals signed by Tim shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1767.1,
+      "question": "What kind of deals did Tim sign with Nike and Gatorade?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Tim never shared feelings about surfing.",
+      "gold": "Not mentioned",
+      "latency_ms": 1434.4,
+      "question": "How does Tim feel while surfing?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1442.7,
+      "question": "What kind of articles has John been writing about for the online magazine?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1339.6,
+      "question": "Which two mystery novels does Tim particularly enjoy writing about?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Harry Potter trivia contest",
+      "gold": "Not mentioned",
+      "latency_ms": 1466.9,
+      "question": "What did Anthony and Tim end up playing during the charity event?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never explicitly shared in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1438.5,
+      "question": "How did Tim get introduced to basketball?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never give up, inspired by LeBron.",
+      "gold": "Not mentioned",
+      "latency_ms": 1602.5,
+      "question": "What is Tim's number one goal in his basketball career?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1531.6,
+      "question": "What organization is Tim teaming up with for his charity work?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared about Tim's teammates.",
+      "gold": "Not mentioned",
+      "latency_ms": 1764.9,
+      "question": "What did Tim's teammates give him when they met on Aug 15th?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Sign of friendship and appreciation",
+      "gold": "Not mentioned",
+      "latency_ms": 1597.9,
+      "question": "Why did John's teammates sign the football they gave him?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1623.9,
+      "question": "What is the main intention behind John wanting to attend the book conference?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Basketball training at new gym",
+      "gold": "Not mentioned",
+      "latency_ms": 1632.2,
+      "question": "What new activity has John started learning in August 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1857.0,
+      "question": "What special memory does \"Fifty Shades of Grey\" bring to Tim?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Home Alone, Elf, The Santa Clause",
+      "gold": "Not mentioned",
+      "latency_ms": 1708.5,
+      "question": "Which movie does John mention they enjoy watching during Thanksgiving?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Halloween costume parties and pumpkin carving",
+      "gold": "Not mentioned",
+      "latency_ms": 1610.1,
+      "question": "What tradition does Tim mention they love during Halloween?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Four years in high school",
+      "gold": "Not mentioned",
+      "latency_ms": 1714.7,
+      "question": "How long did Tim and his high school basketball teammates play together?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Tim's NYC experience.",
+      "gold": "Not mentioned",
+      "latency_ms": 1619.9,
+      "question": "How was Tim's experience in New York City?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Sage",
+      "gold": "Not mentioned",
+      "latency_ms": 1503.3,
+      "question": "What spice did Tim add to the soup for flavor?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1728.8,
+      "question": "What is Tim excited to see at Disneyland?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared where to avoid.",
+      "gold": "Not mentioned",
+      "latency_ms": 1939.7,
+      "question": "Where are John and his teammates planning to avoid on a team trip?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Writing and fantasy-related projects",
+      "gold": "Not mentioned",
+      "latency_ms": 2034.1,
+      "question": "What does Tim want to do after his basketball career?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1870.4,
+      "question": "What type of venue did John and his girlfriend choose for their breakup?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Basketball passion connects John worldwide.",
+      "gold": "Not mentioned",
+      "latency_ms": 1905.7,
+      "question": "What passion does John mention connects him with people from all over the world?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Supportive team like a cheer squad",
+      "gold": "Not mentioned",
+      "latency_ms": 1819.5,
+      "question": "How does Tim say his team handles tough opponents?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Smoky Mountains last summer",
+      "gold": "Not mentioned",
+      "latency_ms": 2585.6,
+      "question": "Where did Tim capture the painting of the sunset over the mountain range?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Sharing skills and knowledge with them",
+      "gold": "Not mentioned",
+      "latency_ms": 2016.8,
+      "question": "What does Tim find rewarding about mentoring the younger players?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Reach their goals",
+      "gold": "Not mentioned",
+      "latency_ms": 1904.8,
+      "question": "What has Tim been able to help the younger players achieve?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Fantasy genre",
+      "gold": "Not mentioned",
+      "latency_ms": 1950.9,
+      "question": "What genre is the novel that John is writing?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 2253.2,
+      "question": "Who is one of Tim's sources of inspiration for painting?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared what Tim writes.",
+      "gold": "Not mentioned",
+      "latency_ms": 1966.1,
+      "question": "What does Tim write on the whiteboard to help him stay motivated?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Reading fantasy books",
+      "gold": "Not mentioned",
+      "latency_ms": 1013.0,
+      "question": "What hobby is a therapy for Tim when away from the court?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Honey garlic chicken with vegetables",
+      "gold": "Not mentioned",
+      "latency_ms": 1046.9,
+      "question": "What type of meal does Tim often cook using a slow cooker?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "John will mail it to Tim.",
+      "gold": "Not mentioned",
+      "latency_ms": 1374.3,
+      "question": "How will Tim share the honey garlic chicken recipe with the other person?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1139.1,
+      "question": "What is one of Tim's favorite crime TV shows, as mentioned on November 11, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Story based on UK experiences failed",
+      "gold": "Not mentioned",
+      "latency_ms": 1056.8,
+      "question": "What was the setback Tim faced in his coding project on 21 November, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Tim's ankle injury recovery.",
+      "gold": "Not mentioned",
+      "latency_ms": 1258.9,
+      "question": "How did Tim overcome his ankle injury from last season?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Inspiration from books and personal growth",
+      "gold": "Not mentioned",
+      "latency_ms": 1407.9,
+      "question": "What motivated John to keep pushing himself to get better in writing and reading?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Inspired by LeBron's never-give-up attitude",
+      "gold": "Not mentioned",
+      "latency_ms": 1197.3,
+      "question": "How did Tim overcome a mistake he made during a big game in basketball?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared by Tim.",
+      "gold": "Not mentioned",
+      "latency_ms": 1113.9,
+      "question": "What is Tim trying out to improve his strength and flexibility after recovery from ankle injury?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Spanish language",
+      "gold": "Not mentioned",
+      "latency_ms": 1131.1,
+      "question": "What did John recently start learning in addition to being part of a travel club and working on studies?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared",
+      "gold": "Not mentioned",
+      "latency_ms": 1200.2,
+      "question": "What instrument is John learning to play in December 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared John playing piano duration.",
+      "gold": "Not mentioned",
+      "latency_ms": 1255.0,
+      "question": "How long has John been playing the piano for, as of December 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Game of Thrones series",
+      "gold": "Not mentioned",
+      "latency_ms": 1100.9,
+      "question": "What movie did Tim just finish watching on 8th December, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Basketball game against their rival",
+      "gold": "Not mentioned",
+      "latency_ms": 1184.2,
+      "question": "What kind of game did Tim have a career-high in assists in?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Reading fantasy books for escape.",
+      "gold": "Not mentioned",
+      "latency_ms": 1196.6,
+      "question": "What was Tim's way of dealing with doubts and stress when he was younger?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared location for fragrance photoshoot.",
+      "gold": "Not mentioned",
+      "latency_ms": 1319.5,
+      "question": "Where was the photoshoot done for John's fragrance deal?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Communication and bonding",
+      "gold": "Not mentioned",
+      "latency_ms": 1215.0,
+      "question": "In which area has Tim's team seen the most growth during training?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1225.6,
+      "question": "What type of seminars is Tim conducting?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Lack of fair chances in sports",
+      "gold": "Not mentioned",
+      "latency_ms": 1173.2,
+      "question": "What is one cause that John opposes with his influence and resources?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared",
+      "gold": "Not mentioned",
+      "latency_ms": 1312.8,
+      "question": "What new fantasy TV series is John excited about?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Spanish",
+      "gold": "Not mentioned",
+      "latency_ms": 1370.1,
+      "question": "Which language is John learning?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared least favorite character.",
+      "gold": "Not mentioned",
+      "latency_ms": 1372.9,
+      "question": "According to John, who is his least favorite character from Lord of the Rings?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared why Tim likes Aragorn.",
+      "gold": "Not mentioned",
+      "latency_ms": 1526.3,
+      "question": "Why does Tim like Aragorn from Lord of the Rings?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Painting of a man with long hair",
+      "gold": "Not mentioned",
+      "latency_ms": 1351.0,
+      "question": "What kind of painting does Tim have in his room as a reminder?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Stay true and be a leader",
+      "gold": "Not mentioned",
+      "latency_ms": 1469.3,
+      "question": "What is the sculpture of Aragorn a reminder for John to be in everything he does?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1553.3,
+      "question": "Which city in Ireland will John be staying in during his semester abroad?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Benefit basketball game raising money",
+      "gold": "Not mentioned",
+      "latency_ms": 1702.7,
+      "question": "What charity event did Tim organize recently in 2024?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Wow! I bet you were thrilled",
+      "gold": "Not mentioned",
+      "latency_ms": 1901.6,
+      "question": "What was Tims's reaction to sealing the deal with the beverage company?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}

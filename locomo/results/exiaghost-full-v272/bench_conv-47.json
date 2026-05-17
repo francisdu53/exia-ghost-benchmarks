@@ -1,0 +1,1722 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 127,
+  "cat5_excluded": true,
+  "score": 0.8466666666666667,
+  "ingest_ms": 0,
+  "total": 150,
+  "conversation_id": "conv-47",
+  "results": [
+    {
+      "response": "Never shared suspected health problems.",
+      "gold": "Obesity",
+      "latency_ms": 3011.5,
+      "question": "What are John's suspected health problems?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Bowling with 2 strikes.",
+      "gold": "bowling",
+      "latency_ms": 2053.9,
+      "question": "Which recreational activity was James pursuing on March 16, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Bar, gaming sessions, future trip destination",
+      "gold": "VR Club, McGee's, baseball game",
+      "latency_ms": 2196.4,
+      "question": "Which places or events have John and James planned to meet at?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "James has pets; John does not.",
+      "gold": "No",
+      "latency_ms": 1098.5,
+      "question": "Do both James and John have pets?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "March 2022",
+      "gold": "February 2022",
+      "latency_ms": 1224.4,
+      "question": "When did John resume playing drums in his adulthood?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "John: Dungeons of the Dragon; James: The Witcher 3",
+      "gold": "John's favorite game is CS:GO, and James's is Apex Legends.",
+      "latency_ms": 1050.8,
+      "question": "What are John and James' favorite games?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Not shared in memories.",
+      "gold": "Likely yes",
+      "latency_ms": 984.2,
+      "question": "Does James live in Connecticut?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Connecticut",
+      "gold": "Connecticut.",
+      "latency_ms": 838.7,
+      "question": "In which state is the shelter from which James adopted the puppy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Three dogs",
+      "gold": "Three dogs.",
+      "latency_ms": 895.1,
+      "question": "How many pets does James have?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Max, Daisy, Ned",
+      "gold": "Ned, Daisy, Max",
+      "latency_ms": 965.3,
+      "question": "What are the names of James's dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Early April 2022, last week before 12 April",
+      "gold": "first week of April 2022",
+      "latency_ms": 1209.0,
+      "question": "When did James adopt Ned?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Feeling not explicitly shared on April 10.",
+      "gold": "seeking solitude",
+      "latency_ms": 1745.4,
+      "question": "How was John feeling on April 10, 2022?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Yes, James had a girlfriend.",
+      "gold": "Presumably not",
+      "latency_ms": 1320.3,
+      "question": "Did James have a girlfriend during April 2022?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Last year (before April 2022)",
+      "gold": "In 2021",
+      "latency_ms": 1055.7,
+      "question": "When did James visit Italy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "26 April 2022",
+      "gold": "April 26, 2022",
+      "latency_ms": 1034.7,
+      "question": "When did James buy himself a new adventure book?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Before 29 April 2022",
+      "gold": "March 2022",
+      "latency_ms": 1085.4,
+      "question": "When did James start playing Civilization VI?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Uno",
+      "gold": "UNO",
+      "latency_ms": 1281.2,
+      "question": "What is the game with different colored cards that was John talking about with James?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Among Us",
+      "gold": "Mafia",
+      "latency_ms": 1135.1,
+      "question": "What is the board game where you have to find the imposter that John mentions to James?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "The Name of the Wind",
+      "gold": "The Name of the Wind, Stormlight Archive, Kingkiller Chronicles, Expanse",
+      "latency_ms": 1314.6,
+      "question": "Which books has John recommended to James?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Not explicitly stated in memories.",
+      "gold": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+      "latency_ms": 1214.8,
+      "question": "Was James feeling lonely before meeting Samantha?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Two charity tournaments organized by John.",
+      "gold": "two",
+      "latency_ms": 1295.2,
+      "question": "How many charity tournaments has John organized till date?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "8 May 2022",
+      "gold": "May 7, 2022",
+      "latency_ms": 1287.6,
+      "question": "When did John first organize a charity tournament with his friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Children's hospital, dog shelter, homeless people",
+      "gold": "animal shelter, homeless, children's hospital",
+      "latency_ms": 1539.5,
+      "question": "Who or which organizations have been the beneficiaries of John's charity tournaments?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "July 2022",
+      "gold": "In July, 2022",
+      "latency_ms": 1362.7,
+      "question": "When will John start his new job?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Strategy games, RPGs, computer game from sketches",
+      "gold": "football simulator, virtual world inspired by Witcher 3",
+      "latency_ms": 1319.4,
+      "question": "What kind of games has James tried to develop?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "No, James supports Liverpool; John Manchester City.",
+      "gold": "No, James is a Liverpool fan and John is a Manchester City fan.",
+      "latency_ms": 1364.9,
+      "question": "Are John and James fans of the same football team?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Italy, Turkey, Mexico, Nuuk",
+      "gold": "Italy, Mexico, Turkey, Canada, Greenland",
+      "latency_ms": 1300.1,
+      "question": "Which countries has James visited?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Cooking and programming classes",
+      "gold": "game design course, cooking classes",
+      "latency_ms": 1351.3,
+      "question": "What kind of classes has James joined?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "May 2022 (last month before June 19)",
+      "gold": "May 2022",
+      "latency_ms": 1708.7,
+      "question": "When did James volunteer at an organization?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "11 July 2022 evening",
+      "gold": "July 11, 2022",
+      "latency_ms": 1353.5,
+      "question": "When did James depart for his trip to Canada?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Canada",
+      "gold": "Canada",
+      "latency_ms": 1362.7,
+      "question": "Which country did James book tickets for in July 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "11 days",
+      "gold": "19 days",
+      "latency_ms": 1437.4,
+      "question": "How many days did James plan to spend on his trip in Canada?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "On trip in Toronto and Vancouver.",
+      "gold": "Toronto, Canada",
+      "latency_ms": 1393.1,
+      "question": "Where was James at on July 12, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "No direct mention of studying together.",
+      "gold": "Yes",
+      "latency_ms": 1616.2,
+      "question": "Did John and James study together?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Canada and Greenland",
+      "gold": "Canada, Greenland",
+      "latency_ms": 1552.4,
+      "question": "Which countries did James visit in July 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "United States",
+      "gold": "Greenland",
+      "latency_ms": 1765.3,
+      "question": "What additional country did James visit during his trip to Canada?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "John's companion.",
+      "gold": "Most likely John's partner.",
+      "latency_ms": 1529.4,
+      "question": "Who is Jill?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Never shared by John.",
+      "gold": "July 21, 2022",
+      "latency_ms": 1496.0,
+      "question": "When did John spend time with his sister and dogs?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Left IT job for gaming tournaments.",
+      "gold": "quit his IT Job, secured his dream job, aspires to become an eSports competition organizer",
+      "latency_ms": 1627.4,
+      "question": "What happened to John's job situation in 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Three years before August 2022",
+      "gold": "2019",
+      "latency_ms": 1607.3,
+      "question": "When did John start his job in IT?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Sit, stay, paw, rollover, skateboard balance",
+      "gold": "swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover",
+      "latency_ms": 1699.7,
+      "question": "What kind of tricks do James's pets know?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "9 August 2022, beach outing",
+      "gold": "August 9, 2022",
+      "latency_ms": 1859.6,
+      "question": "When did James meet Samantha?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "9 August 2022",
+      "gold": "August 9, 2022",
+      "latency_ms": 1668.4,
+      "question": "When did James take his 3 dogs to the beach?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Next month from 21 August 2022",
+      "gold": "In September, 2022",
+      "latency_ms": 1915.9,
+      "question": "When did John plan his next meeting with his siblings?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "John questioned Starbucks as meeting place.",
+      "gold": "Possibly because he likes to drink beer on his days off.",
+      "latency_ms": 1686.7,
+      "question": "Why didn't John want to go to Starbucks?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Light beers, stout, lager beer",
+      "gold": "Stout, lager",
+      "latency_ms": 1819.3,
+      "question": "What kind of beer does McGee's bar serve?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "27 August 2022",
+      "gold": "August 27, 2022",
+      "latency_ms": 1852.7,
+      "question": "When did John and James meet at McGee's bar?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "4 September 2022 at the theater",
+      "gold": "September 3, 2022",
+      "latency_ms": 1854.1,
+      "question": "When did James ask Samantha to be his girlfriend?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Next Sunday after 4 September 2022",
+      "gold": "September 11, 2022",
+      "latency_ms": 1940.3,
+      "question": "When did James, Samantha and John go to the baseball game together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Headphones, mouse, gaming desk refurbished",
+      "gold": "Sennheiser headphones, Logitech mouse, gaming desk",
+      "latency_ms": 1854.1,
+      "question": "What gaming equipments did John buy or refurbish?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two days before 4 September 2022",
+      "gold": "September 2, 2022",
+      "latency_ms": 1917.9,
+      "question": "When did James start taking cooking classes?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Chess, strategy games, RPGs, \"Dungeons of the Dragon\"",
+      "gold": "AC Valhalla, Witcher 3, FIFA 23, Dungeons of the Dragons, futuristic dystopian game",
+      "latency_ms": 1973.1,
+      "question": "Which new games did John start play during the course of the conversation with James?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Before September 20, 2022",
+      "gold": "approximately summer of 2022",
+      "latency_ms": 2085.2,
+      "question": "When did John start working on his 2D Adventure mobile game?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Never shared duration for completion.",
+      "gold": "six months",
+      "latency_ms": 1337.1,
+      "question": "How long did it take for James to complete his Witcher-inspired game?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Programming seminar, online programming competition",
+      "gold": "online programming competition, programming seminar",
+      "latency_ms": 1125.4,
+      "question": "What kind of programming-related events has John hosted?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Week before 13 October 2022",
+      "gold": "Last week before 13 October 2022.",
+      "latency_ms": 1097.0,
+      "question": "When did John and his programming friends host an online programming competition?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "James's mother visited him.",
+      "gold": "mother, sister",
+      "latency_ms": 1213.0,
+      "question": "Which of James's family members have visited him in the last year?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "19 October 2022",
+      "gold": "October 19, 2022",
+      "latency_ms": 1067.5,
+      "question": "When did James' mother and her friend visit him?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "20 October 2022",
+      "gold": "October 20, 2022",
+      "latency_ms": 1006.8,
+      "question": "When did James try Cyberpunk 2077 game?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "8 May 2022 and 31 October 2022",
+      "gold": "On the night of October 30 to 31, 2022",
+      "latency_ms": 1129.9,
+      "question": "When did John and his gaming friends organize the charity tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "CS:GO, Fortnite, Overwatch, Apex Legends",
+      "gold": "CS:GO, Fortnite, Overwatch and Apex Legends",
+      "latency_ms": 1137.5,
+      "question": "What games has John played with his friends at charity tournaments?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Never shared.",
+      "gold": "They decided to live together and rented an apartment not far from McGee's bar.",
+      "latency_ms": 1075.9,
+      "question": "What was James' big moment with Samantha in October 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Almost three months.",
+      "gold": "nearly three months",
+      "latency_ms": 994.2,
+      "question": "How long did James and Samantha date for before deciding to move in together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "4 November 2022",
+      "gold": "November 4, 2022",
+      "latency_ms": 1063.8,
+      "question": "When did James, his family and his dogs start on a road trip together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "About four months.",
+      "gold": "nearly four months",
+      "latency_ms": 1967.7,
+      "question": "How long did John practice chess for before winning the chess tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Before 7 November 2022",
+      "gold": "November 7, 2022",
+      "latency_ms": 1367.8,
+      "question": "When did James and his family visit Mark and Josh?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Weekend before 7 November 2022",
+      "gold": "November 5-6, 2022",
+      "latency_ms": 1456.9,
+      "question": "When did John work with a game developer on a project?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Python and C++",
+      "gold": "Python and C++",
+      "latency_ms": 1736.3,
+      "question": "What programming languages has James worked with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dog walking and pet care app",
+      "gold": "An app for dog walking and pet care",
+      "latency_ms": 1332.9,
+      "question": "What type of mobile application does James plan to build with John?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Personalized pup preferences and needs.",
+      "gold": "By allowing users to customize their pup's preferences/needs",
+      "latency_ms": 1518.1,
+      "question": "How does James plan to make his dog-sitting app unique?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bottle caps mostly, some coins, ring",
+      "gold": "bottle caps",
+      "latency_ms": 1405.1,
+      "question": "What has John mostly found with the metal detector so far?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Help find the perfect pet",
+      "gold": "help find the perfect pet",
+      "latency_ms": 1388.4,
+      "question": "What did James offer to do for John regarding pets?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Drums",
+      "gold": "Drums",
+      "latency_ms": 1582.4,
+      "question": "What instrument is John learning to play as of 27 March, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "One month",
+      "gold": "One month",
+      "latency_ms": 1315.9,
+      "question": "How long has John been playing the drums as of 27 March, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "CS:GO",
+      "gold": "CS:GO",
+      "latency_ms": 1444.3,
+      "question": "What game did John play in an intense tournament at the gaming convention in March 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Apex Legends",
+      "latency_ms": 1316.6,
+      "question": "What game was James playing in the online gaming tournament in April 2022?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Voice chat",
+      "gold": "voice chat",
+      "latency_ms": 1715.2,
+      "question": "How does James communicate with his gaming team?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Communicate well; prioritize team success.",
+      "gold": "never put your ego above team success",
+      "latency_ms": 1628.0,
+      "question": "What advice did James receive from the famous players he met at the tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A pup named Ned",
+      "gold": "a pup",
+      "latency_ms": 1418.4,
+      "question": "What did James adopt in April 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Ned",
+      "gold": "Ned",
+      "latency_ms": 1520.6,
+      "question": "What is the name of the pup that was adopted by James?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fell in love at first sight",
+      "gold": "He found her appearance and eyes amazing.",
+      "latency_ms": 1543.9,
+      "question": "Why did James embody the appearance of the game character from the woman he saw during a walk?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stranger's eyes and appearance inspiration",
+      "gold": "Appearance of a woman he saw during a walk",
+      "latency_ms": 1650.0,
+      "question": "What inspired James to create the game character in the virtual world?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Italy",
+      "latency_ms": 1459.5,
+      "question": "Which country did James visit in 2021?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Technologically advanced megacities and street food",
+      "gold": "Technologically advanced megacities and tasty street food",
+      "latency_ms": 1666.8,
+      "question": "What impresses John about Japan?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Difficult coding project",
+      "gold": "Coding assignment",
+      "latency_ms": 1655.1,
+      "question": "What kind of assignment was giving John a hard time at work?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Labrador",
+      "gold": "Labrador",
+      "latency_ms": 1674.7,
+      "question": "What breed is Daisy, one of James' dogs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Pepperoni pizza",
+      "gold": "Pepperoni",
+      "latency_ms": 1658.8,
+      "question": "What type of pizza is James' favorite?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Hawaiian pizza",
+      "gold": "Hawaiian",
+      "latency_ms": 1743.6,
+      "question": "What type of pizza is John's favorite?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "CS:GO tournament raising money for charity",
+      "gold": "A tournament for CS:GO",
+      "latency_ms": 1811.1,
+      "question": "What did John organize with his friends on May 8, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bought groceries and cooked food homeless",
+      "gold": "Bought groceries and cooked food for the homeless",
+      "latency_ms": 2036.1,
+      "question": "What did John and his friends do with the remaining money after helping the dog shelter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dog shelter near John's street",
+      "gold": "Raise money for a dog shelter",
+      "latency_ms": 1694.5,
+      "question": "What was the main goal of the money raised from the charity tournament organized by John and his friends in May 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Streamlined inventory, resources, donations tracking",
+      "gold": "tracking inventory, resources, and donations",
+      "latency_ms": 1690.5,
+      "question": "What did the system John created help the charitable foundation with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Software tool for inventory and reports",
+      "gold": "computer application on smartphones",
+      "latency_ms": 1780.9,
+      "question": "What did John create for the charitable foundation that helped generate reports for analysis?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Trophy and prize money",
+      "gold": "money and a trophy",
+      "latency_ms": 1850.0,
+      "question": "What did John receive for achieving second place in the tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Football simulator project with player databases",
+      "gold": "a new part of the football simulator, collecting player databases",
+      "latency_ms": 1824.2,
+      "question": "What project is James working on in his game design course?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Liverpool",
+      "gold": "Liverpool",
+      "latency_ms": 2014.6,
+      "question": "Who does James support in football matches?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Manchester City",
+      "gold": "Manchester City",
+      "latency_ms": 1687.7,
+      "question": "Which football club does John support?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Liverpool vs Manchester City final standings",
+      "gold": "debating on which team will perform better in the championship",
+      "latency_ms": 2117.1,
+      "question": "What disagreement do James and John have about their football teams?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Catching frisbees in mid-air.",
+      "gold": "catching frisbees in mid-air",
+      "latency_ms": 2035.7,
+      "question": "What is Max good at doing according to James?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Providing necessary items to less fortunate",
+      "gold": "providing necessary items to those who are less fortunate",
+      "latency_ms": 2235.2,
+      "question": "What is the main focus of the organization that James volunteered with?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "No interview required, just willingness.",
+      "gold": "No",
+      "latency_ms": 2047.8,
+      "question": "Will there be an interview required to volunteer with the organization James volunteered for?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Reading and finding fun escape",
+      "gold": "Reading",
+      "latency_ms": 2284.7,
+      "question": "How did John relax in his free time on 9 July, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Reading while snuggled under covers",
+      "gold": "Reading while snuggled under the covers",
+      "latency_ms": 2087.9,
+      "question": "What did James enjoy doing on cold winter days?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Extreme sports like rope jumping, surfing",
+      "gold": "Extreme sports",
+      "latency_ms": 1642.5,
+      "question": "What new hobby did James become interested in on 9 July, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Vancouver",
+      "gold": "Vancouver",
+      "latency_ms": 953.9,
+      "question": "Where did James plan to visit after Toronto?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "July 20, 2022",
+      "gold": "July 20",
+      "latency_ms": 1053.3,
+      "question": "When did James plan to return from his trip to Toronto and Vancouver?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chess",
+      "gold": "Chess",
+      "latency_ms": 1026.9,
+      "question": "What online game did John start playing recently for improving strategy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Passion and alignment with values",
+      "gold": "to focus on things that align with his values and passions",
+      "latency_ms": 931.6,
+      "question": "What made John leave his IT job?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fortnite, strategy, and RPG games tournaments",
+      "gold": "Fortnite competitions",
+      "latency_ms": 1337.3,
+      "question": "Which game tournaments does John plan to organize besides CS:GO?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Routine examination and vaccination done.",
+      "gold": "routine examination and vaccination",
+      "latency_ms": 1217.1,
+      "question": "What happened to James's puppy during the recent visit to the clinic?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Strategy and RPG games",
+      "gold": "strategy and RPG games",
+      "latency_ms": 1089.6,
+      "question": "What game genre did John start exploring instead of shooters?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Witcher 3",
+      "gold": "The Witcher 3",
+      "latency_ms": 1100.3,
+      "question": "Which RPG game is John playing and enjoying on 10 August, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Storytelling and characters shaping world",
+      "gold": "shaping the world with choices",
+      "latency_ms": 1097.3,
+      "question": "What aspect of \"The Witcher 3\" does John find immersive?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Samantha's phone number",
+      "gold": "Samantha",
+      "latency_ms": 1038.2,
+      "question": "Whose phone number did James receive during the beach outing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Call Samantha to ask out.",
+      "gold": "call her",
+      "latency_ms": 1245.1,
+      "question": "What is James planning to do after receiving Samantha's phone number?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gaming night with his siblings.",
+      "gold": "a gaming night",
+      "latency_ms": 1246.9,
+      "question": "What is John organizing with his siblings?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dark beer",
+      "gold": "dark beer",
+      "latency_ms": 1106.1,
+      "question": "What type of beer does John not like?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Balancing mechanics, ensuring fairness, saving progress",
+      "gold": "balancing mechanics and ensuring fairness",
+      "latency_ms": 1188.9,
+      "question": "What were some difficulties James faced during the development of his game?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coding and programming basics.",
+      "gold": "coding",
+      "latency_ms": 1435.4,
+      "question": "What has John been teaching his siblings?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Basic games and stories programs",
+      "gold": "basic games and stories",
+      "latency_ms": 1266.0,
+      "question": "What kind of programs are John's siblings making?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sennheiser",
+      "gold": "Sennheiser",
+      "latency_ms": 1223.5,
+      "question": "Which company's headphones did John choose for gaming?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Lager beer",
+      "gold": "Lager beer",
+      "latency_ms": 1249.2,
+      "question": "What did James and Samantha discover they both enjoy at McGee's bar?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "$10 per class",
+      "gold": "$10",
+      "latency_ms": 1344.9,
+      "question": "How much does James pay per cooking class?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dough",
+      "gold": "Dough",
+      "latency_ms": 1344.2,
+      "question": "What did James learn to make in the cooking class besides omelette and meringue?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To learn new skills despite dislike.",
+      "gold": "He wanted to learn something new",
+      "latency_ms": 1365.9,
+      "question": "Why did James sign up for a cooking class?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Omelette, meringue, dough.",
+      "gold": "Omelette",
+      "latency_ms": 1465.9,
+      "question": "What did James prepare for the first time in the cooking class?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dungeons of the Dragon",
+      "gold": "Dungeons of the Dragon",
+      "latency_ms": 1732.7,
+      "question": "What is the name of the board game John tried in September 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Books, movies, dreams, various sources",
+      "gold": "books, movies, dreams",
+      "latency_ms": 1541.1,
+      "question": "Where does James get his ideas from?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Medieval castle with puzzles and traps",
+      "gold": "a dream with a medieval castle full of puzzles and traps",
+      "latency_ms": 1498.5,
+      "question": "What kind of dream did James have recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Electronic and rock music",
+      "gold": "electronic and rock music",
+      "latency_ms": 1355.2,
+      "question": "What kind of music does John like?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Guitar",
+      "gold": "guitar",
+      "latency_ms": 1507.0,
+      "question": "What instrument did James used to play when he was younger?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Drums",
+      "gold": "drums",
+      "latency_ms": 1560.7,
+      "question": "What did John use to play when he was younger to let off steam?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Created first mobile game launching soon",
+      "gold": "making his first mobile game",
+      "latency_ms": 1571.7,
+      "question": "What career milestone did John achieve recently in September 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "2D adventure game with puzzles",
+      "gold": "2D adventure",
+      "latency_ms": 1521.5,
+      "question": "What type of game is John's upcoming mobile game?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Reads book, magazine, developer forums.",
+      "gold": "watch tutorials and keep up with developer forums",
+      "latency_ms": 1596.7,
+      "question": "What does John do to stay informed and constantly learn about game design?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Programming mentor for game developers",
+      "gold": "programming mentor for game developers",
+      "latency_ms": 1629.1,
+      "question": "What kind of gig was John offered at the game dev non-profit organization?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Excited and inspired, finds it rewarding.",
+      "gold": "excited and inspired",
+      "latency_ms": 1701.9,
+      "question": "What does John feel about starting the journey as a programming mentor for game developers?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "RPGs and Cyberpunk 2077",
+      "gold": "RPGs",
+      "latency_ms": 1839.6,
+      "question": "What kind of games is James excited to play with his new video card?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gaming passion, storytelling, The Witcher 3",
+      "gold": "Witcher 3",
+      "latency_ms": 1735.4,
+      "question": "What inspired James to create his game?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Nintendo with Super Mario and Zelda",
+      "gold": "Super Mario and The Legend of Zelda games",
+      "latency_ms": 1739.7,
+      "question": "What sparked James' passion for gaming when he was a kid?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Game progress during gameplay reveal.",
+      "gold": "a game",
+      "latency_ms": 1597.0,
+      "question": "What did James lose progress on due to a power outage?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fortnite, Overwatch, Apex Legends",
+      "gold": "Fortnite, Overwatch, Apex Legends",
+      "latency_ms": 1888.8,
+      "question": "What games were played at the gaming tournament organized by John on 31 October, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Raise funds for children's hospital",
+      "gold": "To raise money for a children's hospital",
+      "latency_ms": 1905.5,
+      "question": "What was the purpose of the gaming tournament organized by John on 31 October, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Move in together near McGee's bar",
+      "gold": "To move in together",
+      "latency_ms": 1817.6,
+      "question": "What decision did James and Samantha make on 31 October, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Apartment near McGee's bar",
+      "gold": "In an apartment not far from McGee's bar",
+      "latency_ms": 1801.6,
+      "question": "Where did James and Samantha decide to live together on 31 October, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Proximity to McGee's bar criteria",
+      "gold": "They love spending time together at the bar",
+      "latency_ms": 1806.7,
+      "question": "Why did James and Samantha choose an apartment near McGee's bar?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "FIFA 23",
+      "gold": "FIFA 23",
+      "latency_ms": 1911.1,
+      "question": "What game is John hooked on playing on 5 November, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Practice FIFA 23 gameplay skills.",
+      "gold": "Control with a gamepad and timing",
+      "latency_ms": 2099.6,
+      "question": "What did John suggest James practice before playing FIFA 23 together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Online board game creation",
+      "gold": "An online board game",
+      "latency_ms": 2002.0,
+      "question": "What project did John work on with a game developer by 7 November, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Luna",
+      "gold": "Luna",
+      "latency_ms": 1844.4,
+      "question": "What is the name of John's cousin's dog?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared what John adopted.",
+      "gold": "Not mentioned",
+      "latency_ms": 1860.5,
+      "question": "What did John adopt in April 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Kitten's name never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1928.9,
+      "question": "What is the name of the kitten that was adopted by James?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1816.1,
+      "question": "What inspired John to create the game character in the virtual world?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1340.4,
+      "question": "Which country did John visit in 2021?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Challenging coding project with bugs",
+      "gold": "Not mentioned",
+      "latency_ms": 1712.1,
+      "question": "What kind of assignment was giving James a hard time at work?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Bought groceries and fed homeless people",
+      "gold": "Not mentioned",
+      "latency_ms": 1954.2,
+      "question": "What did James and his friends do with the remaining money after helping the dog shelter?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Dog shelter near John's home",
+      "gold": "Not mentioned",
+      "latency_ms": 1172.7,
+      "question": "What was the main goal of the money raised from the political campaign organized by John and his friends in May 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 930.3,
+      "question": "What did the system John created help the illegal organization with?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared by James.",
+      "gold": "Not mentioned",
+      "latency_ms": 1024.3,
+      "question": "What did James create for the charitable foundation that helped generate reports for analysis?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Not shared in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1121.5,
+      "question": "Who does James support in cricket matches?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Swimming and playing in the water",
+      "gold": "Not mentioned",
+      "latency_ms": 973.1,
+      "question": "What is Max good at doing according to John?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No background check required.",
+      "gold": "Not mentioned",
+      "latency_ms": 1083.0,
+      "question": "Will there be a background check required to volunteer with the organization James volunteered for?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Surfing and extreme sports like rope jumping",
+      "gold": "Not mentioned",
+      "latency_ms": 1156.0,
+      "question": "How did James relax in his free time on 9 July, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Mixed emotions about extreme sports",
+      "gold": "Not mentioned",
+      "latency_ms": 1357.4,
+      "question": "What new hobby did John become interested in on 9 July, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared John’s return date.",
+      "gold": "Not mentioned",
+      "latency_ms": 1090.0,
+      "question": "When did John plan to return from his trip to Toronto and Vancouver?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared James leaving IT job.",
+      "gold": "Not mentioned",
+      "latency_ms": 1981.8,
+      "question": "What made James leave his IT job?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Fortnite tournaments",
+      "gold": "Not mentioned",
+      "latency_ms": 1311.3,
+      "question": "Which game tournaments does James plan to organize besides CS:GO?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No mention of kitten at clinic.",
+      "gold": "Not mentioned",
+      "latency_ms": 1331.6,
+      "question": "What happened to James's kitten during the recent visit to the clinic?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1174.0,
+      "question": "What aspect of \"The Witcher 3\" does John find boring?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Encouraged James to call Samantha.",
+      "gold": "Not mentioned",
+      "latency_ms": 1262.1,
+      "question": "What is John planning to do after receiving Samantha's phone number?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Coding",
+      "gold": "Not mentioned",
+      "latency_ms": 1265.2,
+      "question": "What has James been teaching his siblings?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1230.1,
+      "question": "How much does James pay per dance class?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Dough",
+      "gold": "Not mentioned",
+      "latency_ms": 1390.6,
+      "question": "What did James learn to make in the chemistry class besides omelette and meringue?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared why James signed up.",
+      "gold": "Not mentioned",
+      "latency_ms": 1258.2,
+      "question": "Why did James sign up for a ballet class?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared what John prepared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1418.3,
+      "question": "What did John prepare for the first time in the cooking class?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Dungeons of the Dragon",
+      "gold": "Not mentioned",
+      "latency_ms": 1328.5,
+      "question": "What is the name of the board game James tried in September 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Books, tutorials, developer forums, seminars",
+      "gold": "Not mentioned",
+      "latency_ms": 1466.7,
+      "question": "Where does John get his ideas from?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Guitar",
+      "gold": "Not mentioned",
+      "latency_ms": 1523.8,
+      "question": "What did James use to play when he was younger to let off steam?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Reads magazines, plays games, takes notes",
+      "gold": "Not mentioned",
+      "latency_ms": 1664.1,
+      "question": "What does James do to stay informed and constantly learn about game design?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1473.2,
+      "question": "What kind of gig was James offered at the game dev non-profit organization?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Excited and supportive about mentoring.",
+      "gold": "Not mentioned",
+      "latency_ms": 1623.4,
+      "question": "What does James feel about starting the journey as a programming mentor for game developers?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Stranger's eyes and appearance.",
+      "gold": "Not mentioned",
+      "latency_ms": 1692.8,
+      "question": "What inspired James to create his painting?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1794.2,
+      "question": "What games were played at the gaming tournament organized by James on 31 October, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Raise money for children's hospital",
+      "gold": "Not mentioned",
+      "latency_ms": 1522.6,
+      "question": "What was the purpose of the gaming tournament organized by James on 31 October, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared John and Samantha's decision.",
+      "gold": "Not mentioned",
+      "latency_ms": 1587.0,
+      "question": "What decision did John and Samantha make on 31 October, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Apartment near McGee's bar",
+      "gold": "Not mentioned",
+      "latency_ms": 1530.7,
+      "question": "Where did John and Samantha decide to live together on 31 October, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "McGee's bar was a key criterion.",
+      "gold": "Not mentioned",
+      "latency_ms": 1826.6,
+      "question": "Why did John and Samantha choose an apartment near McGee's bar?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Chess",
+      "gold": "Not mentioned",
+      "latency_ms": 1934.6,
+      "question": "What game is James hooked on playing on 5 November, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Football simulator project player databases",
+      "gold": "Not mentioned",
+      "latency_ms": 1704.4,
+      "question": "What project did James work on with a game developer by 7 November, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1668.4,
+      "question": "What is the name of James's cousin's dog?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}

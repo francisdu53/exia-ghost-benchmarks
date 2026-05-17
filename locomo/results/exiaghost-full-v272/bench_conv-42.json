@@ -1,0 +1,2352 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 158,
+  "cat5_excluded": true,
+  "score": 0.7939698492462312,
+  "ingest_ms": 0,
+  "total": 199,
+  "conversation_id": "conv-42",
+  "results": [
+    {
+      "response": "Yes, Nate has multiple friends.",
+      "gold": "Yesteammates on hisvideo game team.",
+      "latency_ms": 2564.8,
+      "question": "Is it likely that Nate has friends besides Joanna?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Movies, writing, cooking, gaming, desserts",
+      "gold": "Watching movies, making desserts",
+      "latency_ms": 1842.6,
+      "question": "What kind of interests do Joanna and Nate share?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Around 2019.",
+      "gold": "2019",
+      "latency_ms": 1704.8,
+      "question": "When did Joanna first watch \"Eternal Sunshine of the Spotless Mind?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "January 2022, playing Counter-Strike",
+      "gold": "the week before 21Janury, 2022",
+      "latency_ms": 2108.9,
+      "question": "When did Nate win his first video game tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Stuffed animals and turtles",
+      "gold": "Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",
+      "latency_ms": 1690.8,
+      "question": "What pets wouldn't cause any discomfort to Joanna?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Writing, reading, movies, nature, DIYs",
+      "gold": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+      "latency_ms": 1812.2,
+      "question": "What are Joanna's hobbies?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Three years (as of January 2022)",
+      "gold": "three years",
+      "latency_ms": 1742.5,
+      "question": "How long has Nate had his first two turtles?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last Friday before 23 January 2022",
+      "gold": "The Friday before 23January, 2022",
+      "latency_ms": 1907.3,
+      "question": "When did Joanna finish her first screenplay?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Three years before January 23, 2022",
+      "gold": "2019",
+      "latency_ms": 1817.5,
+      "question": "When did Nate get his first two turtles?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Finished first full screenplay January 2022",
+      "gold": "finished her screenplay and printed it",
+      "latency_ms": 1773.2,
+      "question": "What major achievement did Joanna accomplish in January 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Relief, excitement, worry, mixed emotions",
+      "gold": "Relief, excitement,worry, hope,anxiety.",
+      "latency_ms": 1812.3,
+      "question": "What emotions is Joanna feeling about  the screenplay she submitted?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Most reptiles and animals with fur",
+      "gold": "Most reptiles,animals with fur,cockroaches, dairy",
+      "latency_ms": 1715.3,
+      "question": "What is Joanna allergic to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Lactose intolerance and animal allergies",
+      "gold": "asthma",
+      "latency_ms": 1891.3,
+      "question": "What underlying condition might Joanna have based on her allergies?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "23 March 2022",
+      "gold": "23 March, 2022.",
+      "latency_ms": 2050.1,
+      "question": "When did Joanna have an audition for a writing gig?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Never shared nickname for Joanna.",
+      "gold": "Jo",
+      "latency_ms": 1850.4,
+      "question": "What nickname does Nate use for Joanna?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Last week before 15 April 2022",
+      "gold": "The week before 15April, 2022.",
+      "latency_ms": 2146.6,
+      "question": "When did Nate get purple hair?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Dyed hair bright purple.",
+      "gold": "dyed his hair purple",
+      "latency_ms": 1925.4,
+      "question": "What physical transformation did Nate undergo in April 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "The Lord of the Rings Trilogy",
+      "gold": "Lord of the Rings",
+      "latency_ms": 1957.5,
+      "question": "What movie did Joanna watch on 1 May, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Whispering Falls",
+      "gold": "Whispering Falls waterfall",
+      "latency_ms": 880.2,
+      "question": "Which outdoor spot did Joanna visit in May?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Two times",
+      "gold": "twice",
+      "latency_ms": 850.2,
+      "question": "How many times has Joanna found new hiking trails?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "20 May 2022",
+      "gold": "May 2022",
+      "latency_ms": 903.8,
+      "question": "When did Nate adopt Max?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Adopted pet dog Max",
+      "gold": "Max",
+      "latency_ms": 891.1,
+      "question": "Who was the new addition to Nate's family in May 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "25 February 2022",
+      "gold": "May 2022",
+      "latency_ms": 919.5,
+      "question": "When did Joanna start writing her third screenplay?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Screenplay finished by 3 June 2022",
+      "gold": "first screenplay on drama and romance, third screenplay on loss identity and connection",
+      "latency_ms": 1248.5,
+      "question": "Which of Joanna's screenplay were rejected from production companies?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two weekends after 3 June 2022",
+      "gold": "The weekend after 3June, 2022.",
+      "latency_ms": 1260.2,
+      "question": "When is Nate hosting a gaming party?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Weekend of 4-5 June 2022",
+      "gold": "The weekend after 3June, 2022.",
+      "latency_ms": 1086.4,
+      "question": "When did Joanna hike with her buddies?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Week before 3 June 2022",
+      "gold": "The week before 3June, 2022",
+      "latency_ms": 1059.2,
+      "question": "When did Nate win his third tourney?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Film festivals, film contest, major company",
+      "gold": "film contest, film festival.",
+      "latency_ms": 1100.9,
+      "question": "What places has Joanna submitted her work to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Friday before 24 June 2022",
+      "gold": "The Friday before 24June, 2022.",
+      "latency_ms": 1111.8,
+      "question": "When did Nate make vegan icecream and share it with a vegan diet group?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Weekend after 24 June 2022",
+      "gold": "The weekend of 24June, 2022.",
+      "latency_ms": 1125.2,
+      "question": "When is Joanna going to make Nate's ice cream for her family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Screenplays, dramas, emotionally-driven scripts",
+      "gold": "Screenplays,books, online blog posts, journal",
+      "latency_ms": 1224.4,
+      "question": "What kind of writings does Joanna do?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Friday before 10 July 2022",
+      "gold": "The Friday before 10July, 2022.",
+      "latency_ms": 1134.8,
+      "question": "When did Nate win his fourth video game tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Woodhaven, a small Midwestern town",
+      "gold": "Woodhaven",
+      "latency_ms": 1228.3,
+      "question": "Where did Joanna travel to in July 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "14 August 2022",
+      "gold": "The week before 14August, 2022.",
+      "latency_ms": 1117.3,
+      "question": "When did someone write Joanna a touching letter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Romantic drama; fantasy book series; wide reading",
+      "gold": "\"Little Women\",'A Court of Thorns andRoses'.",
+      "latency_ms": 1211.0,
+      "question": "What book recommendations has Joanna given to Nate?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Weekend of 22 August 2022",
+      "gold": "The weekend of 22August, 2022.",
+      "latency_ms": 1444.9,
+      "question": "When did Nate take time off to chill with his pets?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "22 August 2022",
+      "gold": "The week before 22August, 2022.",
+      "latency_ms": 1264.2,
+      "question": "When did Joanna share her book with her writers group?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "21 August 2022",
+      "gold": "21 August, 2022",
+      "latency_ms": 1246.9,
+      "question": "When did Nate win an international tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last Friday before 14 September 2022",
+      "gold": "The Friday before 14September, 2022",
+      "latency_ms": 1309.4,
+      "question": "When did Joanna make a desert with almond milk?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last Monday before 14 September 2022",
+      "gold": "The Monday before 14September, 2022",
+      "latency_ms": 1295.3,
+      "question": "When did Nate attend a cooking show?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Week before 14 September 2022",
+      "gold": "The week before 14September, 2022",
+      "latency_ms": 1299.3,
+      "question": "When did Joanna's laptop crash?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "6 October 2022",
+      "gold": "5 October, 2022",
+      "latency_ms": 1278.4,
+      "question": "When did Joanna make a chocolate tart with raspberries?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Little Women, The Lord of the Rings",
+      "gold": "\"Little Women\", \"Lord of the Rings\"",
+      "latency_ms": 1386.9,
+      "question": "What movies have both Joanna and Nate seen?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Several months, finished by October 2022",
+      "gold": "four months",
+      "latency_ms": 1436.0,
+      "question": "How long did it take for Joanna to finish writing her book?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Week before 6 October 2022",
+      "gold": "September 2022",
+      "latency_ms": 1604.8,
+      "question": "When did Nate win a lot of money in a video game tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Late September 2022 (one week before 6 October 2022)",
+      "gold": "The week before 6October, 2022",
+      "latency_ms": 1552.0,
+      "question": "When did Joanna finish up the writing for her book?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Catan",
+      "gold": "Chess, Catan.",
+      "latency_ms": 2195.4,
+      "question": "What board games has Nate played?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Tournament, regional video game tournament, game convention",
+      "gold": "A tournament and agaming convention.",
+      "latency_ms": 1489.3,
+      "question": "What places has Nate met new people?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Friday before 9 October 2022",
+      "gold": "The Friday before 9October, 2022.",
+      "latency_ms": 1616.3,
+      "question": "When did Nate go to a convention and meet new people?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Two times rejected.",
+      "gold": "Twice",
+      "latency_ms": 1659.0,
+      "question": "How many times has Joanna's scripts been rejected?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Stuffed animal to remind good vibes",
+      "gold": "stuffed toy pup",
+      "latency_ms": 1603.4,
+      "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "25 May 2022",
+      "gold": "25 May, 2022",
+      "latency_ms": 1489.1,
+      "question": "When did Nate get Tilly for Joanna?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "One script made it to big screen.",
+      "gold": "two",
+      "latency_ms": 1668.2,
+      "question": "How many of Joanna's writing have made it to the big screen?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two times",
+      "gold": "Twice.",
+      "latency_ms": 1450.5,
+      "question": "How many times has Nate taken his turtles on a walk?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Sunday before 25 October 2022",
+      "gold": "The Sunday before 25October, 2022.",
+      "latency_ms": 1776.6,
+      "question": "When was Joanna's second movie script shown on the big screens?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Personal experiences, nature, books, emotions",
+      "gold": "Personal experiences,her own journey ofself discovery, Nate,nature, validation,stories about findingcourage and takingrisks, people she knows, stuff she sees, imagination",
+      "latency_ms": 1641.0,
+      "question": "What is Joanna inspired by?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Dog",
+      "gold": "Turtles.",
+      "latency_ms": 1813.9,
+      "question": "What animal do both Nate and Joanna like?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Day after 4 November 2022",
+      "gold": "5 November, 2022.",
+      "latency_ms": 2001.9,
+      "question": "When did Joanna plan to go over to Nate's and share recipes?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Coconut milk ice cream, book series, baking tips",
+      "gold": "A pet,\"The Lord of the Rings\" movies,a dragon book series,coconut flavoring,\"Project Hail Mary\" book,Xenoblade Chronicles, dairy-free margarine, coconut oil",
+      "latency_ms": 1776.3,
+      "question": "What things has Nate reccomended to Joanna?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Writes stories and recalls childhood memories",
+      "gold": "Hangs them on a corkboard, writes themin a notebook.",
+      "latency_ms": 1989.0,
+      "question": "What does Joanna do to remember happy memories?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Xbox",
+      "gold": "A Nintendo Switch; since the game \"Xenoblade 2\" is made for this console.",
+      "latency_ms": 1762.6,
+      "question": "What Console does Nate own?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Computer, television, laptop, video game controller",
+      "gold": "Gamecube, PC,Playstation.",
+      "latency_ms": 2069.8,
+      "question": "What mediums does Nate use to play games?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "One letter received from a reader.",
+      "gold": "Two",
+      "latency_ms": 2659.7,
+      "question": "How many letters has Joanna recieved?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Counter-Strike: Global Offensive, Street Fighter, Cyberpunk 2077",
+      "gold": "Valorant, Counter Strike:Global Offensive,Xenoblade Chronicles, StreetFighter, Cyberpunk 2077",
+      "latency_ms": 2319.8,
+      "question": "What video games does Nate play?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Saturday before 7 November 2022",
+      "gold": "The Saturday before 7November, 2022",
+      "latency_ms": 1936.6,
+      "question": "When did Nate win a big Valorant tourney?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Big Valorant tournament final",
+      "gold": "Valorant",
+      "latency_ms": 1941.3,
+      "question": "Which torunament did Nate win in the beginning of November 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Creating gaming content for YouTube",
+      "gold": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+      "latency_ms": 1968.5,
+      "question": "What alternative career might Nate consider after gaming?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Dog named Max, three turtles",
+      "gold": "A dog and threeturtles.",
+      "latency_ms": 1863.2,
+      "question": "What pets does Nate have?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "At least three hikes mentioned.",
+      "gold": "Four",
+      "latency_ms": 1213.4,
+      "question": "How many hikes has Joanna been on?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Three turtles",
+      "gold": "Three",
+      "latency_ms": 945.5,
+      "question": "How many turtles does Nate have?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Watching, spending time, taking walks, beach trips",
+      "gold": "takes them onwalks, holds them,feeds themstrawberries, givesthem baths.",
+      "latency_ms": 1200.5,
+      "question": "What activities does Nate do with his turtles?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Nature's calming beauty and trails",
+      "gold": "Nature",
+      "latency_ms": 1186.9,
+      "question": "What do both Joanna and Nate appreciate the beauty of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "The next day after 9 November 2022",
+      "gold": "10 November, 2022",
+      "latency_ms": 1080.0,
+      "question": "When did Joanna plan on going to Nate's to watch him play with his turtles?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Indiana",
+      "latency_ms": 1025.1,
+      "question": "What state did Joanna visit in summer 2021?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Read widely, seek feedback, explore new things.",
+      "gold": "\"Eternal Sunshine of the Spotless Mind\" movie, \"A Court of Thorns and Roses\" book, pointers for making living room comfy, starting a cork board for memories, \"Little Women\" movie",
+      "latency_ms": 945.0,
+      "question": "What recommendations has Nate received from Joanna?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Coconut milk ice cream, chocolate, mixed berry",
+      "gold": "coconut milk icecream, dairy-free chocolate cake with berries, chocolate and mixed-berry icecream, dairy-free chocolate mousse",
+      "latency_ms": 1003.0,
+      "question": "What are Nate's favorite desserts?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Cooking show, vegan diet group, sharing recipes",
+      "gold": "teaching others, cooking show",
+      "latency_ms": 1361.3,
+      "question": "How has Nate tried to disburse his vegan ice-cream recipes?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Late April 2022",
+      "gold": "The week before 2 May, 2022.",
+      "latency_ms": 1212.5,
+      "question": "When did Nate win his second tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Four tournaments participated by Nate.",
+      "gold": "nine",
+      "latency_ms": 1074.1,
+      "question": "How many video game tournaments has Nate participated in?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two screenplays completed.",
+      "gold": "three",
+      "latency_ms": 1142.3,
+      "question": "How many screenplays has Joanna written?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Four tournaments won by Nate.",
+      "gold": "seven",
+      "latency_ms": 1113.3,
+      "question": "How many tournaments has Nate won?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Revised old recipe, dairy-free desserts",
+      "gold": "dairy free vanilla cake with strawberry filling and coconut cream frosting, parfait, strawberry chocolate cake, chocolate coconut cupcakes, chocolate raspberry tart, chocolate cake with raspberries, blueberry cheesecake bars",
+      "latency_ms": 1287.9,
+      "question": "What recipes has Joanna made?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Vegan ice cream, dairy-free coconut milk.",
+      "gold": "coconut milk icecream, chocolate and vanilla swirl",
+      "latency_ms": 1230.7,
+      "question": "What recipes has Nate made?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Gaming skills, dairy-free dessert recipes",
+      "gold": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills",
+      "latency_ms": 1281.6,
+      "question": "What are the skills that Nate has helped others learn?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "No",
+      "gold": "No; because both of them faced setbacks in their career",
+      "latency_ms": 1207.6,
+      "question": "Was the first half of September 2022 a good month career-wise for Nate and Joanna? Answer yes or no.",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Filmmaker or movie director duties",
+      "gold": "filmmaker.",
+      "latency_ms": 1282.0,
+      "question": "What kind of job is Joanna beginning to preform the duties of because of her movie scripts?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "10 November 2022",
+      "gold": "10 November, 2022",
+      "latency_ms": 1205.6,
+      "question": "When did Nate take his turtles to the beach?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Florida",
+      "gold": "Florida",
+      "latency_ms": 1320.8,
+      "question": "What state did Nate visit?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Eternal Sunshine of the Spotless Mind",
+      "gold": "\"Eternal Sunshineof the Spotless Mind\"",
+      "latency_ms": 1298.4,
+      "question": "What is one of Joanna's favorite movies?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bright and bold purple",
+      "gold": "purple",
+      "latency_ms": 1256.2,
+      "question": "What color did Nate choose for his hair?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Lord of the Rings Trilogy",
+      "gold": "Lord of the Rings",
+      "latency_ms": 1466.8,
+      "question": "What is Nate's favorite movie trilogy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Adventures, magic, and great characters",
+      "gold": "dragons",
+      "latency_ms": 1390.4,
+      "question": "What is Nate's favorite book series about?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "red and purple lighting",
+      "latency_ms": 1351.3,
+      "question": "What kind of lighting does Nate's gaming room have?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Street Fighter",
+      "gold": "Street Fighter",
+      "latency_ms": 1255.6,
+      "question": "What game was the second tournament that Nate won based on?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A thirty-year-old woman's self-discovery.",
+      "gold": "loss, identity, and connection",
+      "latency_ms": 1424.0,
+      "question": "What is Joanna's third screenplay about?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Counter-Strike: Global Offensive",
+      "gold": "Xenoblade Chronicles",
+      "latency_ms": 1331.5,
+      "question": "What is Nate's favorite video game?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy and sci-fi movies",
+      "gold": "action and sci-fi",
+      "latency_ms": 1427.1,
+      "question": "What type of movies does Nate enjoy watching the most?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "First full screenplay, drama and romance",
+      "gold": "screenplay",
+      "latency_ms": 1631.6,
+      "question": "What did Joanna just finish last Friday on 23 January, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Drama and romance",
+      "gold": "drama and romance",
+      "latency_ms": 1586.4,
+      "question": "What genre is Joanna's first screenplay?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Submit to film festivals, attract producers.",
+      "gold": "submit it to film festivals and get producers and directors to check it out",
+      "latency_ms": 1660.4,
+      "question": "What are Joanna's plans for her finished screenplay in January 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Three years since January 2022",
+      "gold": "3 years",
+      "latency_ms": 1704.2,
+      "question": "For how long has Nate had his turtles?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Rich, creamy, delicious, proud of himself",
+      "gold": "Super good, rich and creamy",
+      "latency_ms": 1618.2,
+      "question": "What did Nate think of the coconut milk ice cream he made?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coconut milk, chocolate, mixed berry flavors",
+      "gold": "chocolate and mixed berry",
+      "latency_ms": 1998.3,
+      "question": "Which dairy-free dessert flavors does Nate enjoy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Little Women",
+      "gold": "\"Little Women\"",
+      "latency_ms": 1579.2,
+      "question": "What did Joanna recently watch and recommend to Nate on February 7, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sisterhood, love, reaching for dreams",
+      "gold": "Sisterhood, love, and reaching for your dreams",
+      "latency_ms": 1711.1,
+      "question": "What is \"Little Women\" about according to Joanna?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chocolate and vanilla swirl",
+      "gold": "chocolate and vanilla swirl",
+      "latency_ms": 1687.3,
+      "question": "What flavor of ice cream did Nate make for his friend on 25 February, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Personal experiences and self-discovery journey",
+      "gold": "personal experiences and her own journey of self-discovery",
+      "latency_ms": 1723.0,
+      "question": "What inspired Joanna's new screenplay on 25 February, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Calming, low-maintenance, peaceful, unique pets.",
+      "gold": "Their slow pace and calming nature",
+      "latency_ms": 1912.0,
+      "question": "Why does Nate like turtles as pets?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Unique, calming, low-maintenance pets",
+      "gold": "Not tough; keep their area clean, feed them properly, give them enough light.",
+      "latency_ms": 1861.2,
+      "question": "How does Nate describe the process of taking care of turtles?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Writing gig audition",
+      "gold": "writing gig",
+      "latency_ms": 1946.0,
+      "question": "What was Joanna's audition for?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To stand out; bright and bold.",
+      "gold": "Bright and bold - like him",
+      "latency_ms": 1848.8,
+      "question": "Why did Nate choose the hair color he did?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coconut milk, vanilla extract, sugar, salt",
+      "gold": "Coconut milk, vanilla extract, sugar, salt",
+      "latency_ms": 1963.3,
+      "question": "What are the main ingredients of the ice cream recipe shared by Nate?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Finding Home",
+      "gold": "\"Finding Home\"",
+      "latency_ms": 1764.8,
+      "question": "What is Joanna's project called in the writers group?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Action and sci-fi movies",
+      "gold": "Fantasy and sci-fi",
+      "latency_ms": 1875.7,
+      "question": "What is Nate's favorite genre of movies?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy and sci-fi books",
+      "gold": "Adventures and magic",
+      "latency_ms": 2060.5,
+      "question": "What kind of books does Nate enjoy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dramas, emotionally-driven films, romcoms, superheroes",
+      "gold": "Dramas and emotionally-driven films",
+      "latency_ms": 1971.3,
+      "question": "What kind of films does Joanna enjoy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy and sci-fi movies",
+      "gold": "watching fantasy and sci-fi movies",
+      "latency_ms": 2210.4,
+      "question": "Which activity helps Nate escape and stimulates his imagination?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Strawberry filling",
+      "gold": "strawberry",
+      "latency_ms": 2097.9,
+      "question": "What filling did Joanna use in the cake she made recently in May 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coconut cream frosting",
+      "gold": "coconut cream",
+      "latency_ms": 903.4,
+      "question": "What kind of frosting did Joanna use on the cake she made recently in May 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Get deep in thought.",
+      "gold": "write a whole movie",
+      "latency_ms": 1094.3,
+      "question": "What does Nate feel he could do when out in cool places like Whispering Falls?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Writing a drama screenplay",
+      "gold": "Start thinking about a drama and publish a screenplay",
+      "latency_ms": 1030.2,
+      "question": "What creative activity does Nate joke about pursuing after being inspired by their hikes with Jo?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Joanna invited Nate on trails.",
+      "gold": "Joanna",
+      "latency_ms": 1101.9,
+      "question": "Who invited Nate to join her on the trails sometime?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gifted Joanna a stuffed animal.",
+      "gold": "get her a stuffed animal",
+      "latency_ms": 980.7,
+      "question": "What did Nate do for Joanna on 25 May, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "\"Like having joy in your pocket\"",
+      "gold": "A stuffed animal to remind you of the good vibes",
+      "latency_ms": 1578.4,
+      "question": "How does Nate describe the stuffed animal he got for Joanna?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gaming party two weekends after 3 June",
+      "gold": "A gaming party",
+      "latency_ms": 1025.2,
+      "question": "What event is Nate organizing in June 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Tournament friends, old friends, teammates",
+      "gold": "Tournament friends, old friends, teammates",
+      "latency_ms": 1024.2,
+      "question": "Who did Nate plan to invite to his gaming party in June 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Custom controller decorations for everyone",
+      "gold": "Custom controller decorations",
+      "latency_ms": 1106.6,
+      "question": "What special items did Nate get for everyone at his gaming party?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bits of her screenplay appeared.",
+      "gold": "screenplay bits",
+      "latency_ms": 1143.9,
+      "question": "What did Joanna write yesterday that appeared on the big screen?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Spider-Man",
+      "gold": "Spider-Man",
+      "latency_ms": 1101.6,
+      "question": "What superhero is Joanna a fan of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared superhero toy figure photo.",
+      "gold": "Iron Man",
+      "latency_ms": 1095.8,
+      "question": "Which superhero toy figure does Nate share a photo of?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inspiring quotes, pictures, family photo",
+      "gold": "inspiring quotes, photos, and little keepsakes",
+      "latency_ms": 1418.9,
+      "question": "What is displayed on Joanna's cork board for motivation and creativity?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Love and encouragement from family.",
+      "gold": "love and encouragement from her family",
+      "latency_ms": 1263.4,
+      "question": "What does the photo on Joanna's cork board remind her of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Vegan coconut milk ice cream",
+      "gold": "vegan ice cream",
+      "latency_ms": 1170.5,
+      "question": "What did Nate make and share with his vegan diet group?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Seven people attended Nate's gaming party.",
+      "gold": "7",
+      "latency_ms": 1334.1,
+      "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dairy-free coconut milk ice cream recipe",
+      "gold": "vegan ice cream recipe",
+      "latency_ms": 1186.6,
+      "question": "What recipe Nate offer to share with Joanna?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Try recipe and update Nate.",
+      "gold": "make it for her family",
+      "latency_ms": 1475.6,
+      "question": "What did Joanna plan to do with the recipe Nate promised to share?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Four tournaments won by July 10, 2022.",
+      "gold": "Four",
+      "latency_ms": 1462.6,
+      "question": "How many video game tournaments has Nate won by July 10, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Woodhaven, a small Midwestern town",
+      "gold": "Woodhaven",
+      "latency_ms": 1290.7,
+      "question": "Where did Joanna go for a road trip for research?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A 1900s book with stories.",
+      "gold": "cool old book collection",
+      "latency_ms": 1564.3,
+      "question": "What did Joanna discover at the library in Woodhaven?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Loss, redemption, forgiveness",
+      "gold": "loss, redemption, and forgiveness",
+      "latency_ms": 1394.8,
+      "question": "What specific themes are explored in Joanna's new book?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Personal experiences and self-discovery journey",
+      "gold": "Woodhaven's interesting past and people",
+      "latency_ms": 1399.9,
+      "question": "What inspired Joanna's new script in July 2022?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Won his tournament.",
+      "gold": "Won a video game tournament",
+      "latency_ms": 1363.7,
+      "question": "What did Nate do while Joanna was on her road trip?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Playing and winning video game tournaments",
+      "gold": "Competing in video game tournaments",
+      "latency_ms": 1424.7,
+      "question": "What does Nate do that he loves and can make money from?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Touched and realized power of words",
+      "gold": "Touched",
+      "latency_ms": 1497.8,
+      "question": "How did Joanna feel when someone wrote her a letter after reading her blog post?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Make a difference, inspire others.",
+      "gold": "share her stories and hopefully have an impact",
+      "latency_ms": 1499.0,
+      "question": "What kind of impact does Joanna hope to have with her writing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Online blog post about hard moment",
+      "gold": "A blog post about a hard moment in her life",
+      "latency_ms": 1584.8,
+      "question": "What kind of content did Joanna share that someone wrote her a letter about?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Impact on others and creative outlet",
+      "gold": "Knowing that her writing can make a difference",
+      "latency_ms": 1536.7,
+      "question": "What motivates Joanna to keep writing even on tough days?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coconut milk ice cream",
+      "gold": "Coconut milk ice cream",
+      "latency_ms": 1493.7,
+      "question": "What type of ice cream does Joanna mention that Nate makes and is delicious?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Supportive and enthusiastic about sharing.",
+      "gold": "Happy to share",
+      "latency_ms": 1458.9,
+      "question": "How did Nate feel about sharing his love for dairy-free desserts with Joanna?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Her book",
+      "gold": "her book",
+      "latency_ms": 1474.2,
+      "question": "What did Joanna share with her writers group in August 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Made a homemade dessert.",
+      "gold": "making a delicious treat",
+      "latency_ms": 1744.3,
+      "question": "How did Joanna celebrate after sharing her book with her writers group?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Relaxed enjoying movies and games.",
+      "gold": "Taking time off to chill with pets",
+      "latency_ms": 1808.4,
+      "question": "How did Nate celebrate winning the international tournament?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Lactose intolerant; inclusive dessert options.",
+      "gold": "lactose intolerance",
+      "latency_ms": 1972.2,
+      "question": "Why is Joanna experimenting with dairy-free options in her dessert recipes?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dairy-free margarine or coconut oil",
+      "gold": "dairy-free margarine or coconut oil",
+      "latency_ms": 1910.0,
+      "question": "What substitution does Nate suggest for butter in dairy-free baking?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cooking show",
+      "gold": "a cooking show",
+      "latency_ms": 1570.8,
+      "question": "What type of show did Nate host where he taught vegan ice cream recipes?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coconut milk ice cream",
+      "gold": "Coconut milk ice cream",
+      "latency_ms": 1747.2,
+      "question": "What is Nate's favorite dish from the cooking show he hosted?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dairy-free chocolate mousse",
+      "gold": "dairy-free chocolate mousse",
+      "latency_ms": 1858.7,
+      "question": "What is one of Nate's favorite dairy-free treats besides coconut milk ice cream?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chocolate raspberry tart",
+      "gold": "chocolate raspberry tart",
+      "latency_ms": 1771.9,
+      "question": "What dessert did Joanna share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chocolate raspberry tart",
+      "gold": "chocolate cake with raspberries",
+      "latency_ms": 1979.5,
+      "question": "What kind of cake did Joanna share a photo of that she likes making for birthdays and special days?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Blueberries and coconut milk",
+      "gold": "blueberries and coconut milk",
+      "latency_ms": 1806.8,
+      "question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inception",
+      "gold": "Little Women",
+      "latency_ms": 1928.9,
+      "question": "What movie did Nate recently watch and enjoy on October 6, 2022?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A cute little bookmark",
+      "gold": "a bookmark",
+      "latency_ms": 1868.2,
+      "question": "What did Joanna make for one of the ladies at her writing club?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Catan",
+      "gold": "Catan",
+      "latency_ms": 1756.6,
+      "question": "What game did Nate play at the game convention he attended on 9 October, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inception",
+      "gold": "\"Inception\"",
+      "latency_ms": 1921.1,
+      "question": "What movie has Nate recently seen that blew his mind?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cyberpunk 2077",
+      "gold": "Cyberpunk 2077",
+      "latency_ms": 2149.4,
+      "question": "What game has Nate been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Bookcase filled with DVDs and movies",
+      "gold": "a bookcase filled with dvds and movies",
+      "latency_ms": 2382.4,
+      "question": "What did Nate share a photo of when mentioning unwinding at home?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gripping story, great actors, impactful.",
+      "gold": "gripping with great actors",
+      "latency_ms": 1983.3,
+      "question": "How did Joanna describe the classic movie he watched?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Comfortable couch, fluffy blankets, dim lights",
+      "gold": "couch for multiple people, fluffy blanket, lights that can be dimmed",
+      "latency_ms": 2003.9,
+      "question": "What does Joanna recommend to make a living room comfy like hers?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Tilly, the stuffed animal dog",
+      "gold": "stuffed animal dog named Tilly",
+      "latency_ms": 1087.7,
+      "question": "What helps Joanna stay focused and brings her joy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Joanna writes screenplays and stories.",
+      "gold": "have a stuffed animal dog named Tilly with her",
+      "latency_ms": 937.9,
+      "question": "What does Joanna do while she writes?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "After her real dog in Michigan",
+      "gold": "after a dog she had in Michigan",
+      "latency_ms": 1195.0,
+      "question": "Why did Joanna name the stuffed animal dog Tilly?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Keeps grinding and moving ahead.",
+      "gold": "keep grinding and moving ahead",
+      "latency_ms": 1079.2,
+      "question": "What does Joanna do after receiving a rejection from a production company?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Respects her resilience and ability.",
+      "gold": "respect Joanna for being able to bounce back",
+      "latency_ms": 1235.0,
+      "question": "How does Nate feel about Joanna's ability to bounce back from setbacks?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Rejections don't define you. Bounce back.",
+      "gold": "rejections don't define her, keep grinding and she'll find the perfect opportunity",
+      "latency_ms": 1065.9,
+      "question": "What encouragement does Nate give to Joanna after her setback?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Pets, especially his dog Max and turtles",
+      "gold": "his turtles",
+      "latency_ms": 1152.2,
+      "question": "What does Nate rely on for cheer and joy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stuffed animal dog named Tilly",
+      "gold": "naming a stuffed animal dog Tilly",
+      "latency_ms": 1317.8,
+      "question": "What does Joanna use to remember her dog from Michigan?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Movie script",
+      "gold": "movie script",
+      "latency_ms": 1019.6,
+      "question": "What did Joanna contribute to that was shown on the big screen on the Sunday before October 25, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To bring characters alive mentally",
+      "gold": "visuals to help bring the characters alive in her head so she can write better",
+      "latency_ms": 1136.7,
+      "question": "What inspires Joanna to create drawings of her characters?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "People she knows, things she sees.",
+      "gold": "people she knows, things she saw, her imagination",
+      "latency_ms": 1294.6,
+      "question": "Where does Joanna get her ideas for the characters from?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cool, surreal, satisfying, rewarding, favorite part",
+      "gold": "surreal and cool",
+      "latency_ms": 1372.1,
+      "question": "How did Joanna feel on October 25, 2022 about seeing her characters come alive on the big screen?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Vegetables, fruits, and insects.",
+      "gold": "combination of vegetables, fruits, and insects",
+      "latency_ms": 1246.7,
+      "question": "What type of diet do Nate's turtles have?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coconut milk",
+      "gold": "coconut milk",
+      "latency_ms": 1211.7,
+      "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Early writings in old notebooks",
+      "gold": "early writings",
+      "latency_ms": 1450.2,
+      "question": "What did Joanna find in old notebooks last week that prompted her to reflect on her progress as a writer?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Xenoblade Chronicles",
+      "gold": "\"Xenoblade Chronicles\"",
+      "latency_ms": 1375.6,
+      "question": "What game is Nate currently playing and recommends to others on November 7, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Handwritten letter from her brother",
+      "gold": "a handwritten letter",
+      "latency_ms": 1419.2,
+      "question": "What did Joanna receive from her brother that brought back childhood memories?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fantasy RPG",
+      "gold": "fantasy RPG",
+      "latency_ms": 1353.8,
+      "question": "What is the type of game \"Xenoblade Chronicles\" that Nate is playing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Homemade coconut ice cream",
+      "gold": "Homemade coconut ice cream",
+      "latency_ms": 1267.3,
+      "question": "What dish did Nate make on 9 November, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Movie script, love story challenges",
+      "gold": "A suspenseful thriller set in a small Midwestern town",
+      "latency_ms": 1229.7,
+      "question": "What project is Joanna working on in her notebook on November 9, 2022?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gaming content for YouTube",
+      "gold": "gaming content",
+      "latency_ms": 1455.7,
+      "question": "What is Nate creating for YouTube on 9 November, 2022?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Entertain and share love of gaming",
+      "gold": "Love of gaming and connecting with others who enjoy it too",
+      "latency_ms": 1414.8,
+      "question": "What inspired Nate to start making gaming videos?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Gaming content for YouTube.",
+      "gold": "Gaming videos",
+      "latency_ms": 1413.1,
+      "question": "What new content is Nate creating for YouTube?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Watch others' videos first.",
+      "gold": "Watch other people's videos to understand what the audience likes",
+      "latency_ms": 1453.7,
+      "question": "What advice does Joanna give to Nate about making YouTube videos?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sunflower in field with sunset",
+      "gold": "Sunset",
+      "latency_ms": 2172.9,
+      "question": "What did Joanna take a picture of near Fort Wayne last summer?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inspired by nature's calming beauty.",
+      "gold": "The incredible sunset and surrounding beauty",
+      "latency_ms": 1553.4,
+      "question": "What inspired Joanna to take a picture of the sunset in the field near Fort Wayne?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Tank big enough; turtles bring joy.",
+      "gold": "He saw another one at a pet store and wanted to get it",
+      "latency_ms": 1534.6,
+      "question": "Why did Nate get a third turtle?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Try Joanna's chocolate raspberry cake.",
+      "gold": "Watch one of Joanna's movies together or go to the park",
+      "latency_ms": 1607.2,
+      "question": "What does Nate want to do when he goes over to Joanna's place?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "His turtles",
+      "gold": "turtles",
+      "latency_ms": 1600.5,
+      "question": "What did Nate take to the beach in Tampa?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Their calming presence and joyful behavior",
+      "gold": "They make him feel calm and don't require much looking after",
+      "latency_ms": 1509.2,
+      "question": "What does Nate love most about having turtles?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fish tank with a fish inside",
+      "gold": "colorful bowls of coconut milk ice cream",
+      "latency_ms": 1675.5,
+      "question": "What did Nate share a photo of as a part of his experimentation in November 2022?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1470.8,
+      "question": "What color did Joanna choose for her hair?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "The Lord of the Rings Trilogy",
+      "gold": "Not mentioned",
+      "latency_ms": 1523.8,
+      "question": "What is Joanna's favorite movie trilogy?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Adventures, magic, great characters",
+      "gold": "Not mentioned",
+      "latency_ms": 1556.8,
+      "question": "What is Joanna's favorite book series about?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1622.9,
+      "question": "What kind of lighting does Joanna's gaming room have?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1618.6,
+      "question": "What game was the second tournament that Joanna won based on?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1592.5,
+      "question": "What is Nate's third screenplay about?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1670.1,
+      "question": "What type of movies does Nate hate watching the most?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 2130.2,
+      "question": "What genre is Joanna's first novella?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Publish his own screenplay someday.",
+      "gold": "Not mentioned",
+      "latency_ms": 1730.7,
+      "question": "What are Nate's plans for his finished screenplay in January 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1692.4,
+      "question": "For how long has Nate had his snakes?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Nate's opinion on caramel.",
+      "gold": "Not mentioned",
+      "latency_ms": 1719.6,
+      "question": "What did Nate think of the caramel ice cream he made?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared. Only ice cream flavors.",
+      "gold": "Not mentioned",
+      "latency_ms": 1770.8,
+      "question": "What flavor of cake did Nate make for his friend on 25 February, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Nate had no audition mentioned.",
+      "gold": "Not mentioned",
+      "latency_ms": 1864.3,
+      "question": "What was Nate's audition for?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Inspired by personal experiences.",
+      "gold": "Not mentioned",
+      "latency_ms": 1879.4,
+      "question": "Why did Joanna choose the hair color she did?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Coconut milk, vanilla extract, sugar, salt",
+      "gold": "Not mentioned",
+      "latency_ms": 2226.7,
+      "question": "What are the main ingredients of the ice cream recipe shared by Joanna?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1789.7,
+      "question": "What is Nate's project called in the writers group?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Playing games",
+      "gold": "Not mentioned",
+      "latency_ms": 1855.3,
+      "question": "Which activity helps Nate escape and numbs his mind?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared filling used in cake.",
+      "gold": "Not mentioned",
+      "latency_ms": 1788.4,
+      "question": "What filling did Nate use in the cake he made recently in May 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared who Joanna invited.",
+      "gold": "Not mentioned",
+      "latency_ms": 1906.8,
+      "question": "Who did Joanna plan to invite to her gaming party in June 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 877.5,
+      "question": "What special items did Joanna get for everyone at her gaming party?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared supervillain fandom.",
+      "gold": "Not mentioned",
+      "latency_ms": 941.5,
+      "question": "What supervillain is Joanna a fan of?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Spider-Man toy figure",
+      "gold": "Not mentioned",
+      "latency_ms": 811.2,
+      "question": "Which superhero toy figure does Joanna share a photo of?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Dairy-free chocolate cake with raspberries",
+      "gold": "Not mentioned",
+      "latency_ms": 950.7,
+      "question": "What did Joanna make and share with her vegan diet group?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared. Only Nate's party attended by seven.",
+      "gold": "Not mentioned",
+      "latency_ms": 1012.3,
+      "question": "How many people attended the gaming party hosted by Joanna in June 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1055.9,
+      "question": "Where did Nate go for a road trip for research?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 957.8,
+      "question": "What did Joanna discover at the museum in Woodhaven?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 977.6,
+      "question": "What specific themes are explored in Nate's new book?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "That letter is really awesome",
+      "gold": "Not mentioned",
+      "latency_ms": 1048.7,
+      "question": "How did Nate feel when someone wrote him a letter after reading his blog post?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1090.0,
+      "question": "What kind of impact does Joanna hope to have with her painting?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "He won international gaming tournament.",
+      "gold": "Not mentioned",
+      "latency_ms": 1224.7,
+      "question": "What did Nate share with his writers group in August 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "With a homemade dessert celebration",
+      "gold": "Not mentioned",
+      "latency_ms": 1298.9,
+      "question": "How did Nate celebrate after sharing his book with a writers group?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Made a homemade dessert.",
+      "gold": "Not mentioned",
+      "latency_ms": 1764.6,
+      "question": "How did Joanna celebrate winning the international tournament?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1325.4,
+      "question": "What substitution does Nate suggest for sugar in dairy-free baking?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Cooking show",
+      "gold": "Not mentioned",
+      "latency_ms": 1323.7,
+      "question": "What type of show did Joanna host where she taught vegan ice cream recipes?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Chocolate and raspberry cake",
+      "gold": "Not mentioned",
+      "latency_ms": 1341.0,
+      "question": "What is Joanna's favorite dish from the cooking show she hosted?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Chocolate raspberry tart",
+      "gold": "Not mentioned",
+      "latency_ms": 1238.2,
+      "question": "What dessert did Nate share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Blueberries and coconut milk",
+      "gold": "Not mentioned",
+      "latency_ms": 1275.2,
+      "question": "What two main ingredients are part of the dessert Nate shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Classic movie, rated 9 or 10",
+      "gold": "Not mentioned",
+      "latency_ms": 1387.1,
+      "question": "What movie did Joanna recently watch and enjoy on October 6, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Chocolate and vanilla swirl ice cream",
+      "gold": "Not mentioned",
+      "latency_ms": 1398.9,
+      "question": "What did Nate make for one of the ladies at his writing club?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Cyberpunk 2077",
+      "gold": "Not mentioned",
+      "latency_ms": 1453.4,
+      "question": "What game has Joanna been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Nate loves watching classics.",
+      "gold": "Not mentioned",
+      "latency_ms": 1407.3,
+      "question": "How did Nate describe the classic movie he watched?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Fluffy couch, weighted blanket, dimmable lights",
+      "gold": "Not mentioned",
+      "latency_ms": 1583.0,
+      "question": "What does Nate recommend to make a living room comfy like his?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Tilly, the stuffed animal dog.",
+      "gold": "Not mentioned",
+      "latency_ms": 1379.9,
+      "question": "What helps Joanna stay distracted and brings her sadness?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared what Nate does writing.",
+      "gold": "Not mentioned",
+      "latency_ms": 1520.4,
+      "question": "What does Nate do while he writes?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Offers support and encouragement to Joanna",
+      "gold": "Not mentioned",
+      "latency_ms": 1442.2,
+      "question": "What does Nate do after receiving a rejection from a production company?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Writing and creative projects",
+      "gold": "Not mentioned",
+      "latency_ms": 1346.1,
+      "question": "What does Joanna rely on for cheer and joy?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Stuffed animal dog named Tilly",
+      "gold": "Not mentioned",
+      "latency_ms": 1755.8,
+      "question": "What does Nate use to remember his dog from Michigan?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1599.1,
+      "question": "What inspires Joanna to create music for her characters?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Vegetables, fruits, and insects diet",
+      "gold": "Not mentioned",
+      "latency_ms": 1854.6,
+      "question": "What type of diet do Joanna's turtles have?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Early writings showing her progress",
+      "gold": "Not mentioned",
+      "latency_ms": 1751.8,
+      "question": "What did Nate find in old notebooks last week that prompted him to reflect on her progress as a writer?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No game mentioned by Joanna November 7, 2022.",
+      "gold": "Not mentioned",
+      "latency_ms": 1580.6,
+      "question": "What game is Joanna currently playing and recommends to others on November 7, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1641.4,
+      "question": "What did Nate receive from his brother that brought back childhood memories?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1673.1,
+      "question": "What is the type of game \"Xenoblade Chronicles\" that Joanna is playing?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Creating gaming content for YouTube",
+      "gold": "Not mentioned",
+      "latency_ms": 1691.0,
+      "question": "What project is Nate working on in his notebook on November 9, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No evidence Joanna creating YouTube content.",
+      "gold": "Not mentioned",
+      "latency_ms": 2048.4,
+      "question": "What is Joanna creating for YouTube on 9 November, 2022?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Games bringing people together inspired Joanna.",
+      "gold": "Not mentioned",
+      "latency_ms": 1593.5,
+      "question": "What inspired Joanna to start making gaming videos?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Gaming content for YouTube videos",
+      "gold": "Not mentioned",
+      "latency_ms": 1660.5,
+      "question": "What new content is Nate creating for television?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Nate's photo near Fort Wayne.",
+      "gold": "Not mentioned",
+      "latency_ms": 1932.6,
+      "question": "What did Nate take a picture of near Fort Wayne last summer?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared why Joanna got third.",
+      "gold": "Not mentioned",
+      "latency_ms": 1972.6,
+      "question": "Why did Joanna get a third turtle?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Chocolate and raspberry cake",
+      "gold": "Not mentioned",
+      "latency_ms": 1659.6,
+      "question": "What did Joanna take to the beach in Tampa?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Their different personalities fascinate Joanna.",
+      "gold": "Not mentioned",
+      "latency_ms": 1699.0,
+      "question": "What does Joanna love most about having turtles?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}

@@ -1,0 +1,957 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 70,
+  "cat5_excluded": true,
+  "score": 0.8641975308641975,
+  "ingest_ms": 0,
+  "total": 81,
+  "conversation_id": "conv-30",
+  "results": [
+    {
+      "response": "19 January 2023",
+      "gold": "19 January, 2023",
+      "latency_ms": 4864.9,
+      "question": "When Jon has lost his job as a banker?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "January 2023, earlier that month",
+      "gold": "January, 2023",
+      "latency_ms": 3341.0,
+      "question": "When Gina has lost her job at Door Dash?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Dancing",
+      "gold": "by dancing",
+      "latency_ms": 1979.5,
+      "question": "How do Jon and Gina both like to destress?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Lost jobs, pursuing entrepreneurial dreams.",
+      "gold": "They lost their jobs and decided to start their own businesses.",
+      "latency_ms": 2023.7,
+      "question": "What do Jon and Gina both have in common?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Lost job, passion for dancing.",
+      "gold": "He lost his job and decided to start his own business to share his passion.",
+      "latency_ms": 1739.7,
+      "question": "Why did Jon decide to start his dance studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Supportive, encouraging, ocean view, mentoring",
+      "gold": "By the water, with natural light and Marley flooring",
+      "latency_ms": 1238.7,
+      "question": "What Jon thinks the ideal dance studio should look like?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Next month from 20 January 2023",
+      "gold": "February, 2023",
+      "latency_ms": 980.2,
+      "question": "When is Jon's group performing at a festival?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "29 January 2023",
+      "gold": "29 January, 2023",
+      "latency_ms": 882.8,
+      "question": "When did Gina launch an ad campaign for her store?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "January 2023, recently before 29 January",
+      "gold": "28 January 2023",
+      "latency_ms": 1016.6,
+      "question": "When was Jon in Paris?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Rome",
+      "gold": "Rome",
+      "latency_ms": 816.9,
+      "question": "Which city have both Jean and John visited?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "8 February 2023",
+      "gold": "February, 2023",
+      "latency_ms": 847.7,
+      "question": "When did Gina team up with a local artist for some cool designs?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "A few years before February 2023",
+      "gold": "A few years ago",
+      "latency_ms": 1065.5,
+      "question": "When did Gina get her tattoo?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Week before 16 March 2023",
+      "gold": "March, 2023",
+      "latency_ms": 1130.5,
+      "question": "When did Jon start to go to the gym?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "16 March 2023",
+      "gold": "16 March, 2023",
+      "latency_ms": 1152.7,
+      "question": "When did Gina open her online clothing store?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "3 April 2023",
+      "gold": "April, 2023",
+      "latency_ms": 1381.6,
+      "question": "When did Jon start expanding his studio's social media presence?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "May 2023, next month from April.",
+      "gold": "May, 2023",
+      "latency_ms": 1127.4,
+      "question": "When did Jon host a dance competition?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "24 April 2023",
+      "gold": "24 April, 2023",
+      "latency_ms": 1104.3,
+      "question": "When did Jon go to a fair to get more exposure for his dance studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Lost job, passion for fashion and dance",
+      "gold": "She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.",
+      "latency_ms": 1130.9,
+      "question": "Why did Gina decide to start her own clothing store?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Yes, both start businesses from passion.",
+      "gold": "Yes",
+      "latency_ms": 1215.1,
+      "question": "Do Jon and Gina start businesses out of what they love?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "10 May 2023",
+      "gold": "10 May, 2023",
+      "latency_ms": 1095.7,
+      "question": "When did Gina interview for a design internship?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "27 May 2023",
+      "gold": "27 May, 2023",
+      "latency_ms": 1302.5,
+      "question": "When did Gina get accepted for the design internship?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "By 27 May 2023",
+      "gold": "May, 2023",
+      "latency_ms": 1207.6,
+      "question": "When did Jon start reading \"The Lean Startup\"?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "13 June 2023",
+      "gold": "June, 2023",
+      "latency_ms": 1221.6,
+      "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Launched ad campaign and worked with influencers.",
+      "gold": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+      "latency_ms": 1367.1,
+      "question": "How did Gina promote her clothes store?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Networking events, business fair, dance workshops",
+      "gold": "fair, networking events, dance competition",
+      "latency_ms": 1269.9,
+      "question": "Which events has Jon participated in to promote his business venture?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "One-on-one mentoring and training.",
+      "gold": "one-on-one metoring and training to dancers,  workshops and classes to local schools and centers",
+      "latency_ms": 1575.0,
+      "question": "What does Jon's dance studio offer?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "16 June 2023",
+      "gold": "15 June, 2023",
+      "latency_ms": 1957.3,
+      "question": "When did Jon receive mentorship to promote his venture?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Yes, both participated in dance competitions.",
+      "gold": "Yes",
+      "latency_ms": 1406.7,
+      "question": "Did Jon and Gina both participate in dance competitions?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "June 2023, shortly before 20 June",
+      "gold": "June 2023",
+      "latency_ms": 1378.0,
+      "question": "When was Jon in Rome?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Paris, Rome",
+      "gold": "Paris, Rome",
+      "latency_ms": 1445.5,
+      "question": "Which cities has Jon visited?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "20 June 2023",
+      "gold": "20 June, 2023",
+      "latency_ms": 1535.7,
+      "question": "When Jon is planning to open his dance studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "About five months.",
+      "gold": "six months",
+      "latency_ms": 1406.3,
+      "question": "How long did it take for Jon to open his studio?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Week before 21 June 2023",
+      "gold": "June 2023",
+      "latency_ms": 1434.4,
+      "question": "When did Gina design a limited collection of hoodies?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Since losing job, June 2023",
+      "gold": "20 June, 2023",
+      "latency_ms": 1362.3,
+      "question": "When did Jon visit networking events for his store?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Late June or early July 2023",
+      "gold": "July 2023",
+      "latency_ms": 1683.3,
+      "question": "When did Gina start being recognized by fashion editors?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "9 July 2023",
+      "gold": "July, 2023",
+      "latency_ms": 1592.0,
+      "question": "When did Jon start learning marketing and analytics tools?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "21 July 2023",
+      "gold": "21 July 2023",
+      "latency_ms": 1731.1,
+      "question": "When did Jon and Gina decide to collaborate to create dance content?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "23 July 2023, 6:46 pm",
+      "gold": " 23 July, 2023",
+      "latency_ms": 1500.4,
+      "question": "When did Gina mention Shia Labeouf?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last Friday before 23 July 2023",
+      "gold": "21 July 2023",
+      "latency_ms": 1809.3,
+      "question": "When did Gina go to a dance class with a group of friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Contemporary",
+      "gold": "Contemporary",
+      "latency_ms": 1518.1,
+      "question": "What is Gina's favorite style of dance?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Contemporary",
+      "gold": "Contemporary",
+      "latency_ms": 1666.9,
+      "question": "What is Jon's favorite style of dance?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Winning first place at regionals.",
+      "gold": "Winning first place at a regionals dance competition",
+      "latency_ms": 1763.4,
+      "question": "What was Gina's favorite dancing memory?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Contemporary piece titled \"Finding Freedom\"",
+      "gold": "\"Finding Freedom\"",
+      "latency_ms": 1853.1,
+      "question": "What kind of dance piece did Gina's team perform to win first place?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Expression, happiness, and true selves",
+      "gold": "They are performing at the festival",
+      "latency_ms": 3006.8,
+      "question": "What do the dancers in the photo represent?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Mentoring and training dancers in photo.",
+      "gold": "They look graceful",
+      "latency_ms": 1814.8,
+      "question": "What does Gina say about the dancers in the photo?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Passionate, motivated, excited, dedicated, sees opportunity.",
+      "gold": "Glad",
+      "latency_ms": 1970.6,
+      "question": "What is Jon's attitude towards being part of the dance festival?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Marley flooring",
+      "gold": "Marley flooring",
+      "latency_ms": 1942.9,
+      "question": "What kind of flooring is Jon looking for in his dance studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Positive response from a wholesaler",
+      "gold": "The perfect spot for her store",
+      "latency_ms": 2058.3,
+      "question": "What did Gina find for her clothing store on 1 February, 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cozy and inviting store space",
+      "gold": "the space, furniture, and decor",
+      "latency_ms": 1842.4,
+      "question": "What did Gina design for her store?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cozy, comfortable, inviting, special experience",
+      "gold": "cozy and comfortable",
+      "latency_ms": 2018.5,
+      "question": "What did Gina want her customers to feel in her store?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Jon congratulated Gina on her store.",
+      "gold": "hard work's paying off",
+      "latency_ms": 2098.5,
+      "question": "What did Jon say about Gina's progress with her store?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Reflect her style, create cozy comfort",
+      "gold": "personal style and customer comfort",
+      "latency_ms": 1960.6,
+      "question": "What made Gina choose the furniture and decor for her store?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Creating special experience makes customers return.",
+      "gold": "It's the key to making them feel welcome and coming back",
+      "latency_ms": 2019.2,
+      "question": "What did Jon say about creating a special experience for customers?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Create a cozy, inviting \"cool oasis\"",
+      "gold": "making them want to come back",
+      "latency_ms": 2300.0,
+      "question": "What did Gina say about creating an experience for her customers?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Doing great, rewarding but challenging.",
+      "gold": "The store is doing great.",
+      "latency_ms": 1561.4,
+      "question": "How is Gina's store doing?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Freedom and following passions.",
+      "gold": "Freedom and expressing herself through dance",
+      "latency_ms": 836.7,
+      "question": "What does Gina's tattoo symbolize?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Partners dancing together",
+      "gold": "dancing together and supporting each other",
+      "latency_ms": 930.8,
+      "question": "What did Jon and Gina compare their entrepreneurial journeys to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stay passionate, focused, resilient, open learning.",
+      "gold": "build relationships with customers, create a strong brand image, stay positive",
+      "latency_ms": 1395.1,
+      "question": "What advice does Gina give to Jon about running a successful business?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "For his business growth.",
+      "gold": "for his business",
+      "latency_ms": 886.8,
+      "question": "Why did Jon shut down his bank account?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Express creativity, share love, inspire.",
+      "gold": "she is passionate about dance and fashion",
+      "latency_ms": 1333.8,
+      "question": "Why did Gina combine her clothing business with dance?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Motivated and determined entrepreneur",
+      "gold": "happy",
+      "latency_ms": 1603.9,
+      "question": "What does Jon's dance make him?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Trophy with a glass globe top",
+      "gold": "a trophy",
+      "latency_ms": 1223.0,
+      "question": "What did Gina receive from a dance contest?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Staying positive, resilient, focused, supportive.",
+      "gold": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+      "latency_ms": 1123.3,
+      "question": "How does Gina stay confident in her business?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fashion internship at international company",
+      "gold": "fashion internship",
+      "latency_ms": 1062.4,
+      "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "International company fashion department",
+      "gold": "fashion department of an international company",
+      "latency_ms": 1118.3,
+      "question": "Where is Gina's fashion internship?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "The Lean Startup",
+      "gold": "The Lean Startup",
+      "latency_ms": 1080.8,
+      "question": "What book is Jon currently reading?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "One-on-one mentoring and training",
+      "gold": "One-on-one mentoring and training",
+      "latency_ms": 1430.1,
+      "question": "What is Jon offering to the dancers at his dance studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To write down plans and goals.",
+      "gold": "To set goals, track achievements, and find areas for improvement",
+      "latency_ms": 1365.7,
+      "question": "How does Jon use the clipboard with a notepad attached to it?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never quit or give up",
+      "gold": "quit",
+      "latency_ms": 1148.5,
+      "question": "What does Jon tell Gina he won't do?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To clear his mind.",
+      "gold": "To clear his mind",
+      "latency_ms": 1277.8,
+      "question": "What did Jon take a trip to Rome for?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dance studio",
+      "gold": "a dance studio",
+      "latency_ms": 1073.6,
+      "question": "What is Jon working on opening?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Awesome dance studio, supportive and encouraging.",
+      "gold": "amazing",
+      "latency_ms": 1234.0,
+      "question": "How does Gina describe the studio that Jon has opened?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Excited and ready to give best",
+      "gold": "excited",
+      "latency_ms": 1353.6,
+      "question": "How does Jon feel about the opening night of his dance studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Stress relief; worries vanish; like air",
+      "gold": "magical",
+      "latency_ms": 1250.4,
+      "question": "How does Gina describe the feeling that dance brings?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Make great memories with dancers.",
+      "gold": "savor all the good vibes",
+      "latency_ms": 2236.3,
+      "question": "What does Jon plan to do at the grand opening of his dance studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Promised support and excitement at opening.",
+      "gold": "Let's live it up and make some great memories",
+      "latency_ms": 1382.8,
+      "question": "What does Gina say to Jon about the grand opening?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Excitement and eager anticipation.",
+      "gold": "excitement",
+      "latency_ms": 1311.1,
+      "question": "What is the general sentiment about the upcoming grand opening?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Clothing",
+      "gold": "Hoodies",
+      "latency_ms": 1468.2,
+      "question": "What did Gina make a limited edition line of?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Positivity and determination, perfect mentor.",
+      "gold": "His positivity and determination",
+      "latency_ms": 2025.2,
+      "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Temporary job not specified in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1475.2,
+      "question": "What temporary job did Jon take to cover expenses?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Updating business plan and investor pitch.",
+      "gold": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+      "latency_ms": 1586.0,
+      "question": "What plans does Jon have after receiving advice at the networking event?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Help with content and social media.",
+      "gold": "Helping with making content and managing his social media accounts.",
+      "latency_ms": 1383.1,
+      "question": "What offer does Gina make to Jon regarding social media?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1541.3,
+      "question": "What is Jon's favorite style of painting?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Taking dance lessons with friends.",
+      "gold": "Not mentioned",
+      "latency_ms": 1540.5,
+      "question": "What was Jon's favorite dancing memory?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Contemporary dance piece",
+      "gold": "Not mentioned",
+      "latency_ms": 1535.1,
+      "question": "What kind of dance piece did Jon's team perform to win first place?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Excited and supportive about participation.",
+      "gold": "Not mentioned",
+      "latency_ms": 1570.1,
+      "question": "What is Gina's attitude towards participating in the dance festival?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Marley flooring",
+      "gold": "Not mentioned",
+      "latency_ms": 2067.3,
+      "question": "What kind of flooring is Gina looking for in her dance studio?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1590.9,
+      "question": "What did Jon find for his clothing store on 1 February, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared what Jon designed.",
+      "gold": "Not mentioned",
+      "latency_ms": 1695.5,
+      "question": "What did Jon design for his store?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Welcome and wanting to return",
+      "gold": "Not mentioned",
+      "latency_ms": 1562.9,
+      "question": "What did Jon want his customers to feel in her store?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Durability, grip, movement, easy cleaning",
+      "gold": "Not mentioned",
+      "latency_ms": 1828.0,
+      "question": "What made Jon choose the furniture and decor for his store?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Tenuous but hopeful and improving.",
+      "gold": "Not mentioned",
+      "latency_ms": 1623.1,
+      "question": "How is Jon's store doing?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never give up, perseverance symbol.",
+      "gold": "Not mentioned",
+      "latency_ms": 1597.2,
+      "question": "What does Jon's tattoo symbolize?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared why Gina shut account.",
+      "gold": "Not mentioned",
+      "latency_ms": 1966.8,
+      "question": "Why did Gina shut down her bank account?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Passion for dance fuels business creativity",
+      "gold": "Not mentioned",
+      "latency_ms": 2805.0,
+      "question": "Why did Jon combine his clothing business with dance?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Trophy with a glass globe on top",
+      "gold": "Not mentioned",
+      "latency_ms": 1687.0,
+      "question": "What did Gina receive from a dance contest?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1829.3,
+      "question": "What kind of professional experience did Jon get accepted for on May 23, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1798.1,
+      "question": "Where is Gina's HR internship?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 2460.7,
+      "question": "Where is Jon's fashion internship?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1770.2,
+      "question": "What book is Gina currently reading?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Not specified in shared memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1900.7,
+      "question": "How does Gina use the clipboard with a notepad attached to it?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1785.8,
+      "question": "What did Jon take a trip to Barcelona for?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Jon's limited edition line.",
+      "gold": "Not mentioned",
+      "latency_ms": 1921.0,
+      "question": "What did Jon make a limited edition line of?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Part-time fashion internship at international company",
+      "gold": "Not mentioned",
+      "latency_ms": 1838.2,
+      "question": "What temporary job did Gina take to cover expenses?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Work with fashion bloggers and influencers.",
+      "gold": "Not mentioned",
+      "latency_ms": 1719.9,
+      "question": "What plans does Gina have after receiving advice at the networking event?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}

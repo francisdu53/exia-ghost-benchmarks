@@ -1,0 +1,1749 @@
+{
+  "scoring_standard": "EverMemOS/Mem0 (Cat1-4, GPT-4o-mini judge, 3 runs majority vote)",
+  "judge_runs": 3,
+  "correct": 132,
+  "cat5_excluded": true,
+  "score": 0.868421052631579,
+  "ingest_ms": 0,
+  "total": 152,
+  "conversation_id": "conv-41",
+  "results": [
+    {
+      "response": "Never shared who on May 3, 2023.",
+      "gold": "her mother",
+      "latency_ms": 1884.3,
+      "question": "Who did Maria have dinner with on May 3, 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "22 December 2022",
+      "gold": "21 December 2022",
+      "latency_ms": 1047.7,
+      "question": "When did Maria donate her car?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Taekwondo and kickboxing.",
+      "gold": "Kickboxing, Taekwondo",
+      "latency_ms": 1115.4,
+      "question": "What martial arts has John done?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Volunteering at a homeless shelter",
+      "gold": "Volunteering at a homeless shelter",
+      "latency_ms": 1012.3,
+      "question": "What type of volunteering have John and Maria both done?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Late December 2022, joined week before.",
+      "gold": "The week before 1 January 2023",
+      "latency_ms": 1334.7,
+      "question": "When did John join the online support group?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "December 2022 (last month from January 2023)",
+      "gold": "December 2022",
+      "latency_ms": 1417.5,
+      "question": "When did Maria go to the beach?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Homeless shelter and gym",
+      "gold": "homeless shelter, gym, church",
+      "latency_ms": 1078.7,
+      "question": "Where has Maria made friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Film camera, childhood doll",
+      "gold": "A doll, a film camera",
+      "latency_ms": 1198.7,
+      "question": "What items des John mention having as a child?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Facing financial strain, lost job recently.",
+      "gold": "Middle-class or wealthy",
+      "latency_ms": 1447.2,
+      "question": "What might John's financial status be?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Their auntie gave money.",
+      "gold": "Her aunt",
+      "latency_ms": 1307.9,
+      "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "During volunteering, 25 February 2023",
+      "gold": "February 24, 2023",
+      "latency_ms": 1426.8,
+      "question": "When did Maria meet Jean?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "People at homeless shelter",
+      "gold": "David, Jean, Cindy, Laura",
+      "latency_ms": 1415.3,
+      "question": "What people has Maria met and helped while volunteering?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Military aptitude test",
+      "gold": "The military aptitude test",
+      "latency_ms": 1196.5,
+      "question": "What test has John taken multiple times?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Late February or early March 2023",
+      "gold": "The week before 6 March 2023",
+      "latency_ms": 1301.1,
+      "question": "When did Maria's grandmother pass away?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Yes, John is patriotic.",
+      "gold": "Yes",
+      "latency_ms": 1425.9,
+      "question": "Would John be considered a patriotic person?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Creative writing and poetry classes",
+      "gold": "Poetry, creative writing",
+      "latency_ms": 1782.7,
+      "question": "What writing classes has Maria taken?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Late March 2023",
+      "gold": "The week before 2 April 2023",
+      "latency_ms": 1238.7,
+      "question": "When did John get his degree?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Policymaking, education, or infrastructure-related degree",
+      "gold": "Political science, Public administration, Public affairs",
+      "latency_ms": 1449.5,
+      "question": "What might John's degree be in?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "A colleague",
+      "gold": "Rob",
+      "latency_ms": 1322.9,
+      "question": "Who did John go to yoga with?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Broken windshield; car broke down.",
+      "gold": "Broken windshield, Car broke down",
+      "latency_ms": 1380.7,
+      "question": "What damages have happened to John's car?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last year before April 10, 2023",
+      "gold": "2022",
+      "latency_ms": 1497.9,
+      "question": "When did John take a road trip to the Pacific Northwest?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Pacific Northwest coast; East Coast",
+      "gold": "Pacific northwest, east coast",
+      "latency_ms": 1708.5,
+      "question": "What areas of the U.S. has John been to or is planning to go to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "March 2023",
+      "gold": "March 2023",
+      "latency_ms": 1366.1,
+      "question": "When did John go to a convention with colleagues?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Peach cobbler, cakes, banana split sundae",
+      "gold": "Banana split sundae, Peach cobbler",
+      "latency_ms": 1658.0,
+      "question": "What desserts has Maria made?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "April 2023",
+      "gold": "April.2023",
+      "latency_ms": 1522.8,
+      "question": "When did John start boot camp with his family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Spain",
+      "gold": "Spain, England",
+      "latency_ms": 1413.7,
+      "question": "What European countries has Maria been to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Joined church, bought cross necklace, charity.",
+      "gold": "Join a local church, buy a cross necklace",
+      "latency_ms": 1508.6,
+      "question": "What has Maria done to feel closer to her faith?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "20 May 2023",
+      "gold": "The Friday before 20 May 2023",
+      "latency_ms": 1705.7,
+      "question": "When did John have a party with veterans?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Education, infrastructure, veterans, community activism, domestic abuse victims",
+      "gold": "Veterans, schools, infrastructure",
+      "latency_ms": 1640.0,
+      "question": "What causes does John feel passionate about supporting?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Ring-toss tournament fundraiser.",
+      "gold": "Chili cook-off, ring-toss tournament",
+      "latency_ms": 1720.7,
+      "question": "What events is Maria planning for the homeless shelter funraiser?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Homeless shelter",
+      "gold": "The homeless shelter, the dog shelter",
+      "latency_ms": 2182.9,
+      "question": "What shelters does Maria volunteer at?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Around 2013 (10 years before 2023)",
+      "gold": "In 2013",
+      "latency_ms": 1867.7,
+      "question": "When did John get his dog Max?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Hiking trip with workmates.",
+      "gold": "Hiking, mountaineering",
+      "latency_ms": 1617.6,
+      "question": "What outdoor activities has John done with his colleagues?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Aerial yoga, kundalini yoga, upside-down poses",
+      "gold": "Aerial, kundalini",
+      "latency_ms": 1731.6,
+      "question": "What types of yoga has Maria practiced?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last week before 16 June 2023",
+      "gold": "The week before 16 June 2023",
+      "latency_ms": 1778.3,
+      "question": "When did Maria join a gym?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Oregon, Florida, Spain",
+      "gold": "Oregon, Florida",
+      "latency_ms": 1764.1,
+      "question": "What states has Maria vacationed at?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Violin concert last week.",
+      "gold": "Live music event, violin concert",
+      "latency_ms": 1793.0,
+      "question": "What music events has John attended?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Veterans' rights march, 5K charity run, veterans' party",
+      "gold": "Petition, march, party, visiting veterans hospital, 5K charity run",
+      "latency_ms": 1809.2,
+      "question": "What events for veterans has John participated in?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "3 July 2023",
+      "gold": "July 2, 2023",
+      "latency_ms": 1849.8,
+      "question": "When did Maria get in a car accident?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Around Independence Day (4 July)",
+      "gold": "Independence Day",
+      "latency_ms": 1930.2,
+      "question": "Around which US holiday did Maria get into a car accident?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Kyle and one other child",
+      "gold": "Kyle, Sara",
+      "latency_ms": 2108.2,
+      "question": "What are the names of John's children?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Close to the beach.",
+      "gold": "beach",
+      "latency_ms": 1850.9,
+      "question": "Does John live close to a beach or the mountains?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "John's old area",
+      "gold": "West County",
+      "latency_ms": 1813.1,
+      "question": "What area was hit by a flood?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Late June 2023",
+      "gold": "The week before 7 July 2023",
+      "latency_ms": 1921.8,
+      "question": "When was John's old area hit with a flood?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Community work, picnic, hiking, volunteering.",
+      "gold": "Hiking, picnic, volunteer work",
+      "latency_ms": 2035.2,
+      "question": "What activities has Maria done with her church friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Not shared in memories.",
+      "gold": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+      "latency_ms": 1925.6,
+      "question": "Would John be open to moving to another country?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Last weekend before 22 July 2023",
+      "gold": "The weekend before 22 July 2023",
+      "latency_ms": 1885.0,
+      "question": "When did Maria go hiking with her church friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Kickboxing, taekwondo, yoga, boot camps, weight training",
+      "gold": "Weight training, Circuit training, Kickboxing, yoga",
+      "latency_ms": 1658.1,
+      "question": "What exercises has John done?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last Sunday before 31 July 2023",
+      "gold": "The sunday before 3` July 2023",
+      "latency_ms": 1049.5,
+      "question": "When did John have his first firefighter call-out?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Baked goods",
+      "gold": "Cakes",
+      "latency_ms": 981.0,
+      "question": "What food item did Maria drop off at the homeless shelter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Kind, optimistic, community-focused, family-oriented, passionate.",
+      "gold": "Selfless, family-oriented, passionate, rational",
+      "latency_ms": 1139.7,
+      "question": "What attributes describe John?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "About a year before August 3, 2023",
+      "gold": "Around August 2022",
+      "latency_ms": 1157.9,
+      "question": "When did Maria start volunteering at the homeless shelter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Laura and Cindy, shelter residents",
+      "gold": "Cindy, Laura",
+      "latency_ms": 936.5,
+      "question": "Who have written notes of gratitude to Maria?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Last year (2022)",
+      "gold": "2022",
+      "latency_ms": 1005.4,
+      "question": "When did John help renovate his hometown community center?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "4 August 2023",
+      "gold": "August 4, 2023",
+      "latency_ms": 1352.7,
+      "question": "When did Maria take up community work with her church friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Late July 2023, awarded early August",
+      "gold": "The week before 9 August 2023",
+      "latency_ms": 1364.5,
+      "question": "When did Maria receive a medal from the homeless shelter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Never shared John participated in 5K.",
+      "gold": "first weekend of August 2023",
+      "latency_ms": 1352.3,
+      "question": "When did John participate in a 5K charity run?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Veterans, domestic abuse victims, community causes",
+      "gold": "Toy drive, Community food drive, veterans, domestic violence",
+      "latency_ms": 1312.9,
+      "question": "What causes has John done events for?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Two weeks before 11 August 2023",
+      "gold": "Two weeks before 11 August 2023",
+      "latency_ms": 1231.3,
+      "question": "When did Maria get Coco?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Last summer, before August 2023.",
+      "gold": "The summer of 2022",
+      "latency_ms": 1167.2,
+      "question": "When did John go on a camping trip with Max?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Coco and Shadow",
+      "gold": "Coco, Shadow",
+      "latency_ms": 1098.1,
+      "question": "What are Maria's dogs' names?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "Early August 2023",
+      "gold": "The week before 13 August 2023",
+      "latency_ms": 1269.3,
+      "question": "When did Maria adopt Shadow?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Two dogs: Shadow and Coco.",
+      "gold": "two",
+      "latency_ms": 1386.0,
+      "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 1
+    },
+    {
+      "response": "One week passed between adoptions.",
+      "gold": "two weeks",
+      "latency_ms": 1278.8,
+      "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Community work or charity sector job",
+      "gold": "Shelter coordinator, Counselor",
+      "latency_ms": 1327.2,
+      "question": "What job might Maria pursue in the future?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 3
+    },
+    {
+      "response": "Improving education and infrastructure.",
+      "gold": "Improving education and infrastructure",
+      "latency_ms": 1333.0,
+      "question": "What is John's main focus in local politics?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Needs seen growing up neighborhood",
+      "gold": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+      "latency_ms": 1317.0,
+      "question": "What sparked John's interest in improving education and infrastructure in the community?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Enabled repairs and safer learning environment",
+      "gold": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+      "latency_ms": 1341.1,
+      "question": "How did the extra funding help the school shown in the photo shared by John?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "aerial yoga",
+      "latency_ms": 1290.7,
+      "question": "What type of workout class did Maria start doing in December 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "old car",
+      "latency_ms": 1426.5,
+      "question": "What did Maria donate to a homeless shelter in December 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Family dinner gathering meal",
+      "gold": "pizza",
+      "latency_ms": 1424.1,
+      "question": "What kind of meal did John and his family make together in the photo shared by John?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Service-focused online group",
+      "gold": "service-focused online group",
+      "latency_ms": 1483.4,
+      "question": "What kind of online group did John join?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Giving food, toy drives, donations.",
+      "gold": "gave out food and supplies at a homeless shelter, organized a toy drive for kids in need",
+      "latency_ms": 1811.5,
+      "question": "What kind of activities did John and his mates from the online group do as part of their service efforts?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Her aunt inspired Maria volunteering.",
+      "gold": "Her aunt",
+      "latency_ms": 1575.8,
+      "question": "Who inspired Maria to start volunteering?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To comfort lonely little girl.",
+      "gold": "The girl seemed sad and had no other family",
+      "latency_ms": 1773.7,
+      "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Divorce, job loss, homelessness, resilience.",
+      "gold": "divorce, job loss, homelessness",
+      "latency_ms": 1614.1,
+      "question": "What did Jean go through before meeting Maria?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To make a difference in community",
+      "gold": "saw the impact he could make in the community through politics",
+      "latency_ms": 1530.0,
+      "question": "Why did John decide to run for office again?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Beginner’s yoga class",
+      "gold": "beginner's yoga class",
+      "latency_ms": 1578.9,
+      "question": "What activity did John's colleague, Rob, invite him to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Kyle",
+      "gold": "Kyle",
+      "latency_ms": 1504.7,
+      "question": "What is the name of John's one-year-old child?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A few times a week",
+      "gold": "A few times a week",
+      "latency_ms": 1575.1,
+      "question": "How often does John take his kids to the park?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Castle-themed shadow box and painting",
+      "gold": "painting of a castle on a hill",
+      "latency_ms": 1735.9,
+      "question": "What did Maria make for her home to remind her of a trip to England?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Trip to London, England castles",
+      "gold": "England",
+      "latency_ms": 1996.6,
+      "question": "Where did Maria get the idea for the castle shadow box in her home?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "University degree completion certificate",
+      "gold": "completion of a university degree",
+      "latency_ms": 1809.2,
+      "question": "What did John receive a certificate for?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Education and infrastructure",
+      "gold": "education and infrastructure",
+      "latency_ms": 1732.1,
+      "question": "What areas is John particularly interested in for policymaking?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "5K charity run for homeless shelter",
+      "gold": "a 5K charity run",
+      "latency_ms": 1646.7,
+      "question": "What did Maria participate in last weekend before April 10, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "5K charity run for veterans",
+      "gold": "career fair at a local school",
+      "latency_ms": 1813.5,
+      "question": "What event did John volunteer at last weekend?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Car broke down last Friday.",
+      "gold": "His car broke down",
+      "latency_ms": 1553.2,
+      "question": "What did John do that put a strain on his wallet?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Pacific Northwest coast and national parks",
+      "gold": "Pacific Northwest",
+      "latency_ms": 1663.4,
+      "question": "Where did John explore on a road trip last year?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Politics, education reform, infrastructure development",
+      "gold": "politics and the government",
+      "latency_ms": 1815.3,
+      "question": "What topic has John been blogging about recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Passion for positive community change",
+      "gold": "raise awareness and start conversations to create positive change",
+      "latency_ms": 1810.9,
+      "question": "Why did John start blogging about politics and policies?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Education reform and infrastructure development",
+      "gold": "education reform and infrastructure development",
+      "latency_ms": 1839.7,
+      "question": "What was the focus of John's recent research and writing on his blog?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Convention with colleagues in March 2023",
+      "gold": "a tech-for-good convention",
+      "latency_ms": 1822.7,
+      "question": "What did John attend with his colleagues in March 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 2
+    },
+    {
+      "response": "Three times a week",
+      "gold": "Three times a week",
+      "latency_ms": 2025.0,
+      "question": "How often does John work out with his family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Increased energy, strength, and endurance",
+      "gold": "More energy, gains in strength and endurance",
+      "latency_ms": 2023.8,
+      "question": "How has John's fitness improved since starting boot camps with his family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Salads, sandwiches, homemade desserts",
+      "gold": "Salads, sandwiches, homemade desserts",
+      "latency_ms": 1987.0,
+      "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Made dinner together",
+      "latency_ms": 1992.5,
+      "question": "What activity did Maria and her mom do together in May 2023?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Joined a nearby church.",
+      "gold": "joined a nearby church",
+      "latency_ms": 1986.6,
+      "question": "What did Maria do to feel closer to a community and her faith?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "To feel closer to community and faith",
+      "gold": "to feel closer to a community and her faith",
+      "latency_ms": 1521.9,
+      "question": "Why did Maria join a nearby church recently?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Small party for veterans to share stories",
+      "gold": "a small party to share their stories",
+      "latency_ms": 999.2,
+      "question": "What did John host for the veterans in May 2023 as part of the project?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Shared stories and made connections.",
+      "gold": "share stories and make connections",
+      "latency_ms": 984.2,
+      "question": "What did John and the veterans do during the small party?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Heartwarming, passionate, positive, camaraderie, supportive",
+      "gold": "heartwarming",
+      "latency_ms": 1070.5,
+      "question": "What emotions did John feel during the small party with the veterans?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Fundraiser to cover homeless needs",
+      "gold": "fundraiser",
+      "latency_ms": 1048.3,
+      "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Chili cook-off event fundraiser",
+      "gold": "chili cook-off",
+      "latency_ms": 1021.7,
+      "question": "What does Maria need to spread the word about for the fundraiser for the volunteer shelter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Max",
+      "gold": "Max",
+      "latency_ms": 1097.2,
+      "question": "What was the name of the pet that John had to say goodbye to on 3 June, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "10 years",
+      "gold": "10 years",
+      "latency_ms": 1159.0,
+      "question": "How long was Max a part of John's family?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Sharing cherished pictures of Max",
+      "gold": "By considering adopting a rescue dog",
+      "latency_ms": 1161.3,
+      "question": "How does John plan to honor the memories of his beloved pet?",
+      "label": "WRONG",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Responsibility, compassion, unconditional love, loyalty",
+      "gold": "Responsibility and compassion",
+      "latency_ms": 1437.3,
+      "question": "What important values does John want to teach his kids through adopting a rescue dog?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Volunteering at local dog shelter",
+      "gold": "volunteering at a local dog shelter once a month",
+      "latency_ms": 1074.8,
+      "question": "What new activity did Maria start recently, as mentioned on 3 June, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Like being in a fairy tale.",
+      "gold": "Like being in a fairy tale",
+      "latency_ms": 1207.4,
+      "question": "What did Maria say it was like being at the waterfall in Oregon?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Free and light",
+      "gold": "Free and light",
+      "latency_ms": 1065.1,
+      "question": "What does Maria say she feels when doing upside-down yoga poses?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Joined gym; practicing kundalini yoga",
+      "gold": "joined a gym",
+      "latency_ms": 1261.4,
+      "question": "What exciting news did Maria share on 16 June, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Kundalini yoga",
+      "gold": "kundalini yoga",
+      "latency_ms": 1152.3,
+      "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Assistant manager",
+      "gold": "assistant manager",
+      "latency_ms": 1171.8,
+      "question": "What did John recently get promoted to?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Self-doubt",
+      "gold": "self-doubt",
+      "latency_ms": 1213.4,
+      "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Support from loved ones and self-belief",
+      "gold": "having support at home and his own grit",
+      "latency_ms": 1284.0,
+      "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Live music event",
+      "gold": "live music event",
+      "latency_ms": 1368.4,
+      "question": "What kind of event did John and his family attend in June 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Cousin had to leave urgently.",
+      "gold": "Her cousin had to leave and find a new place in a hurry.",
+      "latency_ms": 1379.8,
+      "question": "Why did Maria need to help her cousin find a new place to live?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Marching event for veterans' rights",
+      "gold": "marching event",
+      "latency_ms": 1462.2,
+      "question": "What event did John participate in to show support for veterans' rights?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Respect for military and shared values",
+      "gold": "Respect for the military and the desire to show support",
+      "latency_ms": 1441.9,
+      "question": "What inspired John to join the marching event for veterans' rights?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "At least once a week.",
+      "gold": "At least once a week",
+      "latency_ms": 1473.7,
+      "question": "How often does John get to see sunsets like the one he shared with Maria?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Flood",
+      "gold": "Flood",
+      "latency_ms": 1435.3,
+      "question": "What natural disaster affected John's old area on 7 July, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Damaged many homes due to flood.",
+      "gold": "Lots of homes were ruined.",
+      "latency_ms": 1347.9,
+      "question": "How did the flood impact the homes in John's old area?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Flood damage in John's old area",
+      "gold": "Flood in John's old area",
+      "latency_ms": 1422.6,
+      "question": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Have dinner with friends from gym",
+      "gold": "have dinner with friends from the gym",
+      "latency_ms": 1405.7,
+      "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Played charades, scavenger hunt, ate.",
+      "gold": "played games like charades and a scavenger hunt",
+      "latency_ms": 1470.9,
+      "question": "What kind of activities did Maria do at the picnic with her church friends?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inspiration, hope, resilience, motivation to give back",
+      "gold": "the resilience of the veterans and their inspiring stories",
+      "latency_ms": 1593.0,
+      "question": "What does John appreciate about the veteran's hospital visit?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inspired to give back, appreciate life",
+      "gold": "appreciation for giving back",
+      "latency_ms": 1508.6,
+      "question": "What did John take away from visiting the veteran's hospital?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Inspiring, heartbreaking stories from veteran Samuel",
+      "gold": "seeing the resilience of the veterans",
+      "latency_ms": 1559.2,
+      "question": "Why did John feel inspired to join the military after the visit to the hospital?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Picnic with games and hiking",
+      "gold": "hiking",
+      "latency_ms": 1589.5,
+      "question": "In what activity did Maria and her church friends participate in July 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Positive and finds it beneficial.",
+      "gold": "Trying new classes is a fun way to switch up the exercise routine.",
+      "latency_ms": 1688.6,
+      "question": "What does John think about trying new classes at the yoga studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Weight training classes",
+      "gold": "weight training",
+      "latency_ms": 1606.4,
+      "question": "Which activity has John done apart from yoga at the studio?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Dropped off baked goods at shelter",
+      "gold": "volunteered at a homeless shelter",
+      "latency_ms": 1665.7,
+      "question": "What community service did Maria mention that she was involved in on 31 July, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Witnessing struggling family, reached out.",
+      "gold": "Witnessed a family struggling on the streets and reached out to the shelter",
+      "latency_ms": 1586.7,
+      "question": "How did Maria start volunteering at the homeless shelter?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Visited military memorial with kids",
+      "gold": "Had a meaningful experience at a military memorial",
+      "latency_ms": 1892.5,
+      "question": "What did John do the week before August 3, 2023 involving his kids?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Awestruck and humbled",
+      "gold": "awestruck and humbled",
+      "latency_ms": 1689.4,
+      "question": "How did John describe his kids' reaction at the military memorial?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Remember and appreciate military service contributions",
+      "gold": "To remember and appreciate those who served",
+      "latency_ms": 1642.1,
+      "question": "Why does Maria think it's important for younger generations to visit military memorials?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Teach kids about veterans' sacrifices.",
+      "gold": "Teaching them to respect and appreciate those who served",
+      "latency_ms": 1974.5,
+      "question": "What does John believe is important for children regarding veterans?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "John lost job at engineering company.",
+      "gold": "John lost his job at the mechanical engineering company.",
+      "latency_ms": 1620.6,
+      "question": "What happened to John's job in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Community work with church friends",
+      "gold": "community work",
+      "latency_ms": 1682.2,
+      "question": "What activity did Maria take up with her friends from church in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Helped renovate rundown community center.",
+      "gold": "Helped renovate a rundown community center.",
+      "latency_ms": 1834.1,
+      "question": "What did John do to help his community last year in his hometown?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Veterans and their families support",
+      "gold": "veterans and their families",
+      "latency_ms": 1683.7,
+      "question": "What cause did the 5K charity run organized by John support?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A local organization",
+      "gold": "a local organization",
+      "latency_ms": 1833.1,
+      "question": "Who did John work with to raise awareness and funds for victims of domestic abuse?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Handmade medal for her help",
+      "gold": "a medal for volunteering",
+      "latency_ms": 1722.0,
+      "question": "What recognition did Maria receive at the homeless shelter in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Coco",
+      "gold": "Coco",
+      "latency_ms": 1779.8,
+      "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Camping trip: hiking and swimming together",
+      "gold": "Camping",
+      "latency_ms": 1820.1,
+      "question": "What activity did John and Max enjoy together last summer?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Peaceful, awesome, nice break",
+      "gold": "Peaceful and awesome",
+      "latency_ms": 1876.9,
+      "question": "How does John describe the camping trip with Max?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Not making much of an impact.",
+      "gold": "Not feeling like making much of an impact",
+      "latency_ms": 2134.0,
+      "question": "Why does John say he feels stuck and questioning his decisions and goals?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Shadow",
+      "gold": "Shadow",
+      "latency_ms": 1459.2,
+      "question": "What is the name of Maria's second puppy?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Learning commands and house training well.",
+      "gold": "doing great - learning commands and house training",
+      "latency_ms": 952.7,
+      "question": "How is Maria's new puppy adjusting to its new home?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Mentoring at local school, firefighting brigade",
+      "gold": "mentoring students at a local school",
+      "latency_ms": 1098.1,
+      "question": "What is John currently doing as a volunteer in August 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Hiking, park, picnics, board games, movies",
+      "gold": "going for hikes, hanging out at the park, having picnics, playing board games, having movie nights",
+      "latency_ms": 1212.1,
+      "question": "What activities does John's family enjoy doing together?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "A brand new fire truck",
+      "gold": "a brand new fire truck",
+      "latency_ms": 1030.9,
+      "question": "What did the donations help John's community acquire on 16 August, 2023?",
+      "label": "CORRECT",
+      "expect": "sample",
+      "cat": 4
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 951.6,
+      "question": "What is John's main focus in international politics?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 967.5,
+      "question": "What did Maria donate to a luxury store in December 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Unemployment impact on neighbors inspired John.",
+      "gold": "Not mentioned",
+      "latency_ms": 1017.7,
+      "question": "Who inspired John to start volunteering?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "To make a difference in community.",
+      "gold": "Not mentioned",
+      "latency_ms": 1123.8,
+      "question": "Why did Maria decide to run for office again?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1164.0,
+      "question": "What activity did Maria's colleague, Rob, invite her to?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1047.4,
+      "question": "What is the name of Maria's one-year-old child?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1435.9,
+      "question": "How often does John take his kids to the library?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1186.0,
+      "question": "What did Maria make for her home to remind her of a trip to France?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared by John.",
+      "gold": "Not mentioned",
+      "latency_ms": 1228.4,
+      "question": "Where did John get the idea for the castle shadow box in his home?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1111.8,
+      "question": "What did Maria receive a certificate for?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1225.9,
+      "question": "What areas is John particularly interested in for art appreciation?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Inspired by community impact and kindness.",
+      "gold": "Not mentioned",
+      "latency_ms": 1259.0,
+      "question": "Why did Maria start blogging about politics and policies?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Nature and road trip photography",
+      "gold": "Not mentioned",
+      "latency_ms": 1429.7,
+      "question": "What was the focus of John's recent travel and photography blog?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1340.7,
+      "question": "How often does Maria work out with her family?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Not shared in memories.",
+      "gold": "Not mentioned",
+      "latency_ms": 1511.8,
+      "question": "How has John's artistic skills improved since starting boot camps with his family?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Salads, sandwiches, homemade desserts.",
+      "gold": "Not mentioned",
+      "latency_ms": 1303.1,
+      "question": "What kind of food did Maria have on her dinner spread with her father?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Joined service-focused online group.",
+      "gold": "Not mentioned",
+      "latency_ms": 1317.9,
+      "question": "What did John do to feel closer to a community and his faith?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared why John joined church.",
+      "gold": "Not mentioned",
+      "latency_ms": 1367.3,
+      "question": "Why did John join a nearby church recently?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Ten years",
+      "gold": "Not mentioned",
+      "latency_ms": 1402.6,
+      "question": "How long was Max a part of Maria's family?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Adopt rescue dog, teach compassion",
+      "gold": "Not mentioned",
+      "latency_ms": 1626.1,
+      "question": "How does Maria plan to honor the memories of her beloved pet?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Love, compassion, responsibility, kindness",
+      "gold": "Not mentioned",
+      "latency_ms": 1385.7,
+      "question": "What important values does Maria want to teach her kids through adopting a rescue dog?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared about Oregon desert.",
+      "gold": "Not mentioned",
+      "latency_ms": 1455.9,
+      "question": "What did Maria say it was like being at the desert in Oregon?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared by John.",
+      "gold": "Not mentioned",
+      "latency_ms": 1510.4,
+      "question": "What does John say she feels when doing upside-down yoga poses?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1532.9,
+      "question": "What did Maria recently get promoted to?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Struggles overcome with family support",
+      "gold": "Not mentioned",
+      "latency_ms": 1459.1,
+      "question": "What was one of the biggest challenges Maria faced in her journey to becoming assistant manager?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Cousin had a tough time recently.",
+      "gold": "Not mentioned",
+      "latency_ms": 1692.8,
+      "question": "Why did John need to help his cousin find a new place to live?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No event shared for veterans' rights.",
+      "gold": "Not mentioned",
+      "latency_ms": 1659.2,
+      "question": "What event did Maria participate in to show support for veterans' rights?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Drought impact on homes never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1680.0,
+      "question": "How did the drought impact the homes in John's old area?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared any criticism.",
+      "gold": "Not mentioned",
+      "latency_ms": 1651.1,
+      "question": "What does John criticize about the veteran's hospital visit?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1853.5,
+      "question": "What did John take away from visiting the orphanage?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1476.4,
+      "question": "Why did Maria feel inspired to join the military after the visit to the hospital?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared Maria's kids' reaction.",
+      "gold": "Not mentioned",
+      "latency_ms": 1562.3,
+      "question": "How did Maria describe her kids' reaction at the military memorial?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1569.1,
+      "question": "Why does Maria think it's important for younger generations to visit art galleries?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 2074.3,
+      "question": "What happened to Maria's job in August 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Homeless shelter fundraising.",
+      "gold": "Not mentioned",
+      "latency_ms": 1819.4,
+      "question": "What cause did the 5K charity run organized by Maria support?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Maria and local dog shelter volunteers",
+      "gold": "Not mentioned",
+      "latency_ms": 1789.8,
+      "question": "Who did John work with to raise awareness and funds for animal welfare?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "No recognition mentioned for John.",
+      "gold": "Not mentioned",
+      "latency_ms": 1854.9,
+      "question": "What recognition did John receive at the homeless shelter in August 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1720.7,
+      "question": "What is the name of John's puppy he got two weeks before August 11, 2023?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Soul-nourishing with pets, joyful.",
+      "gold": "Not mentioned",
+      "latency_ms": 1795.6,
+      "question": "How does Maria describe the camping trip with Max?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared.",
+      "gold": "Not mentioned",
+      "latency_ms": 1768.0,
+      "question": "What is the name of Maria's second kitten?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    },
+    {
+      "response": "Never shared about John's puppy adjustment.",
+      "gold": "Not mentioned",
+      "latency_ms": 2234.9,
+      "question": "How is John's new puppy adjusting to its new home?",
+      "label": "SKIP",
+      "expect": "sample",
+      "cat": 5
+    }
+  ]
+}
