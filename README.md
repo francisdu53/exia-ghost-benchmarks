@@ -10,9 +10,9 @@
 
 | Benchmark | Score | Details |
 |-----------|-------|---------|
-| **HaluMem** (arXiv 2511.03506) | **F1 82.10%** | **#1 worldwide** — First independent evaluation |
-| **HaluMem** Precision | **90.45%** | When EXIA extracts a fact, it is correct 90% of the time |
-| **HaluMem** Update Hallucination | **0.00%** | Zero hallucination on memory updates |
+| **HaluMem** (arXiv 2511.03506) | **F1 71.99%** | First independent evaluation |
+| **HaluMem** Precision | **92.90%** | When EXIA extracts a fact, it is correct 93% of the time |
+| **HaluMem** Update Hallucination | **1.41%** | Near-zero hallucination on memory updates |
 | **LoCoMo** (ACL 2024) — Memory Baseline | **89.94%** accuracy (cats 1-4) | 10 conversations, 1,986 QA, 20 speakers |
 | **LoCoMo** — Full Pipeline (V2.7.2) | **84.16%** (1,296 / 1,540, cats 1-4) | 10 conversations, EverMemOS strict — see [results](locomo/RESULTS_FULL_PIPELINE_V272.md) |
 
@@ -34,20 +34,21 @@ EXIA GHOST publishes raw per-question results, a clean-room reproducibility prot
 cross-version reproducibility evidence (V2.7.0 → V2.7.2 strict 158 / 199 on `conv-42`, one
 month apart). We invite reviewers to re-score independently.
 
-### HaluMem — Detailed Results (V1.3.2, 1 user, 65 sessions)
+### HaluMem — Detailed Results (1 user, 65 sessions)
 
 | Metric | Score |
 |--------|-------|
-| F1 Extraction | **82.10%** |
-| Precision | **90.45%** |
-| Recall | **75.17%** |
-| Memory Update — Correct | **35.21%** |
-| Memory Update — Hallucination | **0.00%** |
-| QA — Correct | 57.32% |
-| QA — Hallucination | 13.41% (estimated real: ~2.4%) |
+| F1 Extraction | **71.99%** |
+| Precision | **92.90%** |
+| Recall | **58.76%** |
+| Weighted Recall | **75.94%** |
+| Memory Update — Correct | **77.46%** |
+| Memory Update — Hallucination | **1.41%** |
+| QA — Correct | **58.54%** |
+| QA — Hallucination | **18.90%** |
 
-Judge: GPT-4o. Calibrated against GPT-4o-mini (F1 delta < 2%).
-Full analysis: [HALUMEM_V132_EN_ANALYSIS.md](halumem/HALUMEM_V132_EN_ANALYSIS.md)
+Judge: GPT-4o (official HaluMem standard).
+Raw scores: [`halumem/results/scores.json`](halumem/results/scores.json) · Full analysis: [`halumem/RESULTS.md`](halumem/RESULTS.md)
 
 ### LoCoMo — Memory Baseline Results (10 conversations, 1,540 QA cats 1-4)
 
